@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Myndband: Heimavöllur Cardiff skoðaður með Aroni Einari</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5734730</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Myndband: Heimavöllur Cardiff skoðaður með Aroni Einari</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2015-04-16T11:04:00">16.04 2015 kl. 11:04:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/433tv/myndband-heimavollur-cardiff-skodadur-med-aroni-einari/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="s" occurs="5"/>
+          <tagUsage gi="w" occurs="65"/>
+          <tagUsage gi="c" occurs="4"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Aron" type="nken-s">Aron</w>
+            <w lemma="Einar" type="nken-s">Einar</w>
+            <w lemma="Gunnarsson" type="nken-s">Gunnarsson</w>
+            <w lemma="leikmaður" type="nken">leikmaður</w>
+            <w lemma="Cardiff" type="n----s">Cardiff</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="fyrirliði" type="nken">fyrirliði</w>
+            <w lemma="Ísland" type="nhee-s">Íslands</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="heimsækja" type="sþgken">heimsóttur</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="sjónvarpsþáttur" type="nkeþ">sjónvarpsþætti</w>
+            <w lemma="ég" type="fp1fe">okkar</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Hringbraut" type="nveþ-s">Hringbraut</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="gærkvöld" type="nheþ">gærkvöldi</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Aron" type="nken-s">Aron</w>
+            <w lemma="sýna" type="sfg3eþ">sýndi</w>
+            <w lemma="ég" type="fp1fþ">okkur</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="heimavöllur" type="nkeo">heimavöll</w>
+            <w lemma="félag" type="nheeg">félagsins</w>
+            <w lemma="Cardiff" type="n----s">Cardiff</w>
+            <w lemma="City" type="n----s">City</w>
+            <w lemma="Stadium" type="n----s">Stadium</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="þáttur" type="nkeþg">þættinum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="smella" type="sbg2en">Smelltu</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="þáttur" type="nkeog">þáttinn</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="heild" type="nveþ">heild</w>
+            <w lemma="sinn" type="feveþ">sinni</w>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="Aron" type="nken-s">Aron</w>
+            <w lemma="fara" type="sfg3eþ">fór</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="ég" type="fp1fþ">okkur</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="búningsklefi" type="nkfog">búningsklefana</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="hvar" type="aa">hvar</w>
+            <w lemma="hlutur" type="nkfng">hlutirnir</w>
+            <w lemma="gera" type="sfm3fn">gerast</w>
+            <w lemma="fyrir" type="aa">fyrir</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="leikur" type="nkeo">leik</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="um" type="af">Um</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="ræða" type="sng">ræða</w>
+            <w lemma="áhugaverður" type="lheosf">áhugavert</w>
+            <w lemma="innslag" type="nheo">innslag</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="að" type="aa">að</w>
+            <w lemma="ofan" type="aa">ofan</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

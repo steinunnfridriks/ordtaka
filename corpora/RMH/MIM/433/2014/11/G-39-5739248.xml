@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Mynd: Stoke bjó til sérverðlaun fyrir Crouch sem vildi Ballon d’Or</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5739248</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Mynd: Stoke bjó til sérverðlaun fyrir Crouch sem vildi Ballon d’Or</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2014-11-14T20:11:00">14.11 2014 kl. 20:11:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/mynd-stoke-bjo-til-ser-verdlaun-fyrir-crouch-sem-vildi-ballon-dor/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="w" occurs="67"/>
+          <tagUsage gi="c" occurs="6"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Peter" type="n----s">Peter</w>
+            <w lemma="Crouch" type="n----s">Crouch</w>
+            <c type="pk">,</c>
+            <w lemma="leikmaður" type="nken">leikmaður</w>
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <w lemma="City" type="n----s">City</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="England" type="nheþ-s">Englandi</w>
+            <c type="pk">,</c>
+            <w lemma="setja" type="sfg3eþ">setti</w>
+            <w lemma="inn" type="aa">inn</w>
+            <w lemma="skemmtilegur" type="lveosf">skemmtilega</w>
+            <w lemma="færsla" type="nveo">færslu</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Twitter" type="n----s">Twitter</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="vekja" type="sþghen">vakið</w>
+            <w lemma="athygli" type="nveo">athygli</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Crouch" type="n----s">Crouch</w>
+            <w lemma="grínast" type="sfm3eþ">grínaðist</w>
+            <w lemma="þá" type="aa">þá</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="Ballon" type="n----s">Ballon</w>
+            <w lemma="dOr" type="e">dOr</w>
+            <w lemma="verðlaun" type="nhfog">verðlaunin</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="velta" type="sfg3eþ">velti</w>
+            <w lemma="það" type="fpheþ">því</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="sig" type="fpheþ">sér</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="hver" type="fsheþ">hverju</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vera" type="svg3eþ">væri</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="tilnefna" type="sþgken">tilnefndur</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="FIFA" type="n-eþ-s">FIFA</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <w lemma="City" type="n----s">City</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="ákveða" type="sþghen">ákveðið</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="gleðja" type="sng">gleðja</w>
+            <w lemma="Crouch" type="n----s">Crouch</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kjölfar" type="nheog">kjölfarið</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="búa" type="sfg3eþ">bjó</w>
+            <w lemma="til" type="aa">til</w>
+            <w lemma="Crouch-on" type="n----s">Crouch-on</w>
+            <w lemma="dOr" type="e">dOr</w>
+            <w lemma="verðlaun" type="nhfog">verðlaunin</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="staður" type="nkeog">staðinn</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="Crouch" type="n----s">Crouch</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="öruggur" type="lkensf">öruggur</w>
+            <w lemma="sigurvegari" type="nken">sigurvegari</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="bíða" type="sfg3fn">bíða</w>
+            <w lemma="verðlau" type="nhfng">verðlauin</w>
+            <w lemma="hann" type="fpkee">hans</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="skrifstofa" type="nveþ">skrifstofu</w>
+            <w lemma="félag" type="nheeg">félagsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

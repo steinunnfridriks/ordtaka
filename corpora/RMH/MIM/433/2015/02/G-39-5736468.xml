@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Sky: Sherwood í viðræðum við Villa</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5736468</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Sky: Sherwood í viðræðum við Villa</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2015-02-13T22:02:00">13.02 2015 kl. 22:02:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/sky-sherwood-vidraedum-vid-villa/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="w" occurs="79"/>
+          <tagUsage gi="c" occurs="4"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Sky" type="n----s">Sky</w>
+            <w lemma="Sports" type="e">Sports</w>
+            <w lemma="greina" type="sfg3en">greinir</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="það" type="fpheþ">því</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Tim" type="n----s">Tim</w>
+            <w lemma="Sherwood" type="n----s">Sherwood</w>
+            <w lemma="verða" type="svg3en">verði</w>
+            <w lemma="að" type="af">að</w>
+            <w lemma="allur" type="fohfþ">öllum</w>
+            <w lemma="líkindi" type="nhfþ">líkindum</w>
+            <w lemma="næstur" type="lkenve">næsti</w>
+            <w lemma="knattspyrnustjóri" type="nken">knattspyrnustjóri</w>
+            <w lemma="Aston" type="n----s">Aston</w>
+            <w lemma="Villa" type="n----s">Villa</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="England" type="nheþ-s">Englandi</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Sherwood" type="n----s">Sherwood</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="án" type="af">án</w>
+            <w lemma="félag" type="nhee">félags</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="nokkur" type="fokfo">nokkra</w>
+            <w lemma="mánuður" type="nkfo">mánuði</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="stýra" type="sfg3eþ">stýrði</w>
+            <w lemma="lið" type="nheþ">liði</w>
+            <w lemma="Tottenham" type="n----s">Tottenham</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="síðari" type="lveþve">síðustu</w>
+            <w lemma="leiktíð" type="nveþ">leiktíð</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="ná" type="sfg3eþ">náði</w>
+            <w lemma="ágæti" type="nhee">ágætis</w>
+            <w lemma="árangur" type="nkeþ">árangri</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Paul" type="n----s">Paul</w>
+            <w lemma="Lambert" type="n----s">Lambert</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="dagur" type="nkfþg">dögunum</w>
+            <w lemma="reka" type="sþgken">rekinn</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="Villa" type="n-eþ-s">Villa</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="lið" type="nheþg">liðinu</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="ganga" type="sþghen">gengið</w>
+            <w lemma="skelfilega" type="aa">skelfilega</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="þessi" type="faheþ">þessu</w>
+            <w lemma="tímabil" type="nheþ">tímabili</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="fallsæti" type="nheþ">fallsæti</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="samvkæmt" type="nhen">Samvkæmt</w>
+            <w lemma="Sky" type="n----s">Sky</w>
+            <w lemma="þá" type="aa">þá</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="Sherwood" type="n----s">Sherwood</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="viðræða" type="nvfþ">viðræðum</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="Villa" type="n----s">Villa</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="þessi" type="fahfþ">þessum</w>
+            <w lemma="talaður" type="lhfþvf">töluðu</w>
+            <w lemma="orð" type="nhfþ">orðum</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="verða" type="sfg3en">verður</w>
+            <w lemma="líklega" type="aa">líklega</w>
+            <w lemma="næstur" type="lkenve">næsti</w>
+            <w lemma="stjóri" type="nken">stjóri</w>
+            <w lemma="félag" type="nheeg">félagsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

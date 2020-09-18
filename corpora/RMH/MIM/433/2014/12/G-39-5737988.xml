@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Cazorla: Ef Alexis vill taka víti þá tekur hann víti</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5737988</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Cazorla: Ef Alexis vill taka víti þá tekur hann víti</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2014-12-28T21:12:00">28.12 2014 kl. 21:12:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/cazorla-ef-alexis-vill-taka-viti-tha-tekur-hann-viti/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="w" occurs="84"/>
+          <tagUsage gi="c" occurs="8"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="santi" type="nken">Santi</w>
+            <w lemma="Cazorla" type="n----s">Cazorla</w>
+            <c type="pk">,</c>
+            <w lemma="leikmaður" type="nken">leikmaður</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="England" type="nheþ-s">Englandi</w>
+            <c type="pk">,</c>
+            <w lemma="segja" type="sfm3en">segist</w>
+            <w lemma="vera" type="sng">vera</w>
+            <w lemma="tilbúinn" type="lkensf">tilbúinn</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="leyfa" type="sng">leyfa</w>
+            <w lemma="Alexis" type="n----s">Alexis</w>
+            <w lemma="Sanchez" type="n----s">Sanchez</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="taka" type="sng">taka</w>
+            <w lemma="næstur" type="lveove">næstu</w>
+            <w lemma="vítaspyrna" type="nveo">vítaspyrnu</w>
+            <w lemma="lið" type="nheeg">liðsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Cazorla" type="n----s">Cazorla</w>
+            <w lemma="skora" type="sfg3eþ">skoraði</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="vítaspyrna" type="nveþ">vítaspyrnu</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="dagur" type="nkeo">dag</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <w lemma="vinna" type="sfg3eþ">vann</w>
+            <w lemma="góður" type="lkeosf">góðan</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="1" type="ta">1</w>
+            <w lemma="sigur" type="nkeo">sigur</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="West" type="n----s">West</w>
+            <w lemma="Ham" type="e">Ham</w>
+            <w lemma="á" type="e">á</w>
+            <w lemma="Upton" type="e">Upton</w>
+            <w lemma="Park" type="e">Park</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Sanchez" type="n----s">Sanchez</w>
+            <w lemma="klikka" type="sfg3eþ">klikkaði</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="vítaspyrna" type="nveo">vítaspyrnu</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="vika" type="nveþg">vikunni</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <w lemma="hafa" type="sfg3eþ">hafði</w>
+            <w lemma="vel" type="aam">betur</w>
+            <w lemma="gegn" type="af">gegn</w>
+            <w lemma="Queens" type="n----s">Queens</w>
+            <w lemma="Park" type="e">Park</w>
+            <w lemma="Rangers" type="e">Rangers</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Cazorla" type="n----s">Cazorla</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="frekur" type="lkensf">frekur</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma=",," type="ta">,,</w>
+            <w lemma="ef" type="c">Ef</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vilja" type="sfg3en">vill</w>
+            <w lemma="taka" type="sng">taka</w>
+            <w lemma="næstur" type="lheþve">næsta</w>
+            <w lemma="víti" type="nheþ">víti</w>
+            <w lemma="þá" type="aa">þá</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="það" type="fphen">það</w>
+            <w lemma="allur" type="fohen">allt</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="lag" type="nheþ">lagi</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="ég" type="fp1eþ">mér</w>
+            <c type="pk">,</c>
+            <w lemma="sá" type="fahen">það</w>
+            <w lemma="mikilvægur" type="lhenve">mikilvægasta</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="ég" type="fp1fn">við</w>
+            <w lemma="skora" type="svg1fn">skorum</w>
+            <w lemma="mark" type="nheo">mark</w>
+            <c type="pk">,</c>
+            <w lemma="“" type="x">“</w>
+            <w lemma="segja" type="sfg3eþ">sagði</w>
+            <w lemma="Cazorla" type="n----s">Cazorla</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

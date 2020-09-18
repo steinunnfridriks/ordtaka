@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Magnús Gylfason: Þýðir ekkert að vera með frekju</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5744604</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Magnús Gylfason: Þýðir ekkert að vera með frekju</title>
+            </title>
+            <author><persName>Ritstjórn @433</persName></author>
+            <date when="2013-05-21T23:05:00">21.05 2013 kl. 23:05:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/magnus-gylfason-thydir-ekkert-ad-vera-med-frekju/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="1"/>
+          <tagUsage gi="s" occurs="1"/>
+          <tagUsage gi="w" occurs="40"/>
+          <tagUsage gi="c" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Magnús" type="nken-s">Magnús</w>
+            <w lemma="Gylfason" type="nken-s">Gylfason</w>
+            <w lemma="þjálfari" type="nken">þjálfari</w>
+            <w lemma="Valur" type="nkee-s">Vals</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="brattur" type="lkensf">brattur</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="jafntefli" type="nheo">jafntefli</w>
+            <w lemma="Valsmaður" type="nkeo-s">Valsmann</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Garðabær" type="nkeþgs">Garðabænum</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="aðspurður" type="lkensf">aðspurður</w>
+            <w lemma="hvort" type="c">hvort</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vera" type="svg3eþ">væri</w>
+            <w lemma="sáttur" type="lkensf">sáttur</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="stig" type="nheog">stigið</w>
+            <w lemma="svara" type="sfg3eþ">svaraði</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma=",," type="x">,,</w>
+            <w lemma="já" type="au">Já</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="sjálfur" type="fbheþ">sjálfu</w>
+            <w lemma="sig" type="fpheþ">sér</w>
+            <w lemma="vera" type="sfg1en">er</w>
+            <w lemma="ég" type="fp1en">ég</w>
+            <w lemma="sáttur" type="lkensf">sáttur</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="hann" type="fpkeo">hann</w>
+            <c type="pk">,</c>
+            <w lemma="þýða" type="sfg3en">þýðir</w>
+            <w lemma="enginn" type="fohen">ekkert</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="vera" type="sng">vera</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="frekja" type="nveo">frekju</w>
+            <w lemma="“" type="n----s">“</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

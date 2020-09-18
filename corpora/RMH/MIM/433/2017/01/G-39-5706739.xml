@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Einkunnir úr leik Stoke og Manchester United – Mata tvistaður</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5706739</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Einkunnir úr leik Stoke og Manchester United – Mata tvistaður</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2017-01-21T17:01:00">21.01 2017 kl. 17:01:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/einkunnir-ur-leik-stoke-og-manchester-united-mata-tvistadur/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="7"/>
+          <tagUsage gi="s" occurs="32"/>
+          <tagUsage gi="w" occurs="98"/>
+          <tagUsage gi="c" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="e">United</w>
+            <w lemma="eiga" type="sfm3fþ">áttust</w>
+            <w lemma="við" type="aa">við</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="enskur" type="lveþvf">ensku</w>
+            <w lemma="úrvalsdeild" type="nveþg">úrvalsdeildinni</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="dagur" type="nkeo">dag</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="leikur" type="nkeng">leikurinn</w>
+            <w lemma="fara" type="sfg3eþ">fór</w>
+            <w lemma="fram" type="aa">fram</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Britannia" type="n----s">Britannia</w>
+            <w lemma="völlur" type="nkeþg">vellinum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <w lemma="koma" type="sfm3eþ">komst</w>
+            <w lemma="yfir" type="aa">yfir</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="sjálfsmark" type="nheo">sjálfsmark</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="Juan" type="n----s">Juan</w>
+            <w lemma="Mata" type="nveþ-s">Mata</w>
+            <w lemma="áður" type="aa">áður</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Wayne" type="n----s">Wayne</w>
+            <w lemma="Rooney" type="n----s">Rooney</w>
+            <w lemma="tryggja" type="sfg3eþ">tryggði</w>
+            <w lemma="gestur" type="nkfþg">gestunum</w>
+            <w lemma="stig" type="nheo">stig</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="uppbótartími" type="nkeþ">uppbótartíma</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="hér" type="aa">Hér</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="einkunn" type="nvfog">einkunnirnar</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="leikur" type="nkeþg">leiknum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="Grant" type="n----s">Grant</w>
+            <w lemma="8" type="ta">8</w>
+          </s>
+          <s n="3">
+            <w lemma="Shawcross" type="n----s">Shawcross</w>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="4">
+            <w lemma="Johnson" type="n----s">Johnson</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="5">
+            <w lemma="Pieters" type="n----s">Pieters</w>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="6">
+            <w lemma="Martin" type="nkee-s">Martins</w>
+            <w lemma="Indi" type="nken-s">Indi</w>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="7">
+            <w lemma="Shaqiri" type="n----s">Shaqiri</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="8">
+            <w lemma="Whelan" type="n----s">Whelan</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="9">
+            <w lemma="Adam" type="nken-s">Adam</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="10">
+            <w lemma="Allen" type="n----s">Allen</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="11">
+            <w lemma="Arnautovic" type="n----s">Arnautovic</w>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="12">
+            <w lemma="Crouch" type="n----s">Crouch</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="varamaður" type="nkfn">Varamenn</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="Afellay" type="n----s">Afellay</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="n----s">United</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="De" type="n----s">De</w>
+            <w lemma="Gea" type="e">Gea</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="3">
+            <w lemma="Jones" type="n----s">Jones</w>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="4">
+            <w lemma="smalling" type="nven">Smalling</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="5">
+            <w lemma="mkhitaryan" type="nhen">Mkhitaryan</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="6">
+            <w lemma="mata" type="nven">Mata</w>
+            <w lemma="2" type="ta">2</w>
+          </s>
+          <s n="7">
+            <w lemma="Herrera" type="n----s">Herrera</w>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="8">
+            <w lemma="Pogba" type="n----s">Pogba</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="9">
+            <w lemma="fellaini" type="nveng">Fellaini</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="10">
+            <w lemma="Blind" type="e">Blind</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="11">
+            <w lemma="Balencia" type="n----s">Balencia</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="12">
+            <w lemma="Ibrahimovic" type="n----s">Ibrahimovic</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="varamaður" type="nkfn">Varamenn</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="Rooney" type="n----s">Rooney</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="3">
+            <w lemma="lingard" type="nhen">Lingard</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

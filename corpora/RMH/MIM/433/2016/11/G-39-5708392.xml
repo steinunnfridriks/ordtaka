@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Byrjunarlið Southampton og Liverpool</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5708392</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Byrjunarlið Southampton og Liverpool</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2016-11-19T14:11:00">19.11 2016 kl. 14:11:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/byrjunarlid-southampton-og-liverpool/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="6"/>
+          <tagUsage gi="s" occurs="6"/>
+          <tagUsage gi="w" occurs="64"/>
+          <tagUsage gi="c" occurs="26"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <w lemma="heimsækja" type="sfg3en">heimsækir</w>
+            <w lemma="Southampton" type="n----s">Southampton</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="enskur" type="lveþvf">ensku</w>
+            <w lemma="úrvalsdeild" type="nveþg">úrvalsdeildinni</w>
+            <w lemma="klukka" type="nveng">klukkan</w>
+            <w lemma="15:00" type="ta">15:00</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="toppur" type="nkeþ">toppi</w>
+            <w lemma="deild" type="nveeg">deildarinnar</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Southampton" type="n----s">Southampton</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="erfiður" type="lhensf">erfitt</w>
+            <w lemma="heimur" type="nkeo">heim</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="sækja" type="sng">sækja</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Adam" type="nken-s">Adam</w>
+            <w lemma="Lallana" type="n----s">Lallana</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="frá" type="aa">frá</w>
+            <w lemma="vegna" type="af">vegna</w>
+            <w lemma="meiðsli" type="nhfe">meiðsla</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Philippe" type="n----s">Philippe</w>
+            <w lemma="Coutinho" type="n----s">Coutinho</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="heillur" type="lvensf">heill</w>
+            <w lemma="heilsa" type="nveþ">heilsu</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="lið" type="nhfng">Liðin</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="að" type="aa">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="Southampton" type="n----s">Southampton</w>
+            <c type="pa">:</c>
+            <w lemma="Forster" type="n----s">Forster</w>
+            <c type="pk">,</c>
+            <w lemma="José" type="n----s">José</w>
+            <w lemma="Fonte" type="n----s">Fonte</w>
+            <c type="pk">,</c>
+            <w lemma="Bertrand" type="n----s">Bertrand</w>
+            <c type="pk">,</c>
+            <w lemma="Cédric" type="n----s">Cédric</w>
+            <w lemma="Soares" type="n----s">Soares</w>
+            <c type="pk">,</c>
+            <w lemma="Van" type="n----s">van</w>
+            <w lemma="Dijk" type="n----s">Dijk</w>
+            <c type="pk">,</c>
+            <w lemma="Højbjerg" type="n----s">Højbjerg</w>
+            <c type="pk">,</c>
+            <w lemma="Davis" type="n----s">Davis</w>
+            <c type="pk">,</c>
+            <w lemma="Oriol" type="n----s">Oriol</w>
+            <w lemma="Romeu" type="n----s">Romeu</w>
+            <c type="pk">,</c>
+            <w lemma="Boufal" type="n----s">Boufal</w>
+            <c type="pk">,</c>
+            <w lemma="Austin" type="n----s">Austin</w>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <c type="pa">:</c>
+            <w lemma="Karius" type="n----s">Karius</w>
+            <c type="pk">,</c>
+            <w lemma="Clyne" type="n----s">Clyne</w>
+            <c type="pk">,</c>
+            <w lemma="Lovren" type="n----s">Lovren</w>
+            <c type="pk">,</c>
+            <w lemma="Matip" type="n----s">Matip</w>
+            <c type="pk">,</c>
+            <w lemma="Milner" type="n----s">Milner</w>
+            <c type="pk">,</c>
+            <w lemma="Henderson" type="nken-s">Henderson</w>
+            <c type="pk">,</c>
+            <w lemma="Can" type="n----s">Can</w>
+            <c type="pk">,</c>
+            <w lemma="Wijnaldum" type="n----s">Wijnaldum</w>
+            <c type="pk">,</c>
+            <w lemma="Mane" type="n----s">Mane</w>
+            <c type="pk">,</c>
+            <w lemma="Coutinho" type="n----s">Coutinho</w>
+            <c type="pk">,</c>
+            <w lemma="Firmino" type="n----s">Firmino</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

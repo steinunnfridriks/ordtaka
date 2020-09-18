@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Einkunnir úr leik Fylkis og Víkings – Sadmir Zekovic bestur</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5725007</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Einkunnir úr leik Fylkis og Víkings – Sadmir Zekovic bestur</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2014-05-19T21:05:00">19.05 2014 kl. 21:05:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/einkunnir-ur-leik-fylkis-og-vikings-sadmir-zekovic-bestur/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="s" occurs="33"/>
+          <tagUsage gi="w" occurs="172"/>
+          <tagUsage gi="c" occurs="31"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Fylkir" type="nken-s">Fylkir</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Víkingur" type="nken-s">Víkingur</w>
+            <w lemma="mæta" type="sfm3fþ">mættust</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Pepsi-deild" type="nveþ-s">Pepsi-deild</w>
+            <w lemma="karl" type="nkfe">karla</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="klukka" type="nveng">klukkan</w>
+            <w lemma="19:15" type="ta">19:15</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="leikur" type="nkeng">leikurinn</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="spila" type="sþgken">spilaður</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="gervigrasvöllur" type="nkeþg">gervigrasvellinum</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Laugardalur" type="nkeþ-s">Laugardal</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Fylkir" type="nken-s">Fylkir</w>
+            <w lemma="sigra" type="sfg3eþ">sigraði</w>
+            <w lemma="leikur" type="nkeog">leikinn</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="tveir" type="tfhfþ">tveimur</w>
+            <w lemma="mark" type="nhfþ">mörkum</w>
+            <w lemma="gegn" type="af">gegn</w>
+            <w lemma="einn" type="lheþsf">einu</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Sadmir" type="n----s">Sadmir</w>
+            <w lemma="Zekovic" type="n----s">Zekovic</w>
+            <w lemma="tryggja" type="sfg3eþ">tryggði</w>
+            <w lemma="lið" type="nheþg">liðinu</w>
+            <w lemma="sigur" type="nken">sigur</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="mark" type="nheþ">marki</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="61." type="ta">61.</w>
+            <w lemma="mínúta" type="nveþ">mínútu</w>
+            <w lemma="leikur" type="nkeeg">leiksins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="einkunnagjöf" type="nven">Einkunnagjöf</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="leikur" type="nkeþg">leiknum</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="nú" type="aa">nú</w>
+            <w lemma="klár" type="lvensf">klár</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Zekovic" type="n----s">Zekovic</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="einmitt" type="aa">einmitt</w>
+            <w lemma="velja" type="sþgken">valinn</w>
+            <w lemma="maður" type="nken">maður</w>
+            <w lemma="leikur" type="nkeeg">leiksins</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="fá" type="sfg3en">fær</w>
+            <w lemma="sjö" type="tfhfo">sjö</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="einkunn" type="nveo">einkunn</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="sinn" type="feveo">sína</w>
+            <w lemma="frammistaða" type="nveo">frammistöðu</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="einkunnagjöf" type="nveog">Einkunnagjöfina</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="fyrir" type="aa">fyrir</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="Víkingur" type="nken-s">Víkingur</w>
+            <w lemma="R." type="ks">R.</w>
+          </s>
+          <s n="2">
+            <w lemma="Ingvar" type="nken-s">Ingvar</w>
+            <w lemma="Þór" type="nken-s">Þór</w>
+            <w lemma="Kale" type="n----s">Kale</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="3">
+            <w lemma="Ómar" type="nken-s">Ómar</w>
+            <w lemma="Friðriksson" type="nken-s">Friðriksson</w>
+            <c type="pa">(</c>
+            <c type="pg">´</c>
+            <w lemma="62" type="ta">62</w>
+            <c type="pa">)</c>
+            <w lemma="3" type="ta">3</w>
+          </s>
+          <s n="4">
+            <w lemma="Igor" type="n----s">Igor</w>
+            <w lemma="Taskovic" type="n----s">Taskovic</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="5">
+            <w lemma="Halldór" type="nken-s">Halldór</w>
+            <w lemma="Smári" type="nken-s">Smári</w>
+            <w lemma="Sigurðsson" type="nken-s">Sigurðsson</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="6">
+            <w lemma="Kristinn" type="nken-s">Kristinn</w>
+            <w lemma="Jóhannes" type="nken-s">Jóhannes</w>
+            <w lemma="Magnússon" type="nken-s">Magnússon</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="7">
+            <w lemma="Dofri" type="nken-s">Dofri</w>
+            <w lemma="Snorrason" type="nken-s">Snorrason</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="8">
+            <w lemma="Óttar" type="nken-s">Óttar</w>
+            <w lemma="Steinn" type="nken-s">Steinn</w>
+            <w lemma="Magnússon" type="nken-s">Magnússon</w>
+            <c type="pa">(</c>
+            <c type="pg">´</c>
+            <w lemma="46" type="ta">46</w>
+            <c type="pa">)</c>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="9">
+            <w lemma="Pape" type="n----s">Pape</w>
+            <w lemma="Mamadou" type="e">Mamadou</w>
+            <w lemma="Faye" type="e">Faye</w>
+            <c type="pa">(</c>
+            <c type="pg">´</c>
+            <w lemma="74" type="ta">74</w>
+            <c type="pa">)</c>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="10">
+            <w lemma="Alan" type="n----s">Alan</w>
+            <w lemma="Lowing" type="n----s">Lowing</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="11">
+            <w lemma="Todor" type="n----s">Todor</w>
+            <w lemma="Hristov" type="e">Hristov</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="12">
+            <w lemma="Agnar" type="nken-s">Agnar</w>
+            <w lemma="Darri" type="nken-s">Darri</w>
+            <w lemma="Sverrisson" type="nken-s">Sverrisson</w>
+            <w lemma="4" type="ta">4</w>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="varamaður" type="nkfn">Varamenn</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="Aron" type="nken-s">Aron</w>
+            <w lemma="Elis" type="nken-s">Elis</w>
+            <w lemma="Þrándarsson" type="nken-s">Þrándarsson</w>
+            <c type="pa">(</c>
+            <w lemma="´" type="fahen">´</w>
+            <w lemma="46" type="ta">46</w>
+            <c type="pa">)</c>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="3">
+            <w lemma="Henry" type="n----s">Henry</w>
+            <w lemma="Monaghan" type="n----s">Monaghan</w>
+            <c type="pa">(</c>
+            <c type="pg">´</c>
+            <w lemma="62" type="ta">62</w>
+            <c type="pa">)</c>
+            <w lemma="5" type="ta">5</w>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="Fylkir" type="nken-s">Fylkir</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="Bjarni" type="nken-s">Bjarni</w>
+            <w lemma="Þórður" type="nken-s">Þórður</w>
+            <w lemma="Halldórsson" type="nken-s">Halldórsson</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="3">
+            <w lemma="Kristján" type="nken-s">Kristján</w>
+            <w lemma="Valdimarsson" type="nken-s">Valdimarsson</w>
+            <c type="pa">(</c>
+            <c type="pg">´</c>
+            <w lemma="75" type="ta">75</w>
+            <c type="pa">)</c>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="4">
+            <w lemma="Gunnar" type="nken-s">Gunnar</w>
+            <w lemma="Örn" type="nken-s">Örn</w>
+            <w lemma="Jónsson" type="nken-s">Jónsson</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="5">
+            <w lemma="Viktor" type="nken-s">Viktor</w>
+            <w lemma="Örn" type="nken-s">Örn</w>
+            <w lemma="Guðmundsson" type="nken-s">Guðmundsson</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="6">
+            <w lemma="Tómas" type="nken-s">Tómas</w>
+            <w lemma="Þorsteinsson" type="nken-s">Þorsteinsson</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="7">
+            <w lemma="Ásgeir" type="nken-s">Ásgeir</w>
+            <w lemma="Örn" type="nken-s">Örn</w>
+            <w lemma="Arnþórsson" type="nken-s">Arnþórsson</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+          <s n="8">
+            <w lemma="Daði" type="nken-s">Daði</w>
+            <w lemma="Ólafsson" type="nken-s">Ólafsson</w>
+            <c type="pa">(</c>
+            <c type="pg">´</c>
+            <w lemma="46" type="ta">46</w>
+            <c type="pa">)</c>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="9">
+            <w lemma="Ryan" type="n----s">Ryan</w>
+            <w lemma="Maduro" type="n----s">Maduro</w>
+            <w lemma="4" type="ta">4</w>
+          </s>
+          <s n="10">
+            <w lemma="Elís" type="nken-s">Elís</w>
+            <w lemma="Rafn" type="nken-s">Rafn</w>
+            <w lemma="Björnsson" type="nken-s">Björnsson</w>
+            <w lemma="5" type="ta">5</w>
+          </s>
+          <s n="11">
+            <w lemma="Zadmir" type="n----s">Zadmir</w>
+            <w lemma="Zekovic" type="n----s">Zekovic</w>
+            <c type="pa">(</c>
+            <w lemma="83" type="ta">83</w>
+            <c type="pa">)</c>
+            <w lemma="7" type="ta">7</w>
+          </s>
+          <s n="12">
+            <w lemma="Ásgeir" type="nken-s">Ásgeir</w>
+            <w lemma="Eyþórsson" type="nken-s">Eyþórsson</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+        </p>
+        <p n="8">
+          <s n="1">
+            <w lemma="varamaður" type="nkfn">Varamenn</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="Oddur" type="nken-s">Oddur</w>
+            <w lemma="Ingi" type="nken-s">Ingi</w>
+            <w lemma="Guðmundsson" type="nken-s">Guðmundsson</w>
+            <c type="pa">(</c>
+            <w lemma="´" type="fahen">´</w>
+            <w lemma="46" type="ta">46</w>
+            <c type="pa">)</c>
+            <w lemma="5" type="ta">5</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

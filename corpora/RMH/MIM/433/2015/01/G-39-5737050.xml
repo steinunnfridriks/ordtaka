@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">QPR staðfestir söluna á Mutch til Palace</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5737050</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">QPR staðfestir söluna á Mutch til Palace</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2015-01-29T13:01:00">29.01 2015 kl. 13:01:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/qpr-stadfestir-soluna-mutch-til-palace/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="s" occurs="6"/>
+          <tagUsage gi="w" occurs="74"/>
+          <tagUsage gi="c" occurs="6"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="QPR" type="n----s">QPR</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="staðfa" type="sþmhen">staðfst</w>
+            <w lemma="sala" type="nveog">söluna</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Jordon" type="n----s">Jordon</w>
+            <w lemma="Mutch" type="n----s">Mutch</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="Crystal" type="n----s">Crystal</w>
+            <w lemma="Palace" type="e">Palace</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="kaupverð" type="nheng">Kaupverðið</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="segja" type="sþghen">sagt</w>
+            <w lemma="vera" type="sng">vera</w>
+            <w lemma="í" type="aa">í</w>
+            <w lemma="kringum" type="af">kringum</w>
+            <w lemma="5" type="ta">5</w>
+            <w lemma="milljón" type="nvfn">milljónir</w>
+            <w lemma="pund" type="nhfe">punda</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Mutch" type="n----s">Mutch</w>
+            <w lemma="koma" type="sfg3eþ">kom</w>
+            <w lemma="til" type="aa">til</w>
+            <w lemma="QPR" type="n----s">QPR</w>
+            <w lemma="síðari" type="lhenve">síðasta</w>
+            <w lemma="sumar" type="nheo">sumar</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="festa" type="sþghen">fest</w>
+            <w lemma="sig" type="fpheo">sig</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="sess" type="nkeþ">sessi</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="hann" type="fpken">Hann</w>
+            <w lemma="leika" type="sfg3eþ">lék</w>
+            <w lemma="áður" type="aa">áður</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="Cardiff" type="n----s">Cardiff</w>
+            <w lemma="þar" type="aa">þar</w>
+            <w lemma="sem" type="c">sem</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="lykilmaður" type="nken">lykilmaður</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="Mutch" type="n----s">Mutch</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="23" type="ta">23</w>
+            <w lemma="ár" type="nhfe">ára</w>
+            <w lemma="gamall" type="lkensf">gamall</w>
+            <w lemma="enskur" type="lkensf">enskur</w>
+            <w lemma="miðjumaður" type="nken">miðjumaður</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="hefja" type="sfg3eþ">hóf</w>
+            <w lemma="ferill" type="nkeog">ferilinn</w>
+            <w lemma="hjá" type="af">hjá</w>
+            <w lemma="Birmingham" type="n----s">Birmingham</w>
+            <w lemma="áður" type="aa">áður</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="halda" type="sfg3eþ">hélt</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="Cardiff" type="n----s">Cardiff</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="Palace" type="e">Palace</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="ná" type="sng">ná</w>
+            <w lemma="flug" type="nheþ">flugi</w>
+            <w lemma="undanfarið" type="aa">undanfarið</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Alan" type="n----s">Alan</w>
+            <w lemma="Pardew" type="n----s">Pardew</w>
+            <w lemma="taka" type="sfg3eþ">tók</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="lið" type="nheþg">liðinu</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

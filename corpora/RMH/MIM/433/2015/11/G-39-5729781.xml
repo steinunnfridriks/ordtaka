@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Myndband: Fallegustu mörkin á Englandi í október</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5729781</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Myndband: Fallegustu mörkin á Englandi í október</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2015-11-15T15:11:00">15.11 2015 kl. 15:11:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/myndband-fallegustu-morkin-a-englandi-i-oktober/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="6"/>
+          <tagUsage gi="s" occurs="7"/>
+          <tagUsage gi="w" occurs="88"/>
+          <tagUsage gi="c" occurs="9"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="fjölmargur" type="lkfnsf">Fjölmargir</w>
+            <w lemma="leikur" type="nkfn">leikir</w>
+            <w lemma="fara" type="sfg3fþ">fóru</w>
+            <w lemma="fram" type="aa">fram</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="enskur" type="lveþvf">ensku</w>
+            <w lemma="úrvalsdeild" type="nveþg">úrvalsdeildinni</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="síðari" type="lkeþve">síðasta</w>
+            <w lemma="mánuður" type="nkeþ">mánuði</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="nú" type="aa">nú</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="smár" type="lvensf">smá</w>
+            <w lemma="pása" type="nven">pása</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="deild" type="nveþg">deildinni</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="gangur" type="nkeþ">gangi</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="ófár" type="lhfnsf">Ófá</w>
+            <w lemma="mark" type="nhfn">mörk</w>
+            <w lemma="vera" type="sfg3fþ">voru</w>
+            <w lemma="skora" type="sþghfn">skoruð</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="England" type="nheþ-s">Englandi</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="síðari" type="lkeþve">síðasta</w>
+            <w lemma="mánuður" type="nkeþ">mánuði</w>
+            <w lemma="að" type="af">að</w>
+            <w lemma="venja" type="nveþ">venju</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="nú" type="aa">nú</w>
+            <w lemma="byrja" type="sþghen">byrjað</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="velja" type="sng">velja</w>
+            <w lemma="fallegur" type="lheove">fallegasta</w>
+            <w lemma="mark" type="nheog">markið</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="enskur" type="lvenvf">Enska</w>
+            <w lemma="úrvalsdeild" type="nveng">úrvalsdeildin</w>
+            <w lemma="birta" type="sfg3eþ">birti</w>
+            <w lemma="myndband" type="nheo">myndband</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="dagur" type="nkeo">dag</w>
+            <w lemma="þar" type="aa">þar</w>
+            <w lemma="sem" type="c">sem</w>
+            <w lemma="fallegur" type="lhfnve">fallegustu</w>
+            <w lemma="mark" type="nhfn">mörk</w>
+            <w lemma="októbermánuður" type="nkee">októbermánaðar</w>
+            <w lemma="vera" type="sfg3fþ">voru</w>
+            <w lemma="birta" type="sþghfn">birt</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="myndband" type="nheng">Myndbandið</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="fyrir" type="aa">fyrir</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="At" type="e">At</w>
+            <w lemma="a" type="e">a</w>
+            <w lemma="loose" type="e">loose</w>
+            <w lemma="end" type="e">end</w>
+            <w lemma="with" type="e">with</w>
+            <w lemma="no" type="e">no</w>
+            <w lemma="#BPL" type="e">#BPL</w>
+            <w lemma="action" type="e">action</w>
+            <w lemma="to" type="e">to</w>
+            <w lemma="enjoy" type="e">enjoy</w>
+            <c type="pl">?</c>
+          </s>
+          <s n="2">
+            <w lemma="Check" type="n----s">Check</w>
+            <w lemma="out" type="e">out</w>
+            <w lemma="the" type="e">the</w>
+            <w lemma="top" type="e">top</w>
+            <w lemma="10" type="ta">10</w>
+            <w lemma="goals" type="e">goals</w>
+            <w lemma="from" type="e">from</w>
+            <w lemma="October" type="e">October</w>
+            <w lemma="and" type="e">and</w>
+            <w lemma="tell" type="e">tell</w>
+            <w lemma="us" type="e">us</w>
+            <w lemma="your" type="e">your</w>
+            <w lemma="favourite" type="e">favourite</w>
+            <w lemma="…" type="e">…</w>
+            <w lemma="https://t.co/vbVXTpgb1D" type="e">https://t.co/vbVXTpgb1D</w>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Premier" type="n----s">Premier</w>
+            <w lemma="League" type="e">League</w>
+            <c type="pa">(</c>
+            <w lemma="@premierleague" type="e">@premierleague</w>
+            <c type="pa">)</c>
+            <w lemma="November" type="n----s">November</w>
+            <w lemma="15" type="ta">15</w>
+            <c type="pk">,</c>
+            <w lemma="2015" type="ta">2015</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Klopp: Brasilía vill herma eftir Liverpool</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5705013</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Klopp: Brasilía vill herma eftir Liverpool</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2017-04-01T11:04:00">01.04 2017 kl. 11:04:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/liverpool/klopp-brasilia-vill-herma-eftir-liverpool/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="s" occurs="6"/>
+          <tagUsage gi="w" occurs="111"/>
+          <tagUsage gi="c" occurs="12"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Jurgen" type="n----s">Jurgen</w>
+            <w lemma="Klopp" type="n----s">Klopp</w>
+            <c type="pk">,</c>
+            <w lemma="stjóri" type="nken">stjóri</w>
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <c type="pk">,</c>
+            <w lemma="segja" type="sfg3en">segir</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Tite" type="n----s">Tite</w>
+            <c type="pk">,</c>
+            <w lemma="landsliðsþjálfari" type="nken">landsliðsþjálfari</w>
+            <w lemma="Brasilía" type="nvee-s">Brasilíu</w>
+            <c type="pk">,</c>
+            <w lemma="vera" type="svg3en">sé</w>
+            <w lemma="mjög" type="aa">mjög</w>
+            <w lemma="hrifinn" type="lkensf">hrifinn</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="leikstíll" type="nkeþ">leikstíl</w>
+            <w lemma="lið" type="nheeg">liðsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="klopp" type="nhen">Klopp</w>
+            <w lemma="telja" type="sfg3en">telur</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Tite" type="n----s">Tite</w>
+            <w lemma="vilja" type="svg3en">vilji</w>
+            <w lemma="nota" type="sng">nota</w>
+            <w lemma="sami" type="fbveo">sömu</w>
+            <w lemma="taktík" type="nveo">taktík</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="brasilískur" type="lheovf">brasilíska</w>
+            <w lemma="landslið" type="nheog">landsliðið</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="samband" type="nheþ">sambandi</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="Þjóðverji" type="nkeogs">Þjóðverjann</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma=",," type="ta">,,</w>
+            <w lemma="Tite" type="n----s">Tite</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="augljóslega" type="aa">augljóslega</w>
+            <w lemma="hrifinn" type="lkensf">hrifinn</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="það" type="fpheþ">því</w>
+            <w lemma="hvernig" type="aa">hvernig</w>
+            <w lemma="ég" type="fp1fn">við</w>
+            <w lemma="spilum" type="sfg2fn">spilum</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="ég" type="fp1fn">Við</w>
+            <w lemma="vera" type="sfg1fn">erum</w>
+            <w lemma="mikið" type="aa">mikið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="samband" type="nheþ">sambandi</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="ég" type="fp1en">ég</w>
+            <w lemma="vera" type="sfg1en">er</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="100" type="ta">100</w>
+            <w lemma="prósent" type="nhfn">prósent</w>
+            <w lemma="viss" type="lhenof">viss</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="ég" type="fp1en">ég</w>
+            <w lemma="halda" type="sfg1en">held</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vilja" type="svg3en">vilji</w>
+            <w lemma="gera" type="sng">gera</w>
+            <w lemma="einhver" type="foheo">eitthvað</w>
+            <w lemma="svipaður" type="lheosf">svipað</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="ég" type="fp1fn">við</w>
+            <c type="pk">,</c>
+            <w lemma="“" type="x">“</w>
+            <w lemma="segja" type="sfg3eþ">sagði</w>
+            <w lemma="Klopp" type="nhen-s">Klopp</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma=",," type="ta">,,</w>
+            <w lemma="ég" type="fp1fn">Við</w>
+            <w lemma="hafa" type="sfg1fn">höfum</w>
+            <w lemma="ræða" type="sþghen">rætt</w>
+            <w lemma="saman" type="aa">saman</w>
+            <w lemma="aðeins" type="aa">aðeins</w>
+            <c type="pk">,</c>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="hann" type="fpkeo">hann</w>
+            <w lemma="persónulega" type="aa">persónulega</w>
+            <w lemma="það" type="fpheþ">því</w>
+            <w lemma="ég" type="fp1fn">við</w>
+            <w lemma="tala" type="sfg1fn">tölum</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="sami" type="fbheo">sama</w>
+            <w lemma="tungumál" type="nheog">tungumálið</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="það" type="fphen">það</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="náungi" type="nken">náungi</w>
+            <w lemma="þarna" type="aa">þarna</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="tala" type="sfg3en">talar</w>
+            <w lemma="enska" type="nveo">ensku</w>
+            <c type="pl">.</c>
+            <w lemma="“" type="x">“</w>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="tveir" type="tfkfn">Tveir</w>
+            <w lemma="leikmaður" type="nkfn">leikmenn</w>
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <w lemma="spila" type="sfg3fn">spila</w>
+            <w lemma="einmitt" type="aa">einmitt</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="Brasilía" type="nveþ-s">Brasilíu</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="það" type="fphen">það</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="hann" type="fpkfn">þeir</w>
+            <w lemma="Roberto" type="n----s">Roberto</w>
+            <w lemma="Firmino" type="n----s">Firmino</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Philippe" type="n----s">Philippe</w>
+            <w lemma="Coutinho" type="n----s">Coutinho</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

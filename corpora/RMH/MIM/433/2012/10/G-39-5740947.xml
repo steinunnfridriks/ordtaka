@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Stjarnan úr leik í Meistaradeild Evrópu</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5740947</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Stjarnan úr leik í Meistaradeild Evrópu</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2012-10-04T13:10:00">04.10 2012 kl. 13:10:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/stjarnan-ur-leik-i-meistaradeild-evropu/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="5"/>
+          <tagUsage gi="w" occurs="81"/>
+          <tagUsage gi="c" occurs="5"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="kvennal" type="nheng">Kvennalið</w>
+            <w lemma="Stjarnan" type="nveegs">Stjörnunnar</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="leikur" type="nkeþ">leik</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Meistaradeild" type="nveþ-s">Meistaradeild</w>
+            <w lemma="Evrópa" type="nvee-s">Evrópu</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="3" type="ta">3</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="1" type="ta">1</w>
+            <w lemma="tap" type="nhen">tap</w>
+            <w lemma="gegn" type="af">gegn</w>
+            <w lemma="Zorkyir" type="nkeþ-s">Zorkyi</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Rússland" type="nheþ-s">Rússlandi</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="dagur" type="nkeo">dag</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="eftir" type="af">Eftir</w>
+            <w lemma="markalaus" type="lheosf">markalaust</w>
+            <w lemma="jafntefli" type="nheo">jafntefli</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="fyrri" type="lkeþvm">fyrri</w>
+            <w lemma="leikur" type="nkeþg">leiknum</w>
+            <w lemma="gera" type="sfg3fþ">gerðu</w>
+            <w lemma="Stjörnustúlka" type="nvfn-s">Stjörnustúlkur</w>
+            <w lemma="sig" type="fphfþ">sér</w>
+            <w lemma="von" type="nvfo">vonir</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="koma" type="snm">komast</w>
+            <w lemma="út" type="aa">út</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="fyrstur" type="lhenve">Fyrsta</w>
+            <w lemma="mark" type="nhen">mark</w>
+            <w lemma="leikur" type="nkeeg">leiksins</w>
+            <w lemma="koma" type="sfg3eþ">kom</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="33" type="ta">33</w>
+            <w lemma="mínúta" type="nvfo">mínútur</w>
+            <w lemma="er" type="c">er</w>
+            <w lemma="Dyatel" type="n----s">Dyatel</w>
+            <w lemma="koma" type="sfg3eþ">kom</w>
+            <w lemma="rússneskur" type="lheþvf">rússneska</w>
+            <w lemma="lið" type="nheþg">liðinu</w>
+            <w lemma="yfir" type="af">yfir</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="Dyatel" type="nken-s">Dyatel</w>
+            <w lemma="gera" type="sfg3eþ">gerði</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="út" type="aa">út</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="leikur" type="nkeog">leikinn</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="sinn" type="feheþ">sínu</w>
+            <w lemma="annar" type="foheþ">öðru</w>
+            <w lemma="mark" type="nheþ">marki</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="byrjun" type="nveþ">byrjun</w>
+            <w lemma="síðari" type="lkeevm">síðari</w>
+            <w lemma="hálfleikur" type="nkee">hálfleiks</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="Ruiz" type="nken-s">Ruiz</w>
+            <w lemma="koma" type="sfg3eþ">kom</w>
+            <w lemma="rússneskur" type="lheþvf">rússneska</w>
+            <w lemma="lið" type="nheþg">liðinu</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="3" type="ta">3</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="0" type="ta">0</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="klukkutími" type="nkeo">klukkutíma</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Elva" type="nven-s">Elva</w>
+            <w lemma="Friðjónsdóttir" type="nven-s">Friðjónsdóttir</w>
+            <w lemma="minnka" type="sfg3eþ">minnkaði</w>
+            <w lemma="munur" type="nkeog">muninn</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="Stjarnan" type="nveogs">Stjörnuna</w>
+            <w lemma="áður" type="aa">áður</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="yfir" type="aa">yfir</w>
+            <w lemma="ljúka" type="sfg3eþ">lauk</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

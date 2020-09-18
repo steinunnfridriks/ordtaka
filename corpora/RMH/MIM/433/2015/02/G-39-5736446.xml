@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Myndbönd: Lallana og Sturridge komu Liverpool í 2-1</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5736446</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Myndbönd: Lallana og Sturridge komu Liverpool í 2-1</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2015-02-14T18:02:00">14.02 2015 kl. 18:02:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/myndbond-lallana-og-sturridge-komu-liverpool-2-1/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="3"/>
+          <tagUsage gi="s" occurs="3"/>
+          <tagUsage gi="w" occurs="65"/>
+          <tagUsage gi="c" occurs="3"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="koma" type="sþghen">komið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="1" type="ta">1</w>
+            <w lemma="gegn" type="af">gegn</w>
+            <w lemma="Crystal" type="n----s">Crystal</w>
+            <w lemma="Palace" type="e">Palace</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="aðeins" type="aa">aðeins</w>
+            <w lemma="um" type="aa">um</w>
+            <w lemma="13" type="ta">13</w>
+            <w lemma="mínúta" type="nvfn">mínútur</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="búinn" type="lvfnsf">búnar</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="síðari" type="lkeþvm">síðari</w>
+            <w lemma="hálfleikur" type="nkeþg">hálfleiknum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Palace" type="e">Palace</w>
+            <w lemma="koma" type="sfm3eþ">komst</w>
+            <w lemma="yfir" type="aa">yfir</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="15." type="ta">15.</w>
+            <w lemma="mínúta" type="nveþ">mínútu</w>
+            <w lemma="leikur" type="nkeeg">leiksins</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="yfir" type="aa">yfir</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="hálfleikur" type="nkeþ">hálfleik</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpkfn">þeir</w>
+            <w lemma="Daniel" type="n----s">Daniel</w>
+            <w lemma="Sturridge" type="n----s">Sturridge</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Adam" type="n----s">Adam</w>
+            <w lemma="Lallana" type="n----s">Lallana</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="nú" type="aa">nú</w>
+            <w lemma="báðir" type="fokfn">báðir</w>
+            <w lemma="búinn" type="lkfnsf">búnir</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="skora" type="sng">skora</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="það" type="fphen">Það</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="búa" type="snm">búast</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="gríðarlega" type="aa">gríðarlega</w>
+            <w lemma="spennandi" type="lkeoof">spennandi</w>
+            <w lemma="síðari" type="lkeovm">síðari</w>
+            <w lemma="hálfleikur" type="nkeo">hálfleik</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="myndband" type="nhfo">myndbönd</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="mark" type="nhfþ">mörkum</w>
+            <w lemma="Lallana" type="nvfegs">Lallana</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Sturridge" type="n----s">Sturridge</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="fyrir" type="aa">fyrir</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

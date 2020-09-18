@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Emil Atlason í Þrótt</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5721322</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Emil Atlason í Þrótt</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2015-11-16T12:11:00">16.11 2015 kl. 12:11:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/emil-atlason-i-thrott/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="6"/>
+          <tagUsage gi="s" occurs="6"/>
+          <tagUsage gi="w" occurs="92"/>
+          <tagUsage gi="c" occurs="6"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Þróttur" type="nken-s">Þróttur</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="ganga" type="sþghen">gengið</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="samningur" type="nkeþ">samningi</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="Emil" type="nkeo-s">Emil</w>
+            <w lemma="Atlason" type="nkeo-s">Atlason</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="koma" type="sfg3en">kemur</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="lið" type="nheeg">liðsins</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="KR" type="n----s">KR</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Emil" type="nken-s">Emil</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="síðari" type="lkenvm">síðari</w>
+            <w lemma="hluti" type="nkeþ">hluta</w>
+            <w lemma="síðari" type="lveeve">síðustu</w>
+            <w lemma="leiktíð" type="nvee">leiktíðar</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="lán" type="nheþ">láni</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="Valur" type="nkeþ-s">Val</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="framherji" type="nkeng">Framherjinn</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="fæða" type="sþgken">fæddur</w>
+            <w lemma="ár" type="nheog">árið</w>
+            <w lemma="1993" type="ta">1993</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="herbúð" type="nvfþ">herbúðum</w>
+            <w lemma="FH" type="n----s">FH</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="ungur" type="lkenvm">yngri</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="þaðan" type="aa">Þaðan</w>
+            <w lemma="fara" type="sfg3eþ">fór</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="KR" type="n----s">KR</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="upphaf" type="nheþ">upphafi</w>
+            <w lemma="ár" type="nhee">árs</w>
+            <w lemma="fara" type="sfg3eþ">fór</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="Preussen" type="n----s">Preussen</w>
+            <w lemma="Munster" type="n----s">Munster</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Þýskaland" type="nheþ-s">Þýskalandi</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="lið" type="nheng">Liðið</w>
+            <w lemma="leika" type="sfg3eþ">lék</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="3" type="ta">3</w>
+            <w lemma="efri" type="lveþve">efstu</w>
+            <w lemma="deild" type="nveþ">deild</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Emil" type="nken-s">Emil</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="sonur" type="nken">sonur</w>
+            <w lemma="Atli" type="nkee-s">Atla</w>
+            <w lemma="Eðvaldsson" type="nkee-s">Eðvaldssonar</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="þjálfari" type="nken">þjálfari</w>
+            <w lemma="Þróttur" type="nkee-s">Þróttar</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="ár" type="nhfþ">árum</w>
+            <w lemma="áður" type="aa">áður</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Þróttari" type="nkfn-s">Þróttarar</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="nýliði" type="nkfn">nýliðar</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Pepsi" type="n----s">Pepsi</w>
+            <w lemma="deild" type="nveþ">deild</w>
+            <w lemma="karl" type="nkfe">karla</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="lið" type="nheng">liðið</w>
+            <w lemma="eiga" type="sfg3eþ">átti</w>
+            <w lemma="góður" type="lheosf">gott</w>
+            <w lemma="sumar" type="nheo">sumar</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="1." type="lveþve">1.</w>
+            <w lemma="deild" type="nveþg">deildinni</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="ár" type="nheo">ár</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

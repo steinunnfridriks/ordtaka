@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">United lang verðmætasta félagið – Spurs fyrir ofan Liverpool</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5732174</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">United lang verðmætasta félagið – Spurs fyrir ofan Liverpool</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2015-08-08T22:08:00">08.08 2015 kl. 22:08:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/united-lang-verdmaetasta-felagid-spurs-fyrir-ofan-liverpool/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="s" occurs="6"/>
+          <tagUsage gi="w" occurs="69"/>
+          <tagUsage gi="c" occurs="6"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="e">United</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="lang" type="aa">lang</w>
+            <w lemma="verðmætur" type="lhenve">verðmætasta</w>
+            <w lemma="félag" type="nheng">félagið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="enskur" type="lkeþvf">enska</w>
+            <w lemma="bolti" type="nkeþg">boltanum</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="þessi" type="fahen">Þetta</w>
+            <w lemma="koma" type="sfg3en">kemur</w>
+            <w lemma="fram" type="aa">fram</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="úttekt" type="nveþ">úttekt</w>
+            <w lemma="enskur" type="lhfesf">enskra</w>
+            <w lemma="blað" type="nhfe">blaða</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="dagur" type="nkeo">dag</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="virði" type="nken">Virði</w>
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="e">United</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="1,85" type="ta">1,85</w>
+            <w lemma="milljarður" type="nken">milljarður</w>
+            <w lemma="pund" type="nhfe">punda</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <w lemma="koma" type="sfg3en">kemur</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="annar" type="foheþ">öðru</w>
+            <w lemma="sæti" type="nheþg">sætinu</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="langt" type="aa">langt</w>
+            <w lemma="á" type="aa">á</w>
+            <w lemma="eftir" type="aa">eftir</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="City" type="e">City</w>
+            <w lemma="go" type="e">go</w>
+            <w lemma="Chelsea" type="n----s">Chelsea</w>
+            <w lemma="raða" type="sfg3fn">raða</w>
+            <w lemma="sig" type="fphfþ">sér</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="þriðji" type="lheovf">þriðja</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="fjórði" type="lheovf">fjórða</w>
+            <w lemma="sæti" type="nheog">sætið</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="mikill" type="lveosf">Mikla</w>
+            <w lemma="athygli" type="nveo">athygli</w>
+            <w lemma="vekja" type="sfg3en">vekur</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Tottenham" type="n----s">Tottenham</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="telja" type="sþghen">talið</w>
+            <w lemma="verðmætur" type="lhenvm">verðmætara</w>
+            <w lemma="félag" type="nhen">félag</w>
+            <w lemma="gjarnan" type="aam">heldur</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="hér" type="aa">Hér</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="samantekt" type="nveog">samantektina</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="enskur" type="lhfþsf">enskum</w>
+            <w lemma="blað" type="nhfþ">blöðum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

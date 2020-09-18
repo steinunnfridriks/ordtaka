@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Di Maria á förum en De Gea áfram?</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5715517</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Di Maria á förum en De Gea áfram?</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2015-07-25T10:07:00">25.07 2015 kl. 10:07:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/fastirlidir/di-maria-a-forum-en-de-gea-afram/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="15"/>
+          <tagUsage gi="s" occurs="27"/>
+          <tagUsage gi="w" occurs="173"/>
+          <tagUsage gi="c" occurs="41"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="leigubílasaga" type="nvfng">Leigubílasögurnar</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="daglegur" type="lkensf">daglegur</w>
+            <w lemma="liður" type="nken">liður</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="433.Is" type="n----s">433.is</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="í" type="af">Í</w>
+            <w lemma="þessi" type="fakeþ">þessum</w>
+            <w lemma="liður" type="nkeþ">lið</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="fara" type="sþghen">farið</w>
+            <w lemma="yfir" type="af">yfir</w>
+            <w lemma="heldri" type="lheove">helsta</w>
+            <w lemma="slúður" type="nheog">slúðrið</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="sögusögn" type="nvfog">sögusagnirnar</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="fótbolti" type="nkeþg">fótboltanum</w>
+            <c type="pk">,</c>
+            <w lemma="aðallega" type="aa">aðallega</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="breskur" type="lveþvf">bresku</w>
+            <w lemma="pressa" type="nveþg">pressunni</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="mikill" type="lhensf">Mikið</w>
+            <w lemma="magn" type="nhen">magn</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="slúður" type="nheþ">slúðri</w>
+            <w lemma="þessi" type="fakfo">þessa</w>
+            <w lemma="dagur" type="nkfog">dagana</w>
+            <w lemma="enda" type="c">enda</w>
+            <w lemma="allur" type="fohfn">öll</w>
+            <w lemma="lið" type="nhfn">lið</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="veski" type="nheog">veskið</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="loft" type="nheþ">lofti</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="hér" type="aa">Hér</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="pakki" type="nkeo">pakka</w>
+            <w lemma="dagur" type="nkeeg">dagsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <c type="pa">-</c>
+            <c type="pa">-</c>
+            <c type="pa">-</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="PSG" type="x">PSG</w>
+            <w lemma="telja" type="sfg3en">telur</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="Angel" type="n----s">Angel</w>
+            <w lemma="Di" type="n----s">Di</w>
+            <w lemma="Maria" type="n----s">Maria</w>
+            <w lemma="koma" type="svg3en">komi</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="félag" type="nheþg">félaginu</w>
+            <w lemma="heim" type="aa">heim</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="Bandaríkin" type="nhfþgs">Bandaríkjunum</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Mirror" type="e">Mirror</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Real" type="n----s">Real</w>
+            <w lemma="Madrid" type="n----s">Madrid</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="hættur" type="lhensf">hætt</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="kaupa" type="sng">kaupa</w>
+            <w lemma="David" type="n----s">David</w>
+            <w lemma="De" type="n----s">De</w>
+            <w lemma="Gea" type="e">Gea</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Keylor" type="n----s">Keylor</w>
+            <w lemma="Navas" type="n----s">Navas</w>
+            <w lemma="verða" type="sfg3en">verður</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="mark" type="nheþg">markinu</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Goal" type="n----s">Goal</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="Kun" type="n----s">Kun</w>
+            <w lemma="Aguero" type="n----s">Aguero</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="tæpur" type="lkensf">tæpur</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="fyrstur" type="lkeove">fyrsta</w>
+            <w lemma="leikur" type="nkeo">leik</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="enskur" type="lveþvf">ensku</w>
+            <w lemma="úrvalsdeild" type="nveþg">úrvalsdeildinni</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Star" type="n----s">Star</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="8">
+          <s n="1">
+            <w lemma="City" type="n----s">City</w>
+            <w lemma="munu" type="sfg3en">mun</w>
+            <w lemma="kaupa" type="sng">kaupa</w>
+            <w lemma="Kevin" type="n----s">Kevin</w>
+            <w lemma="De" type="n----s">De</w>
+            <w lemma="Bruyne" type="e">Bruyne</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="Wolfsburg" type="n----s">Wolfsburg</w>
+            <w lemma="koma" type="sfg3en">kemur</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="England" type="nhee-s">Englands</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="spila" type="sng">spila</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="MEN" type="n----s">MEN</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="9">
+          <s n="1">
+            <w lemma="Fernando" type="n----s">Fernando</w>
+            <w lemma="Llorente" type="n----s">Llorente</w>
+            <w lemma="framherji" type="nken">framherji</w>
+            <w lemma="Juventus" type="n----s">Juventus</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="óskalisti" type="nkeþ">óskalista</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Sun" type="nken-s">Sun</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="10">
+          <s n="1">
+            <w lemma="Aaron" type="n----s">Aaron</w>
+            <w lemma="Ramsey" type="n----s">Ramsey</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="stoltur" type="lkensf">stoltur</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="áhugi" type="nkeþ">áhuga</w>
+            <w lemma="Barcelona" type="n----s">Barcelona</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Guardian" type="n----s">Guardian</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="11">
+          <s n="1">
+            <w lemma="Didier" type="n----s">Didier</w>
+            <w lemma="Drogba" type="n----s">Drogba</w>
+            <w lemma="fá" type="sfg3en">fær</w>
+            <w lemma="650" type="to">650</w>
+            <w lemma="þúsund" type="tfhfo">þúsund</w>
+            <w lemma="pund" type="nhfo">pund</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="spia" type="nven">spia</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="fjórir" type="tfkfo">fjóra</w>
+            <w lemma="mánuður" type="nkfo">mánuði</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Inland" type="nheþ-s">Inlandi</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Standard" type="n-en-s">Standard</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="12">
+          <s n="1">
+            <w lemma="Everton" type="n----s">Everton</w>
+            <w lemma="skoða" type="sfg3en">skoðar</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="fá" type="sng">fá</w>
+            <w lemma="Diego" type="n----s">Diego</w>
+            <w lemma="Capel" type="e">Capel</w>
+            <w lemma="kantmaður" type="nkeo">kantmann</w>
+            <w lemma="Sporting" type="n----s">Sporting</w>
+            <w lemma="ef" type="c">ef</w>
+            <w lemma="Kevin" type="n----s">Kevin</w>
+            <w lemma="Mirallas" type="n----s">Mirallas</w>
+            <w lemma="fara" type="sfg3en">fer</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Echo" type="n----s">Echo</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="13">
+          <s n="1">
+            <w lemma="Astn" type="n----s">Astn</w>
+            <w lemma="Villa" type="n----s">Villa</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="viðræða" type="nvfþ">viðræðum</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="Jordan" type="n----s">Jordan</w>
+            <w lemma="Ayew" type="n----s">Ayew</w>
+            <w lemma="framherji" type="nkeo">framherja</w>
+            <w lemma="Lorient" type="n----s">Lorient</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Mirror" type="e">Mirror</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="14">
+          <s n="1">
+            <w lemma="Southampton" type="n----s">Southampton</w>
+            <w lemma="vilja" type="sfg1en">vil</w>
+            <w lemma="fá" type="sng">fá</w>
+            <w lemma="James" type="n----s">James</w>
+            <w lemma="Chester" type="n----s">Chester</w>
+            <w lemma="varnarmaður" type="nkeo">varnarmann</w>
+            <w lemma="Hull" type="n----s">Hull</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="mirror" type="e">mirror</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+        <p n="15">
+          <s n="1">
+            <w lemma="Kevin" type="n----s">Kevin</w>
+            <w lemma="Nolan" type="n----s">Nolan</w>
+            <w lemma="íhuga" type="sfg3en">íhugar</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="fara" type="sng">fara</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="West" type="n----s">West</w>
+            <w lemma="Ham" type="e">Ham</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <c type="pa">(</c>
+            <w lemma="Express" type="e">Express</w>
+            <c type="pa">)</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

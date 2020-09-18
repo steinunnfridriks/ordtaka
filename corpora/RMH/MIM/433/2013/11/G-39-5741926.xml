@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Miðar á landsleikinn í boði á English Pub í kvöld</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5741926</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Miðar á landsleikinn í boði á English Pub í kvöld</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2013-11-14T12:11:00">14.11 2013 kl. 12:11:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/midar-a-landsleikinn-i-bodi-a-english-pub-i-kvold/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="9"/>
+          <tagUsage gi="w" occurs="59"/>
+          <tagUsage gi="c" occurs="11"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="við" type="aa">Við</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="English" type="nkeþ-s">ENGLISH</w>
+            <w lemma="PUB" type="n----s">PUB</w>
+            <w lemma="Hafnarfjörður" type="nkeþ-s">Hafnarfirði</w>
+            <w lemma="ætla" type="sfg1fn">ætlum</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="gefa" type="sng">gefa</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="miða" type="nven">MIÐA</w>
+            <w lemma="á" type="af">Á</w>
+            <w lemma="Ísland" type="n----s">ÍSLAND</w>
+            <w lemma="–" type="ks">–</w>
+            <w lemma="Króatíi" type="nkeo-s">KRÓATÍA</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="aðalvinningur" type="nkeo">aðalvinning</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Bjórbingó" type="nkeþ-s">BJÓRBINGÓ</w>
+            <w lemma="Júlli" type="nkfe-s">JÚLLA</w>
+            <w lemma="og" type="c">OG</w>
+            <w lemma="bangsa" type="nven">BANGSA</w>
+            <c type="pl">!</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="bingó" type="nheng">Bingóið</w>
+            <w lemma="hafa" type="sfm3en">hefst</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="slag" type="nheþg">slaginu</w>
+            <w lemma="kl" type="ks">kl</w>
+            <w lemma="21" type="ta">21</w>
+            <c type="pk">,</c>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="vinningur" type="nkfng">VINNINGARNIR</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <c type="pa">*</c>
+            <w lemma="*" type="x">*</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="miði" type="nkfn">MIÐAR</w>
+            <w lemma="á" type="af">Á</w>
+            <w lemma="landsleik" type="nveþ">LANDSLEIK</w>
+            <w lemma="Ísland" type="nhee-s">ÍSLANDS</w>
+            <w lemma="og" type="c">OG</w>
+            <w lemma="Króatía" type="nvee-s">KRÓATÍU</w>
+          </s>
+          <s n="3">
+            <c type="pa">*</c>
+            <c type="pa">*</c>
+            <w lemma="bjór" type="nken">BJÓR</w>
+            <w lemma="vinningur" type="nkfn">VINNINGAR</w>
+          </s>
+          <s n="4">
+            <c type="pa">*</c>
+            <c type="pa">*</c>
+            <w lemma="Pizza" type="n----s">PIZZA</w>
+            <w lemma="Veislur" type="nken-s">VEISLUR</w>
+          </s>
+          <s n="5">
+            <c type="pa">*</c>
+            <c type="pa">*</c>
+            <w lemma="bjóra" type="sfg3en">BJÓR</w>
+            <w lemma="vinning" type="nvfn">VINNINGAR</w>
+            <c type="pa">…</c>
+          </s>
+          <s n="6">
+            <w lemma="og" type="c">og</w>
+            <w lemma="kannski" type="aa">kannski</w>
+            <w lemma="bjór" type="nken">bjór</w>
+            <w lemma="vinningur" type="nkfn">vinningar</w>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="sjá" type="svm1fn">Sjáumst</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="–" type="n----s">–</w>
+            <w lemma="það" type="fphen">það</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="mikill" type="lheesf">mikils</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="vinna" type="sng">vinna</w>
+            <w lemma="!!" type="x">!!</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

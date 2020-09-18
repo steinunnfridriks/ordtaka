@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Byrjunarlið QPR og United – Falcao byrjar</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5737438</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Byrjunarlið QPR og United – Falcao byrjar</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2015-01-17T14:01:00">17.01 2015 kl. 14:01:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/byrjunarlid-qpr-og-united-falcao-byrjar/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="6"/>
+          <tagUsage gi="s" occurs="6"/>
+          <tagUsage gi="w" occurs="66"/>
+          <tagUsage gi="c" occurs="27"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="e">United</w>
+            <w lemma="heimsækja" type="sfg3en">heimsækir</w>
+            <w lemma="QPR" type="n----s">QPR</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="enskur" type="lveþvf">ensku</w>
+            <w lemma="úrvalsdeild" type="nveþg">úrvalsdeildinni</w>
+            <w lemma="klukka" type="nveng">klukkan</w>
+            <w lemma="15:00" type="ta">15:00</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="lærisveinn" type="nkfn">Lærisveinar</w>
+            <w lemma="Louis" type="n----s">Louis</w>
+            <w lemma="Van" type="n----s">van</w>
+            <w lemma="Gaal" type="n----s">Gaal</w>
+            <w lemma="tapa" type="sfg3fþ">töpuðu</w>
+            <w lemma="síðari" type="lkeove">síðasta</w>
+            <w lemma="leikur" type="nkeo">leik</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="þurfa" type="sfg3fn">þurfa</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="sigur" type="nkeþ">sigri</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="halda" type="sng">halda</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="sami" type="fbveo">Sömu</w>
+            <w lemma="saga" type="nveo">sögu</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="segja" type="sng">segja</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="lærisveinn" type="nkfo">lærisveina</w>
+            <w lemma="Harry" type="n----s">Harry</w>
+            <w lemma="Redknapp" type="n----s">Redknapp</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="fallbarátta" type="nveþ">fallbaráttu</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="byrjunarlið" type="nhfng">Byrjunarliðin</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="að" type="aa">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="QPR" type="n----s">QPR</w>
+            <c type="pa">:</c>
+            <w lemma="Green" type="n----s">Green</w>
+            <c type="pk">,</c>
+            <w lemma="Isla" type="n----s">Isla</w>
+            <c type="pk">,</c>
+            <w lemma="Dunne" type="n----s">Dunne</w>
+            <c type="pk">,</c>
+            <w lemma="Onouha" type="n----s">Onouha</w>
+            <c type="pk">,</c>
+            <w lemma="Hill" type="n----s">Hill</w>
+            <c type="pk">,</c>
+            <w lemma="Vargas" type="n----s">Vargas</w>
+            <c type="pk">,</c>
+            <w lemma="Barton" type="n----s">Barton</w>
+            <c type="pk">,</c>
+            <w lemma="Henry" type="n----s">Henry</w>
+            <c type="pk">,</c>
+            <w lemma="Fer" type="n----s">Fer</w>
+            <c type="pk">,</c>
+            <w lemma="Austin" type="n----s">Austin</w>
+            <c type="pk">,</c>
+            <w lemma="Zamora" type="n----s">Zamora</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="n----s">United</w>
+            <c type="pa">:</c>
+            <w lemma="De" type="n----s">De</w>
+            <w lemma="Gea" type="e">Gea</w>
+            <c type="pk">,</c>
+            <w lemma="Jones" type="n----s">Jones</w>
+            <c type="pk">,</c>
+            <w lemma="Evans" type="n----s">Evans</w>
+            <c type="pk">,</c>
+            <w lemma="Rojo" type="n----s">Rojo</w>
+            <c type="pk">,</c>
+            <w lemma="Valencia" type="n----s">Valencia</w>
+            <c type="pk">,</c>
+            <w lemma="Carrick" type="n----s">Carrick</w>
+            <c type="pk">,</c>
+            <w lemma="Mata" type="n----s">Mata</w>
+            <c type="pk">,</c>
+            <w lemma="Blind" type="n----s">Blind</w>
+            <c type="pk">,</c>
+            <w lemma="Rooney" type="n----s">Rooney</w>
+            <c type="pk">,</c>
+            <w lemma="Di" type="n----s">Di</w>
+            <w lemma="Maria" type="n----s">Maria</w>
+            <c type="pk">,</c>
+            <w lemma="Falcao" type="n----s">Falcao</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

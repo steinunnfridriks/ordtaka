@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Freedman ráðinn stjóri Nottingham Forest</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5736944</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Freedman ráðinn stjóri Nottingham Forest</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2015-02-02T08:02:00">02.02 2015 kl. 08:02:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/freedman-radinn-stjori-nottingham-forest/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="w" occurs="76"/>
+          <tagUsage gi="c" occurs="4"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="stuart" type="nken">Stuart</w>
+            <w lemma="Pearce" type="n----s">Pearce</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="í" type="aa">í</w>
+            <w lemma="gær" type="aa">gær</w>
+            <w lemma="reka" type="sþgken">rekinn</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="starf" type="nheþ">starfi</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="knattspyrnustjóri" type="nken">knattspyrnustjóri</w>
+            <w lemma="Nottingham" type="n----s">Nottingham</w>
+            <w lemma="Forest" type="n----s">Forest</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="England" type="nheþ-s">Englandi</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="skelfilegur" type="lheosf">skelfilegt</w>
+            <w lemma="gengi" type="nheo">gengi</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="það" type="fphen">Það</w>
+            <w lemma="taka" type="sfg3eþ">tók</w>
+            <w lemma="Forest" type="n----s">Forest</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="nema" type="c">nema</w>
+            <w lemma="nokkur" type="fokfo">nokkra</w>
+            <w lemma="klukkutími" type="nkfo">klukkutíma</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="ráða" type="sng">ráða</w>
+            <w lemma="maður" type="nkeo">mann</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="hann" type="fpkee">hans</w>
+            <w lemma="staður" type="nkeo">stað</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Dougie" type="n----s">Dougie</w>
+            <w lemma="freedma" type="nveng">Freedman</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="ráða" type="sþgken">ráðinn</w>
+            <w lemma="stjóri" type="nken">stjóri</w>
+            <w lemma="lið" type="nheeg">liðsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="gengi" type="nhen">Gengi</w>
+            <w lemma="Forest" type="n----s">Forest</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="skelfilegur" type="lhensf">skelfilegt</w>
+            <w lemma="undanfarið" type="aa">undanfarið</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="lið" type="nheng">liðið</w>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="aðeins" type="aa">aðeins</w>
+            <w lemma="vinna" type="sþghen">unnið</w>
+            <w lemma="þrír" type="tfkfo">þrjá</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="síðari" type="lkfþve">síðustu</w>
+            <w lemma="17" type="ta">17</w>
+            <w lemma="leikur" type="nkfþ">leikjum</w>
+            <w lemma="sinn" type="fekfþ">sínum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="freedma" type="nveng">Freedman</w>
+            <w lemma="leika" type="sfg3eþ">lék</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="tveir" type="tfhfo">tvö</w>
+            <w lemma="ár" type="nhfo">ár</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="Forest" type="n----s">Forest</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="sinn" type="fekeþ">sínum</w>
+            <w lemma="tími" type="nkeþ">tíma</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="stýra" type="sfg3eþ">stýrði</w>
+            <w lemma="síðar" type="aae">síðast</w>
+            <w lemma="Bolton" type="n----s">Bolton</w>
+            <w lemma="Wanderers" type="n----s">Wanderers</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="yfirgefa" type="sfg3eþ">yfirgaf</w>
+            <w lemma="félag" type="nheog">félagið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="október" type="nkeþ">október</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

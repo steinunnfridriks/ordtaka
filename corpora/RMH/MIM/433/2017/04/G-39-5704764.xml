@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Barkley íhugar að kæra eftir að hafa verið laminn í klessu</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5704764</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Barkley íhugar að kæra eftir að hafa verið laminn í klessu</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2017-04-10T13:04:00">10.04 2017 kl. 13:04:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/barkley-ihugar-ad-kaera-eftir-ad-hafa-verid-laminn-i-klessu/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="7"/>
+          <tagUsage gi="s" occurs="8"/>
+          <tagUsage gi="w" occurs="120"/>
+          <tagUsage gi="c" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Ross" type="n----s">Ross</w>
+            <w lemma="barkley" type="lkenve">Barkley</w>
+            <w lemma="miðjumaður" type="nken">miðjumaður</w>
+            <w lemma="Everton" type="n----s">Everton</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="lögfræðingur" type="nken">lögfræðingur</w>
+            <w lemma="hann" type="fpkee">hans</w>
+            <w lemma="íhuga" type="sfg3fn">íhuga</w>
+            <w lemma="nú" type="aa">nú</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="kæra" type="sng">kæra</w>
+            <w lemma="maður" type="nkeog">manninn</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="ráða" type="sfm3eþ">réðst</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="hann" type="fpkeo">hann</w>
+            <w lemma="í" type="aa">í</w>
+            <w lemma="gær" type="aa">gær</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="ræða" type="sng">ræða</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="maður" type="nkeo">mann</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="skemmtistaður" type="nkeþ">skemmtistað</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="ákveða" type="sfg3eþ">ákvað</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="fara" type="sng">fara</w>
+            <w lemma="út" type="aa">út</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="skemmta" type="sng">skemmta</w>
+            <w lemma="sig" type="fpkeþ">sér</w>
+            <w lemma="eftir" type="af">eftir</w>
+            <w lemma="sigur" type="nkeo">sigur</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Leicester" type="n----s">Leicester</w>
+            <w lemma="í" type="aa">í</w>
+            <w lemma="gær" type="aa">gær</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <w lemma="fara" type="sfg3eþ">fór</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Santa" type="n----s">Santa</w>
+            <w lemma="Chupitos" type="n----s">Chupitos</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Liverpool" type="n----s">Liverpool</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="skemmta" type="sfg3eþ">skemmti</w>
+            <w lemma="sig" type="fpkeþ">sér</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="vinur" type="nkfþ">vinum</w>
+            <w lemma="sinn" type="fekfþ">sínum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="mikill" type="lhenvm">Meira</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="smella" type="sbg2en">Smelltu</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="ti" type="x">ti</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="buffa" type="sþgken">buffaður</w>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="hann" type="fpken">Hann</w>
+            <w lemma="verða" type="sfg3eþ">varð</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="líkamsárás" type="nveo">líkamsárás</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="maður" type="nken">maður</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="ræða" type="sfg3eþ">ræddi</w>
+            <w lemma="við" type="aa">við</w>
+            <w lemma="kýla" type="sfg3eþ">kýldi</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="tvígangur" type="nkeo">tvígang</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="virða" type="sfm3eþ">virtist</w>
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <w lemma="rota" type="snm">rotast</w>
+            <w lemma="all" type="aa">all</w>
+            <w lemma="hressilega" type="aa">hressilega</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="meiðsli" type="nhfn">Meiðsli</w>
+            <w lemma="hann" type="fpkee">hans</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="þó" type="aa">þó</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="alvarlegur" type="lhfnsf">alvarleg</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <w lemma="mæta" type="sþgken">mættur</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="æfing" type="nveo">æfingu</w>
+            <w lemma="hjá" type="af">hjá</w>
+            <w lemma="Everton" type="n----s">Everton</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="dagur" type="nkeo">dag</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="lögfræðingur" type="nken">Lögfræðingur</w>
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <w lemma="staðfesta" type="sfg3eþ">staðfesti</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="mál" type="nheng">málið</w>
+            <w lemma="vera" type="svg3eþ">væri</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="skoða" type="nveeg">skoðunnar</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="hvort" type="c">hvort</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="hann" type="fpkfn">þeir</w>
+            <w lemma="munu" type="svg3fþ">myndu</w>
+            <w lemma="kær" type="lkeovf">kæra</w>
+            <w lemma="maður" type="nkeog">manninn</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="ráða" type="sfm3eþ">réðst</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Barkley" type="n----s">Barkley</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Myndband: Er Arsenal að koma til baka? – Fallegt mark hjá Ramsey</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5738648</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Myndband: Er Arsenal að koma til baka? – Fallegt mark hjá Ramsey</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2014-12-06T16:12:00">06.12 2014 kl. 16:12:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/myndband-er-arsenal-ad-koma-til-baka-fallegt-mark-hja-ramsey/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="w" occurs="45"/>
+          <tagUsage gi="c" occurs="5"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="þegar" type="c">Þegar</w>
+            <w lemma="um" type="aa">um</w>
+            <w lemma="fimmtán" type="tfvfn">fimmtán</w>
+            <w lemma="mínúta" type="nvfn">mínútur</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="eftir" type="aa">eftir</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="leikur" type="nkeþ">leik</w>
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="staða" type="nveng">staðan</w>
+            <w lemma="3" type="ta">3</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="heimamaður" type="nkfo">heimamenn</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Stoke" type="n----s">Stoke</w>
+            <w lemma="koma" type="sfm3eþ">komst</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="3" type="ta">3</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="0" type="ta">0</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Santi" type="n----s">Santi</w>
+            <w lemma="Cazorla" type="n----s">Cazorla</w>
+            <w lemma="laga" type="sfg3eþ">lagaði</w>
+            <w lemma="staða" type="nveog">stöðuna</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Aaron" type="n----s">Aaron</w>
+            <w lemma="Ramsey" type="n----s">Ramsey</w>
+            <w lemma="minnka" type="sfg3eþ">minnkaði</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="munur" type="nkeog">muninn</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="einn" type="tfheo">eitt</w>
+            <w lemma="mark" type="nheo">mark</w>
+            <c type="pk">,</c>
+            <w lemma="ná" type="sfg3en">nær</w>
+            <w lemma="Arsenal" type="n----s">Arsenal</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="jafna" type="sng">jafna</w>
+            <c type="pl">?</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="hér" type="aa">Hér</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="mark" type="nhen">mark</w>
+            <w lemma="Ramsey" type="n----s">Ramsey</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

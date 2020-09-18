@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Myndir: Vandræði hjá Leicester – Hver á hvaða bíl?</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5710250</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Myndir: Vandræði hjá Leicester – Hver á hvaða bíl?</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2016-09-01T14:09:00">01.09 2016 kl. 14:09:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/myndir-vandraedi-hja-leicester-hver-a-hvada-bil/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="10"/>
+          <tagUsage gi="s" occurs="15"/>
+          <tagUsage gi="w" occurs="228"/>
+          <tagUsage gi="c" occurs="20"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="leikmaður" type="nkfn">Leikmenn</w>
+            <w lemma="Leicester" type="n----s">Leicester</w>
+            <w lemma="hafa" type="sfg3fn">hafa</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="tómur" type="lhfþsf">tómum</w>
+            <w lemma="vandræði" type="nhfþ">vandræðum</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="vita" type="sng">vita</w>
+            <w lemma="hver" type="foken">hver</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="hvaða" type="fskeþ">hvaða</w>
+            <w lemma="bíll" type="nkeþ">bíl</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="æfingasvæði" type="nheþ">æfingasvæði</w>
+            <w lemma="félag" type="nheeg">félagsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="allur" type="fokfn">Allir</w>
+            <w lemma="leikmaður" type="nkfn">leikmenn</w>
+            <w lemma="lið" type="nheeg">liðsins</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="síðari" type="lveþve">síðustu</w>
+            <w lemma="leiktíð" type="nveþ">leiktíð</w>
+            <w lemma="fá" type="sfg3fþ">fengu</w>
+            <w lemma="gefins" type="lkfnof">gefins</w>
+            <w lemma="BMW" type="n----s">BMW</w>
+            <w lemma="I8" type="ta">I8</w>
+            <w lemma="bíll" type="nkeo">bíl</w>
+            <w lemma="frá" type="af">frá</w>
+            <w lemma="eigandi" type="nkeþ">eiganda</w>
+            <w lemma="félag" type="nheeg">félagsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="bíli" type="nkeng">Bílinn</w>
+            <w lemma="fá" type="sfg3fþ">fengu</w>
+            <w lemma="hann" type="fpkfn">þeir</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="vinna" type="sng">vinna</w>
+            <w lemma="enskur" type="lveovf">ensku</w>
+            <w lemma="úrvalsdeild" type="nveog">úrvalsdeildina</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="eftur" type="lkfnsf">EFtir</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="hafa" type="sng">hafa</w>
+            <w lemma="vera" type="sþghen">verið</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="vandræði" type="nhfþ">vandræðum</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="vita" type="sng">vita</w>
+            <w lemma="hver" type="fsken">hver</w>
+            <w lemma="eiga" type="svg3eþ">ætti</w>
+            <w lemma="hvaða" type="fskeo">hvaða</w>
+            <w lemma="bíll" type="nkeo">bíl</w>
+            <w lemma="ákveða" type="sfg3fþ">ákváðu</w>
+            <w lemma="nokkur" type="fokfn">nokkrir</w>
+            <w lemma="leikmaður" type="nkfn">leikmenn</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="láta" type="sng">láta</w>
+            <w lemma="breyta" type="sng">breyta</w>
+            <w lemma="bíll" type="nkfþg">bílunum</w>
+            <w lemma="sinn" type="fekfþ">sínum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="Wes" type="n----s">Wes</w>
+            <w lemma="Morgan" type="n----s">Morgan</w>
+            <c type="pk">,</c>
+            <w lemma="Danny" type="n----s">Danny</w>
+            <w lemma="Simpson" type="n----s">Simpson</w>
+            <c type="pk">,</c>
+            <w lemma="Jeffrey" type="n----s">Jeffrey</w>
+            <w lemma="Schlupp" type="n----s">Schlupp</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Riyad" type="n----s">Riyad</w>
+            <w lemma="Mahrez" type="n----s">Mahrez</w>
+            <w lemma="ásamt" type="af">ásamt</w>
+            <w lemma="margur" type="lkfþsm">fleirum</w>
+            <w lemma="ákveða" type="sfg3fþ">ákváðu</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="breyta" type="sng">breyta</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="litur" type="nkeo">lit</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="bíll" type="nkeþg">bílnum</w>
+            <w lemma="sinn" type="fekeþ">sínum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="hann" type="fpkfn">Þeir</w>
+            <w lemma="láta" type="sfg3fþ">létu</w>
+            <w lemma="Marlon" type="n----s">Marlon</w>
+            <w lemma="Harweood" type="n----s">Harweood</w>
+            <w lemma="fyrrum" type="aa">fyrrum</w>
+            <w lemma="framherji" type="nkeo">framherja</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="fyrirtæki" type="nhfn">fyrirtæki</w>
+            <w lemma="hann" type="fpkee">hans</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="þessi" type="faheo">þetta</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hluti" type="nkeo">hluta</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="þessi" type="faheþ">þessu</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="að" type="aa">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="All" type="e">All</w>
+            <w lemma="gone" type="e">gone</w>
+            <w lemma="a" type="e">a</w>
+            <w lemma="bit" type="nhen">bit</w>
+            <w lemma="i" type="x">i</w>
+            <w lemma="8" type="ta">8</w>
+            <c type="pl">?</c>
+          </s>
+          <s n="2">
+            <w lemma="01158700137" type="ta">01158700137</w>
+            <c type="pl">?</c>
+          </s>
+          <s n="3">
+            <w lemma="www.ac13premier.co.uk" type="v">www.ac13premier.co.uk</w>
+            <c type="pl">?</c>
+          </s>
+          <s n="4">
+            <w lemma="sales@ac13premier.co.uk" type="v">sales@ac13premier.co.uk</w>
+            <w lemma="#ac13premier" type="e">#ac13premier</w>
+            <w lemma="#cars" type="e">#cars</w>
+            <w lemma="#customcars" type="e">#customcars</w>
+            <w lemma="#wheels" type="e">#wheels</w>
+            <w lemma="#wrap" type="e">#wrap</w>
+            <w lemma="#style" type="e">#style</w>
+            <w lemma="#interiors" type="e">#interiors</w>
+            <w lemma="#carswithoutlimits" type="e">#carswithoutlimits</w>
+            <w lemma="#ballers" type="e">#ballers</w>
+            <w lemma="#footballerscars" type="e">#footballerscars</w>
+            <w lemma="#bespoke" type="e">#bespoke</w>
+            <w lemma="#44" type="ta">#44</w>
+            <w lemma="#sportscars" type="e">#sportscars</w>
+            <w lemma="#germancars" type="e">#germancars</w>
+            <w lemma="#premierleague" type="e">#premierleague</w>
+            <w lemma="#nottingham" type="e">#nottingham</w>
+            <w lemma="#carwrap" type="e">#carwrap</w>
+            <w lemma="#vehiclewrap" type="e">#vehiclewrap</w>
+            <w lemma="#wrappedcars" type="e">#wrappedcars</w>
+            <w lemma="#carporn" type="e">#carporn</w>
+            <w lemma="#carsofinstagram" type="e">#carsofinstagram</w>
+            <w lemma="#caroftheday" type="e">#caroftheday</w>
+            <w lemma="#cargram" type="e">#cargram</w>
+            <w lemma="#paintisdead" type="e">#paintisdead</w>
+            <w lemma="#vinylwrap" type="e">#vinylwrap</w>
+            <w lemma="#lease" type="e">#lease</w>
+            <w lemma="#carfinance" type="e">#carfinance</w>
+            <w lemma="#vip" type="e">#vip</w>
+          </s>
+        </p>
+        <p n="8">
+          <s n="1">
+            <w lemma="A" type="e">A</w>
+            <w lemma="photo" type="e">photo</w>
+            <w lemma="posted" type="e">posted</w>
+            <w lemma="by" type="e">by</w>
+            <w lemma="AC" type="e">AC</w>
+            <w lemma="13" type="ta">13</w>
+            <w lemma="Premier" type="n----s">Premier</w>
+            <c type="pa">(</c>
+            <w lemma="@ac13premier" type="e">@ac13premier</w>
+            <c type="pa">)</c>
+            <w lemma="on" type="e">on</w>
+            <w lemma="Aug" type="e">Aug</w>
+            <w lemma="26" type="ta">26</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+            <w lemma="at" type="kt">at</w>
+            <w lemma="8:24" type="ta">8:24</w>
+            <w lemma="am" type="e">am</w>
+            <w lemma="PDT" type="n----s">PDT</w>
+          </s>
+          <s n="2">
+            <w lemma="2" type="ta">2</w>
+            <w lemma="down" type="e">down</w>
+            <w lemma="5" type="ta">5</w>
+            <w lemma="to" type="e">to</w>
+            <w lemma="go" type="e">go</w>
+            <w lemma="#i8" type="ta">#i8</w>
+          </s>
+        </p>
+        <p n="9">
+          <s n="1">
+            <w lemma="A" type="e">A</w>
+            <w lemma="photo" type="e">photo</w>
+            <w lemma="posted" type="e">posted</w>
+            <w lemma="by" type="e">by</w>
+            <w lemma="AC" type="e">AC</w>
+            <w lemma="13" type="ta">13</w>
+            <w lemma="Premier" type="n----s">Premier</w>
+            <c type="pa">(</c>
+            <w lemma="@ac13premier" type="e">@ac13premier</w>
+            <c type="pa">)</c>
+            <w lemma="on" type="e">on</w>
+            <w lemma="Aug" type="e">Aug</w>
+            <w lemma="30" type="ta">30</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+            <w lemma="at" type="kt">at</w>
+            <w lemma="11:48" type="ta">11:48</w>
+            <w lemma="am" type="e">am</w>
+            <w lemma="PDT" type="e">PDT</w>
+          </s>
+          <s n="2">
+            <w lemma="BMW" type="n----s">BMW</w>
+            <w lemma="i" type="e">i</w>
+            <w lemma="8" type="ta">8</w>
+            <w lemma="wrapped" type="e">wrapped</w>
+            <w lemma="in" type="e">in</w>
+            <w lemma="Matt" type="e">Matt</w>
+            <w lemma="Black" type="e">Black</w>
+            <w lemma="#bmw" type="e">#bmw</w>
+            <w lemma="#i8" type="e">#i8</w>
+            <w lemma="#ac13premier" type="e">#ac13premier</w>
+            <w lemma="#cars" type="e">#cars</w>
+            <w lemma="#customcars" type="e">#customcars</w>
+            <w lemma="#wheels" type="e">#wheels</w>
+            <w lemma="#wrap" type="e">#wrap</w>
+            <w lemma="#style" type="e">#style</w>
+            <w lemma="#interiors" type="e">#interiors</w>
+            <w lemma="#carswithoutlimits" type="e">#carswithoutlimits</w>
+            <w lemma="#ballers" type="e">#ballers</w>
+            <w lemma="#footballerscars" type="e">#footballerscars</w>
+            <w lemma="#bespoke" type="e">#bespoke</w>
+            <w lemma="#44" type="ta">#44</w>
+            <w lemma="#sportscars" type="e">#sportscars</w>
+            <w lemma="#germancars" type="e">#germancars</w>
+            <w lemma="#premierleague" type="e">#premierleague</w>
+            <w lemma="#nottingham" type="e">#nottingham</w>
+            <w lemma="#carwrap" type="e">#carwrap</w>
+            <w lemma="#vehiclewrap" type="e">#vehiclewrap</w>
+            <w lemma="#wrappedcars" type="e">#wrappedcars</w>
+            <w lemma="#carporn" type="e">#carporn</w>
+            <w lemma="#carsofinstagram" type="e">#carsofinstagram</w>
+            <w lemma="#caroftheday" type="e">#caroftheday</w>
+            <w lemma="#cargram" type="e">#cargram</w>
+            <w lemma="#paintisdead" type="e">#paintisdead</w>
+            <w lemma="#vinylwrap" type="e">#vinylwrap</w>
+            <w lemma="#lease" type="e">#lease</w>
+            <w lemma="#carfinance" type="e">#carfinance</w>
+            <w lemma="#vip" type="e">#vip</w>
+          </s>
+        </p>
+        <p n="10">
+          <s n="1">
+            <w lemma="A" type="e">A</w>
+            <w lemma="photo" type="e">photo</w>
+            <w lemma="posted" type="e">posted</w>
+            <w lemma="by" type="e">by</w>
+            <w lemma="AC" type="e">AC</w>
+            <w lemma="13" type="ta">13</w>
+            <w lemma="Premier" type="e">Premier</w>
+            <c type="pa">(</c>
+            <w lemma="@ac13premier" type="e">@ac13premier</w>
+            <c type="pa">)</c>
+            <w lemma="on" type="e">on</w>
+            <w lemma="Sep" type="e">Sep</w>
+            <w lemma="1" type="ta">1</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+            <w lemma="at" type="kt">at</w>
+            <w lemma="2:49" type="ta">2:49</w>
+            <w lemma="am" type="e">am</w>
+            <w lemma="PDT" type="n----s">PDT</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

@@ -1,10 +1,8 @@
-from sys import path
-path.append('..')
 from xml.etree import ElementTree as ET
 from string import punctuation
 import glob
-from sql.sql_lookup import SQLDatabase, SQLiteQuery
-from rmh_extractor import RmhWord, RmhExtractor
+from ordtaka.sql.sql_lookup import SQLDatabase, SQLiteQuery
+from ordtaka.rmh_extractor import RmhWord, RmhExtractor
 
 class CompareRmhIslex:
     """

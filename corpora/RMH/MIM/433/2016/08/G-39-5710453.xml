@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Donnarumma valinn í landsliðið</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5710453</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Donnarumma valinn í landsliðið</title>
+            </title>
+            <author><persName>Victor Jóhann Pálsson</persName></author>
+            <date when="2016-08-28T09:08:00">28.08 2016 kl. 09:08:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/donnarumma-valinn-i-landslidid/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="s" occurs="8"/>
+          <tagUsage gi="w" occurs="144"/>
+          <tagUsage gi="c" occurs="89"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="Giampiero" type="n----s">Giampiero</w>
+            <w lemma="Ventura" type="e">Ventura</w>
+            <c type="pk">,</c>
+            <w lemma="nýr" type="lkensf">nýr</w>
+            <w lemma="landsliðsþjálfari" type="nken">landsliðsþjálfari</w>
+            <w lemma="Ítalía" type="nvee-s">Ítalíu</w>
+            <c type="pk">,</c>
+            <w lemma="hafa" type="sfg3en">hefur</w>
+            <w lemma="velja" type="sþghen">valið</w>
+            <w lemma="leikmannahópur" type="nkeo">leikmannahóp</w>
+            <w lemma="lið" type="nheeg">liðsins</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="komandi" type="lhfoof">komandi</w>
+            <w lemma="verkefni" type="nheþ">verkefni</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Ítalía" type="nven-s">Ítalía</w>
+            <w lemma="eiga" type="sfg3en">á</w>
+            <w lemma="tveir" type="tfkfo">tvo</w>
+            <w lemma="leikur" type="nkfo">leiki</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="næstur" type="lkeþve">næsta</w>
+            <w lemma="mánuður" type="nkeþ">mánuði</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="lið" type="nheng">liðið</w>
+            <w lemma="spila" type="sfg3en">spilar</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="Frakkland" type="nheo-s">Frakkland</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="æfingaleikur" type="nkeþ">æfingaleik</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="Ísrael" type="nheþ-s">Ísrael</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="undankeppni" type="nveþ">undankeppni</w>
+            <w lemma="HM" type="n----s">HM</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Ventura" type="n-en-s">Ventura</w>
+            <w lemma="valdi" type="sfg1fþ">valdi</w>
+            <w lemma="margur" type="lkfosf">marga</w>
+            <w lemma="ungur" type="lkfosf">unga</w>
+            <w lemma="leikmaður" type="nkfo">leikmenn</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="hópur" type="nkeog">hópinn</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="þar" type="aa">þar</w>
+            <w lemma="á" type="aa">á</w>
+            <w lemma="meðal" type="aa">meðal</w>
+            <w lemma="markvörður" type="nkeog">markvörðinn</w>
+            <w lemma="Gianluigi" type="n----s">Gianluigi</w>
+            <w lemma="Donnarumma" type="n----s">Donnarumma</w>
+            <c type="pk">,</c>
+            <w lemma="17" type="ta">17</w>
+            <w lemma="ár" type="nhfe">ára</w>
+            <w lemma="markmaður" type="nkeo">markmann</w>
+            <w lemma="AC" type="n----s">AC</w>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="hér" type="aa">Hér</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hópur" type="nkeog">hópinn</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="markmaður" type="nkfn">Markmenn</w>
+            <c type="pa">:</c>
+            <w lemma="gianluigi" type="nken">Gianluigi</w>
+            <w lemma="Buffon" type="n----s">Buffon</w>
+            <c type="pa">(</c>
+            <w lemma="Juventus" type="n----s">Juventus</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Gianluigi" type="nken-s">Gianluigi</w>
+            <w lemma="Donnarumma" type="n----s">Donnarumma</w>
+            <c type="pa">(</c>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Federico" type="n----s">Federico</w>
+            <w lemma="Marchetti" type="n----s">Marchetti</w>
+            <c type="pa">(</c>
+            <w lemma="Lazio" type="n----s">Lazio</w>
+            <c type="pa">)</c>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="varnarmaður" type="nkfn">Varnarmenn</w>
+            <c type="pa">:</c>
+            <w lemma="Luca" type="n----s">Luca</w>
+            <w lemma="Antonelli" type="n----s">Antonelli</w>
+            <c type="pa">(</c>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Davide" type="n----s">Davide</w>
+            <w lemma="Astori" type="n----s">Astori</w>
+            <c type="pa">(</c>
+            <w lemma="Fiorentina" type="n----s">Fiorentina</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Andrea" type="nven-s">Andrea</w>
+            <w lemma="Barzagli" type="n----s">Barzagli</w>
+            <c type="pa">(</c>
+            <w lemma="Juventus" type="n----s">Juventus</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Leonardo" type="n----s">Leonardo</w>
+            <w lemma="Bonucci" type="n----s">Bonucci</w>
+            <c type="pa">(</c>
+            <w lemma="Juventus" type="n----s">Juventus</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Giorgio" type="n----s">Giorgio</w>
+            <w lemma="Chiellini" type="n----s">Chiellini</w>
+            <c type="pa">(</c>
+            <w lemma="Juventus" type="n----s">Juventus</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Mattia" type="n----s">Mattia</w>
+            <w lemma="De" type="n----s">De</w>
+            <w lemma="Sciglio" type="e">Sciglio</w>
+            <c type="pa">(</c>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Angelo" type="n----s">Angelo</w>
+            <w lemma="Ogbonna" type="n----s">Ogbonna</w>
+            <c type="pa">(</c>
+            <w lemma="West" type="e">West</w>
+            <w lemma="Ham" type="e">Ham</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Alessio" type="n----s">Alessio</w>
+            <w lemma="Romagnoli" type="nken-s">Romagnoli</w>
+            <c type="pa">(</c>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Daniele" type="n----s">Daniele</w>
+            <w lemma="Rugani" type="n----s">Rugani</w>
+            <c type="pa">(</c>
+            <w lemma="Juventus" type="n----s">Juventus</w>
+            <c type="pa">)</c>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="miðjumaður" type="nkfn">Miðjumenn</w>
+            <c type="pa">:</c>
+            <w lemma="Federico" type="n----s">Federico</w>
+            <w lemma="Bernardeschi" type="n----s">Bernardeschi</w>
+            <c type="pa">(</c>
+            <w lemma="Fiorentina" type="n----s">Fiorentina</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Giacomo" type="n----s">Giacomo</w>
+            <w lemma="Bonaventura" type="n----s">Bonaventura</w>
+            <c type="pa">(</c>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Antonio" type="n----s">Antonio</w>
+            <w lemma="Candreva" type="n----s">Candreva</w>
+            <c type="pa">(</c>
+            <w lemma="Inter" type="n----s">Inter</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Daniele" type="n----s">Daniele</w>
+            <w lemma="De" type="e">De</w>
+            <w lemma="Rossi" type="e">Rossi</w>
+            <c type="pa">(</c>
+            <w lemma="Roma" type="n----s">Roma</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Alessandro" type="n----s">Alessandro</w>
+            <w lemma="Florenzi" type="n----s">Florenzi</w>
+            <c type="pa">(</c>
+            <w lemma="Roma" type="n----s">Roma</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Riccardo" type="n----s">Riccardo</w>
+            <w lemma="Montolivo" type="e">Montolivo</w>
+            <c type="pa">(</c>
+            <w lemma="Milan" type="n----s">Milan</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Marco" type="n----s">Marco</w>
+            <w lemma="Parolo" type="n----s">Parolo</w>
+            <c type="pa">(</c>
+            <w lemma="Lazio" type="n----s">Lazio</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Marco" type="n----s">Marco</w>
+            <w lemma="Verratti" type="nken-s">Verratti</w>
+            <c type="pa">(</c>
+            <w lemma="Paris" type="n----s">Paris</w>
+            <w lemma="Saint" type="n----s">Saint</w>
+            <w lemma="Germain" type="n----s">Germain</w>
+            <c type="pa">)</c>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="8">
+          <s n="1">
+            <w lemma="framherji" type="nkfn">Framherjar</w>
+            <c type="pa">:</c>
+            <w lemma="Andrea" type="nven-s">Andrea</w>
+            <w lemma="Belotti" type="n----s">Belotti</w>
+            <c type="pa">(</c>
+            <w lemma="Torino" type="n----s">Torino</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Eder" type="n----s">Eder</w>
+            <w lemma="Citadin" type="n----s">Citadin</w>
+            <w lemma="Martins" type="n----s">Martins</w>
+            <c type="pa">(</c>
+            <w lemma="Inter" type="n----s">Inter</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Manolo" type="n----s">Manolo</w>
+            <w lemma="Gabbiadini" type="n----s">Gabbiadini</w>
+            <c type="pa">(</c>
+            <w lemma="Napoli" type="n-en-s">Napoli</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Ciro" type="n----s">Ciro</w>
+            <w lemma="Immobile" type="e">Immobile</w>
+            <c type="pa">(</c>
+            <w lemma="Lazio" type="e">Lazio</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Leonardo" type="n----s">Leonardo</w>
+            <w lemma="Pavoletti" type="n----s">Pavoletti</w>
+            <c type="pa">(</c>
+            <w lemma="Genoa" type="n----s">Genoa</w>
+            <c type="pa">)</c>
+            <c type="pk">,</c>
+            <w lemma="Graziano" type="n----s">Graziano</w>
+            <w lemma="Pelle" type="n----s">Pelle</w>
+            <c type="pa">(</c>
+            <w lemma="Shandong" type="n----s">Shandong</w>
+            <w lemma="Luneng" type="e">Luneng</w>
+            <c type="pa">)</c>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

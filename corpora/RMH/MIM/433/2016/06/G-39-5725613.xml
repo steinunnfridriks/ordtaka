@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Twitter í hálfleik: Lögreglan sú eina a ferli þessa stundina</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5725613</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Twitter í hálfleik: Lögreglan sú eina a ferli þessa stundina</title>
+            </title>
+            <author><persName>Ólafur Þór Jónsson</persName></author>
+            <date when="2016-06-14T19:06:00">14.06 2016 kl. 19:06:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/forsida/twitter-i-halfleik-logreglan-su-eina-a-ferli-thessa-stundina/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="18"/>
+          <tagUsage gi="s" occurs="50"/>
+          <tagUsage gi="w" occurs="330"/>
+          <tagUsage gi="c" occurs="83"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="fyrstur" type="lkenve">Fyrsti</w>
+            <w lemma="leikur" type="nken">leikur</w>
+            <w lemma="Ísland" type="nhee-s">Íslands</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Evrópumót" type="nheþgs">Evrópumótinu</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Frakkland" type="nheþ-s">Frakklandi</w>
+            <w lemma="fara" type="sfg3en">fer</w>
+            <w lemma="fram" type="aa">fram</w>
+            <w lemma="þessi" type="faveo">þessa</w>
+            <w lemma="stundia" type="nveng">stundian</w>
+            <w lemma="gegn" type="af">gegn</w>
+            <w lemma="Portúgal" type="nheþ-s">Portúgal</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="allur" type="foven">Öll</w>
+            <w lemma="evrópa" type="nven">evrópa</w>
+            <w lemma="fylgja" type="sfm3en">fylgist</w>
+            <w lemma="með" type="aa">með</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="umræða" type="nveng">umræðan</w>
+            <w lemma="mikill" type="lvensf">mikil</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="samfélagsmiðill" type="nkfþ">samfélagsmiðlum</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Twitter" type="n----s">Twitter</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="mjög" type="aa">mjög</w>
+            <w lemma="virkur" type="lhensf">virkt</w>
+            <w lemma="undir" type="af">undir</w>
+            <w lemma="hashtag" type="nheþg">hashtaginu</w>
+            <w lemma="#Emísland" type="n----s">#EmÍsland</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="lögregla" type="nveng">Lögreglan</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="til" type="af">til</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="mynda" type="sng">mynda</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="hraða" type="sng">hraða</w>
+            <w lemma="mynda" type="sng">mynda</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="enginn" type="foven">engin</w>
+            <w lemma="annar" type="foken">annar</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="ferill" type="nkeþ">ferli</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="heldri" type="lkenve">Helsti</w>
+            <w lemma="tvíti" type="nveng">tvítin</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="fyrri" type="lkeþvm">fyrri</w>
+            <w lemma="hálfleikur" type="nkeþ">hálfleik</w>
+            <w lemma="vera" type="sfg3fn">eru</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="að" type="aa">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pa">:</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="gæi" type="nkeng">Gæinn</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <w lemma="ég" type="fp1eo">mig</w>
+            <w lemma="vera" type="sfg3en">er</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="skera" type="sng">skera</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="tré" type="nhfþg">trjánum</w>
+            <w lemma="!!" type="x">!!</w>
+          </s>
+          <s n="2">
+            <w lemma="vera" type="sfg3en">Er</w>
+            <w lemma="þessi" type="fahen">þetta</w>
+            <w lemma="löglegur" type="lhensf">löglegt</w>
+            <w lemma="??!!" type="ta">??!!</w>
+          </s>
+          <s n="3">
+            <w lemma="#emísland" type="nhen">#emÍsland</w>
+            <w lemma="#Isl" type="n----s">#isl</w>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Matti" type="nken-s">Matti</w>
+            <c type="pa">(</c>
+            <w lemma="@mattimar" type="nken">@mattimar</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="Crazy" type="n----s">Crazy</w>
+            <w lemma="Stat" type="n----s">Stat</w>
+            <w lemma="of" type="e">of</w>
+            <w lemma="Day" type="e">Day</w>
+            <c type="pa">:</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Cristiano" type="n----s">Cristiano</w>
+            <w lemma="Ronaldo" type="n----s">Ronaldo</w>
+            <w lemma="Twitter" type="n----s">Twitter</w>
+            <w lemma="Followers" type="n----s">followers</w>
+            <c type="pa">:</c>
+            <w lemma="43,100,000" type="ta">43,100,000</w>
+          </s>
+          <s n="2">
+            <c type="pa">-</c>
+            <w lemma="Iceland" type="n----s">Iceland</w>
+            <w lemma="population" type="e">population</w>
+            <c type="pa">:</c>
+            <w lemma="330,000" type="ta">330,000</w>
+            <w lemma="pic.twitter.com" type="v">pic.twitter.com</w>
+            <c type="pa">/</c>
+            <w lemma="doxh" type="e">doxh</w>
+            <w lemma="4" type="ta">4</w>
+            <w lemma="Bdabq" type="n----s">bDabq</w>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Sportscenter" type="n----s">SportsCenter</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Sportscenter" type="n----s">SportsCenter</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="smá" type="lvenof">Smá</w>
+            <w lemma="Ferguson" type="n----s">Ferguson</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Lagerback" type="n----s">Lagerback</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="tyggur" type="lkensf">Tyggur</w>
+            <w lemma="tyggjó" type="nheng">tyggjóið</w>
+            <w lemma="eins" type="aa">eins</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="það" type="fphen">það</w>
+            <w lemma="vera" type="svg3en">sé</w>
+            <w lemma="sá" type="fahen">það</w>
+            <w lemma="síðari" type="lhenve">síðasta</w>
+          </s>
+        </p>
+        <p n="8">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Hörður" type="nken-s">Hörður</w>
+            <w lemma="S" type="n----s">S</w>
+            <w lemma="Jónsson" type="nken-s">Jónsson</w>
+            <c type="pa">(</c>
+            <w lemma="@hoddi23" type="ta">@hoddi23</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="A" type="e">A</w>
+            <w lemma="feverishly" type="e">feverishly</w>
+            <w lemma="excitable" type="e">excitable</w>
+            <w lemma="crowd" type="e">crowd</w>
+            <w lemma="and" type="e">and</w>
+            <w lemma="a" type="e">a</w>
+            <w lemma="remarkably" type="e">remarkably</w>
+            <w lemma="open" type="e">open</w>
+            <w lemma="game" type="e">game</w>
+            <w lemma="so" type="e">so</w>
+            <w lemma="far" type="e">far</w>
+            <w lemma="here" type="e">here</w>
+            <w lemma="in" type="e">in</w>
+            <w lemma="Saint" type="n----s">Saint</w>
+            <w lemma="Etienne" type="n----s">Etienne</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="#ISL" type="e">#ISL</w>
+            <w lemma="appear" type="e">appear</w>
+            <w lemma="to" type="e">to</w>
+            <w lemma="be" type="e">be</w>
+            <w lemma="going" type="e">going</w>
+            <w lemma="for" type="e">for</w>
+            <w lemma="it" type="e">it</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="4">
+            <w lemma="10" type="ta">10</w>
+            <w lemma="Mins" type="n----s">mins</w>
+            <w lemma="gone" type="e">gone</w>
+            <c type="pk">,</c>
+            <w lemma="0" type="ta">0</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="0" type="ta">0</w>
+          </s>
+        </p>
+        <p n="9">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Oliver" type="n----s">Oliver</w>
+            <w lemma="Kay" type="n----s">Kay</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Oliverkaytimes" type="n----s">OliverKayTimes</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="vera" type="sfg1fn">Erum</w>
+            <w lemma="að" type="af">að</w>
+            <w lemma="hraðamæli" type="nkeþ">hraðamæla</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="enginn" type="foven">engin</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="ferill" type="nkeþ">ferli</w>
+            <w lemma="……" type="x">……</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <c type="pl">.</c>
+          </s>
+          <s n="4">
+            <w lemma="#emisland" type="nhen">#emisland</w>
+            <w lemma="#enginnofhratt" type="nhen">#enginnofhratt</w>
+          </s>
+        </p>
+        <p n="10">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="LRH" type="n----s">LRH</w>
+            <c type="pa">(</c>
+            <w lemma="@logregla" type="nveng">@logreglan</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="jæja" type="au">Jæja</w>
+            <w lemma="þessi" type="fahen">þetta</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="Cool" type="n----s">Cool</w>
+            <w lemma="Runnings" type="n----s">Runnings</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="hálftími" type="nkeþ">hálftíma</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="#emísland" type="nhen">#emísland</w>
+          </s>
+        </p>
+        <p n="11">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Bobby" type="n----s">Bobby</w>
+            <w lemma="Breiðholt" type="nhen-s">Breiðholt</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="ta">@</w>
+            <w lemma="Breidholt" type="n----s">Breidholt</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="This" type="e">This</w>
+            <w lemma="#ISL" type="e">#ISL</w>
+            <w lemma="team" type="e">team</w>
+            <w lemma="has" type="e">has</w>
+            <w lemma="definitely" type="e">definitely</w>
+            <w lemma="changed" type="e">changed</w>
+            <w lemma="public" type="e">public</w>
+            <w lemma="perception" type="e">perception</w>
+            <w lemma="from" type="e">from</w>
+            <w lemma="previous" type="e">previous</w>
+            <w lemma="teams" type="e">teams</w>
+            <w lemma="of" type="e">of</w>
+            <w lemma="their" type="e">their</w>
+            <w lemma="country" type="e">country</w>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Meninblazers" type="n----s">MenInBlazers</w>
+            <w lemma="#PORISL" type="e">#PORISL</w>
+            <w lemma="pic.twitter.com" type="e">pic.twitter.com</w>
+            <c type="pa">/</c>
+            <w lemma="uE" type="e">uE</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="npxlgsf" type="nhen">NpxLGsf</w>
+          </s>
+        </p>
+        <p n="12">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Andrew" type="n----s">Andrew</w>
+            <w lemma="Reveles" type="n----s">Reveles</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="AndyReveles" type="e">AndyReveles</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="A" type="e">A</w>
+            <w lemma="new" type="e">new</w>
+            <w lemma="sport" type="e">sport</w>
+            <w lemma="the" type="e">the</w>
+            <w lemma="Portuguese" type="e">Portuguese</w>
+            <w lemma="players" type="e">players</w>
+            <w lemma="should" type="e">should</w>
+            <w lemma="take" type="e">take</w>
+            <w lemma="up" type="e">up</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="#Euros2016" type="ta">#Euros2016</w>
+            <w lemma="#portugalvsiceland" type="nhen">#PortugalvsIceland</w>
+            <w lemma="#Porisl" type="n----s">#PORISL</w>
+            <w lemma="pic.twitter.com" type="v">pic.twitter.com</w>
+            <c type="pa">/</c>
+            <w lemma="wszqpbdnz" type="nven">WSZQPBdNZ</w>
+            <w lemma="6" type="ta">6</w>
+          </s>
+        </p>
+        <p n="13">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Graham" type="n----s">Graham</w>
+            <w lemma="Wallace" type="n----s">Wallace</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Grazoow" type="n----s">GrazooW</w>
+            <w lemma="93" type="ta">93</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="Somethinson" type="n----s">SomethinSON</w>
+            <c type="pa">-</c>
+            <c type="pa">&gt;</c>
+            <w lemma="out" type="e">out</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="The" type="n----s">The</w>
+            <w lemma="Mountain" type="e">Mountain</w>
+            <c type="pa">-</c>
+            <c type="pa">&gt;</c>
+            <w lemma="in" type="e">in</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="14">
+          <s n="1">
+            <w lemma="Portugal" type="n----s">Portugal</w>
+            <w lemma="se" type="e">se</w>
+            <w lemma="retira" type="e">retira</w>
+            <w lemma="…" type="e">…</w>
+            <w lemma="??" type="ta">??</w>
+          </s>
+          <s n="2">
+            <w lemma="#porisl" type="nken">#PORISL</w>
+            <w lemma="#EURO2016" type="ta">#EURO2016</w>
+          </s>
+        </p>
+        <p n="15">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Ana" type="n----s">Ana</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Whereisthejoker" type="n----s">WhereIsTheJoker</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="það" type="fphen">Það</w>
+            <w lemma="hljóta" type="sfg3en">hlýtur</w>
+            <w lemma="samt" type="aa">samt</w>
+            <w lemma="einhver" type="foken">einhver</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="vera" type="sng">vera</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="grínast" type="snm">grínast</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="dómari" type="nkeng">dómarinn</w>
+            <w lemma="vera" type="svg3en">sé</w>
+            <w lemma="Tyrki" type="nkfn-s">Tyrki</w>
+            <w lemma="??" type="ta">??</w>
+          </s>
+          <s n="3">
+            <w lemma="kveðja" type="nven">Kveðja</w>
+            <w lemma="íslenskityrki" type="nkeng">íslenskityrkinn</w>
+            <c type="pl">!</c>
+          </s>
+          <s n="4">
+            <w lemma="#Porisl" type="n----s">#PORISL</w>
+            <w lemma="#ISL" type="e">#ISL</w>
+            <w lemma="#EMÍSLAND" type="e">#EMÍSLAND</w>
+            <w lemma="#fotboltinet" type="e">#fotboltinet</w>
+            <w lemma="#EURO2016" type="ta">#EURO2016</w>
+          </s>
+        </p>
+        <p n="16">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Sema" type="nven-s">Sema</w>
+            <w lemma="Erla" type="nven-s">Erla</w>
+            <c type="pa">(</c>
+            <w lemma="@semaerla" type="nven">@semaerla</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="jæja" type="au">Jæja</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="vera" type="sfg3en">Er</w>
+            <w lemma="ekki" type="aa">ekki</w>
+            <w lemma="koma" type="sþghen">komið</w>
+            <w lemma="fínn" type="lhensf">fínt</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="þessi" type="fakeþ">þessum</w>
+            <w lemma="hálfleikur" type="nkeþ">hálfleik</w>
+            <c type="pl">?</c>
+          </s>
+          <s n="4">
+            <w lemma="hver" type="fsheo">Hvað</w>
+            <w lemma="eiga" type="sfg1en">á</w>
+            <w lemma="ég" type="fp1en">ég</w>
+            <w lemma="að" type="cn">að</w>
+            <w lemma="gera" type="sng">gera</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="allur" type="foheo">allt</w>
+            <w lemma="þessi" type="faheo">þetta</w>
+            <w lemma="adrenalín" type="nheo">adrenalín</w>
+            <c type="pl">?</c>
+          </s>
+          <s n="5">
+            <w lemma="#emísland" type="nhen">#emísland</w>
+          </s>
+        </p>
+        <p n="17">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="Bragi" type="nken-s">Bragi</w>
+            <w lemma="Valdimar" type="nken-s">Valdimar</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Bragivaldimar" type="nken-s">BragiValdimar</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+          <s n="2">
+            <w lemma="amazing" type="nven">AMAZING</w>
+            <c type="pa">:</c>
+            <w lemma="40,000" type="ta">40,000</w>
+            <w lemma="Iceland" type="n----s">Iceland</w>
+            <w lemma="fans" type="e">fans</w>
+            <w lemma="are" type="e">are</w>
+            <w lemma="in" type="e">in</w>
+            <w lemma="France" type="n----s">France</w>
+            <w lemma="for" type="e">for</w>
+            <w lemma="the" type="e">the</w>
+            <w lemma="Euros" type="e">Euros</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="3">
+            <w lemma="A" type="e">A</w>
+            <w lemma="crazy" type="e">crazy</w>
+            <w lemma="15%" type="tp">15%</w>
+            <w lemma="of" type="e">of</w>
+            <w lemma="their" type="e">their</w>
+            <w lemma="entire" type="e">entire</w>
+            <w lemma="population" type="e">population</w>
+            <c type="pl">!</c>
+          </s>
+          <s n="4">
+            <w lemma="#ISL" type="n----s">#ISL</w>
+            <w lemma="pic.twitter.com" type="v">pic.twitter.com</w>
+            <c type="pa">/</c>
+            <w lemma="gmazhFN" type="e">gmazhFN</w>
+            <w lemma="8" type="ta">8</w>
+            <w lemma="om" type="e">om</w>
+          </s>
+        </p>
+        <p n="18">
+          <s n="1">
+            <c type="pa">-</c>
+            <w lemma="BBC" type="n----s">BBC</w>
+            <w lemma="Sporf" type="n----s">Sporf</w>
+            <c type="pa">(</c>
+            <w lemma="@" type="m">@</w>
+            <w lemma="Bbcsporf" type="n----s">BBCSporf</w>
+            <c type="pa">)</c>
+            <w lemma="June" type="n----s">June</w>
+            <w lemma="14" type="ta">14</w>
+            <c type="pk">,</c>
+            <w lemma="2016" type="ta">2016</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

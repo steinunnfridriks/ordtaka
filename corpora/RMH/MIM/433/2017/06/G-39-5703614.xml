@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Myndband: Glæsilegt mark Carrick í heiðursleiknum</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5703614</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Myndband: Glæsilegt mark Carrick í heiðursleiknum</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2017-06-05T12:06:00">05.06 2017 kl. 12:06:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/enski-boltinn/myndband-glaesilegt-mark-carrick-i-heidursleiknum/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="9"/>
+          <tagUsage gi="s" occurs="11"/>
+          <tagUsage gi="w" occurs="138"/>
+          <tagUsage gi="c" occurs="13"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="það" type="fphen">Það</w>
+            <w lemma="fara" type="sfg3eþ">fór</w>
+            <w lemma="fram" type="aa">fram</w>
+            <w lemma="heiðursleik" type="nvfn">heiðursleikur</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="Michael" type="n----s">Michael</w>
+            <w lemma="Carrick" type="n----s">Carrick</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Old" type="n----s">Old</w>
+            <w lemma="Trafford" type="n----s">Trafford</w>
+            <w lemma="í" type="aa">í</w>
+            <w lemma="gær" type="aa">gær</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="einn" type="tfken">einn</w>
+            <w lemma="Íslendingur" type="nken-s">Íslendingur</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="eldlína" type="nveþg">eldlínunni</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="draumal" type="nheng">Draumalið</w>
+            <w lemma="Carrick" type="n----s">Carrick</w>
+            <w lemma="spila" type="sfg3eþ">spilaði</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="draumal" type="nheog">draumalið</w>
+            <w lemma="Manchester" type="n----s">Manchester</w>
+            <w lemma="United" type="e">United</w>
+            <w lemma="2008" type="ta">2008</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="ljúka" type="sfg3eþ">lauk</w>
+            <w lemma="leikur" type="nkeþg">leiknum</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="jafntefli" type="nheo">jafntefli</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="Eiður" type="nken-s">Eiður</w>
+            <w lemma="Smári" type="nken-s">Smári</w>
+            <w lemma="Guðjohnsen" type="nken-s">Guðjohnsen</w>
+            <w lemma="spila" type="sfg3eþ">spilaði</w>
+            <w lemma="með" type="af">með</w>
+            <w lemma="draumalið" type="nheþg">draumaliðinu</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="hann" type="fpken">hann</w>
+            <w lemma="koma" type="sfg3eþ">kom</w>
+            <w lemma="inná" type="aa">inná</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="Michael" type="n----s">Michael</w>
+            <w lemma="Owen" type="n----s">Owen</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="34." type="ta">34.</w>
+            <w lemma="mínúta" type="nveþ">mínútu</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="mikill" type="lhenvm">Meira</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="mynd" type="nvfn">Myndir</w>
+            <c type="pa">:</c>
+            <w lemma="Eiður" type="nken-s">Eiður</w>
+            <w lemma="Smári" type="nken-s">Smári</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="góður" type="lheþsf">góðu</w>
+            <w lemma="stuð" type="nheþ">stuði</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="heiðursleik" type="n-eþ">heiðursleik</w>
+            <w lemma="Carrick" type="n----s">Carrick</w>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="Gaizka" type="n----s">Gaizka</w>
+            <w lemma="Mendieta" type="n----s">Mendieta</w>
+            <w lemma="skora" type="sfg3eþ">skoraði</w>
+            <w lemma="fyrstur" type="lheove">fyrsta</w>
+            <w lemma="mark" type="nheo">mark</w>
+            <w lemma="leikur" type="nkeeg">leiksins</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="draumalið" type="nheog">draumaliðið</w>
+            <w lemma="áður" type="aa">áður</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Nemanja" type="n----s">Nemanja</w>
+            <w lemma="Vidic" type="n----s">Vidic</w>
+            <w lemma="jafna" type="sfg3eþ">jafnaði</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="United" type="n----s">United</w>
+            <w lemma="2008" type="ta">2008</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Robbie" type="n----s">Robbie</w>
+            <w lemma="Keane" type="n----s">Keane</w>
+            <w lemma="koma" type="sfg3eþ">kom</w>
+            <w lemma="draumalið" type="nheþg">draumaliðinu</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="1" type="ta">1</w>
+            <w lemma="áður" type="aa">áður</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="Carrick" type="n----s">Carrick</w>
+            <w lemma="sjálfur" type="fbken">sjálfur</w>
+            <w lemma="koma" type="sfm3eþ">komst</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="blað" type="nheo">blað</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="jafnaður" type="nkeþ">jafnaði</w>
+            <w lemma="met" type="nhfog">metin</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="2" type="ta">2</w>
+            <w lemma="-" type="m">-</w>
+            <w lemma="2" type="ta">2</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="7">
+          <s n="1">
+            <w lemma="mark" type="n-en">Mark</w>
+            <w lemma="Carrick" type="n----s">Carrick</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="að" type="aa">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="8">
+          <s n="1">
+            <w lemma="Giggs" type="n----s">Giggs</w>
+            <w lemma="➡" type="e">➡</w>
+            <w lemma="️" type="e">️</w>
+            <w lemma="Evra" type="e">Evra</w>
+            <w lemma="➡" type="e">➡</w>
+            <w lemma="️" type="e">️</w>
+            <w lemma="Rooney" type="e">Rooney</w>
+            <w lemma="➡" type="e">➡</w>
+            <w lemma="️" type="e">️</w>
+            <w lemma="Carrick" type="e">Carrick</w>
+            <w lemma="👌" type="e">👌</w>
+            <w lemma="😎" type="e">😎</w>
+            <c type="pa">-</c>
+            <w lemma="@patrice" type="e">@patrice</w>
+            <c type="pl">.</c>
+          </s>
+          <s n="2">
+            <w lemma="evra" type="nven">evra</w>
+            <w lemma="@Waynerooney" type="n----s">@waynerooney</w>
+            <w lemma="@carras16" type="ta">@carras16</w>
+            <w lemma="#Mufc" type="n----s">#MUFC</w>
+          </s>
+        </p>
+        <p n="9">
+          <s n="1">
+            <w lemma="A" type="e">A</w>
+            <w lemma="post" type="e">post</w>
+            <w lemma="shared" type="e">shared</w>
+            <w lemma="by" type="e">by</w>
+            <w lemma="Manchester" type="e">Manchester</w>
+            <w lemma="United" type="n----s">United</w>
+            <c type="pa">(</c>
+            <w lemma="@manchesterunited" type="e">@manchesterunited</w>
+            <c type="pa">)</c>
+            <w lemma="on" type="e">on</w>
+            <w lemma="Jun" type="e">Jun</w>
+            <w lemma="5" type="ta">5</w>
+            <c type="pk">,</c>
+            <w lemma="2017" type="ta">2017</w>
+            <w lemma="at" type="kt">at</w>
+            <w lemma="5:17" type="ta">5:17</w>
+            <w lemma="am" type="ks">am</w>
+            <w lemma="PDT" type="e">PDT</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

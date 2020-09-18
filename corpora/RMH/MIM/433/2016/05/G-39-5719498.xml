@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Beint: Heimamenn komnir yfir í Árbænum – FH leiðir í Krikanum</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5719498</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Beint: Heimamenn komnir yfir í Árbænum – FH leiðir í Krikanum</title>
+            </title>
+            <author><persName>Bjarni Helgason</persName></author>
+            <date when="2016-05-30T18:05:00">30.05 2016 kl. 18:05:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/beint-heimamenn-komnir-yfir-i-arbaenum-fh-leidir-i-krikanum/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="6"/>
+          <tagUsage gi="s" occurs="13"/>
+          <tagUsage gi="w" occurs="130"/>
+          <tagUsage gi="c" occurs="59"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="þrír" type="tfkfn">Þrír</w>
+            <w lemma="leikur" type="nkfn">leikir</w>
+            <w lemma="fara" type="sfg3fn">fara</w>
+            <w lemma="fram" type="aa">fram</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Pepsi-deild" type="nveþ-s">Pepsi-deild</w>
+            <w lemma="karl" type="nkfo">karla</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="þegar" type="c">þegar</w>
+            <w lemma="þriðji" type="lveþvf">þriðju</w>
+            <w lemma="umferð" type="nveþ">umferð</w>
+            <w lemma="Íslandsmót" type="nheegs">Íslandsmótsins</w>
+            <w lemma="líkja" type="sfg3en">líkur</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="í" type="af">Í</w>
+            <w lemma="Árbæni" type="nhfþ-s">Árbænum</w>
+            <w lemma="mæta" type="sfm3fn">mætast</w>
+            <w lemma="Fylkir" type="nken-s">Fylkir</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Fjölnir" type="nken-s">Fjölnir</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="þá" type="aa">þá</w>
+            <w lemma="taka" type="sfg3en">tekur</w>
+            <w lemma="FH" type="n----s">FH</w>
+            <w lemma="á" type="aa">á</w>
+            <w lemma="móti" type="af">móti</w>
+            <w lemma="Víkingur" type="nkeo-s">Víking</w>
+            <w lemma="Ólafsvík" type="nveþ-s">Ólafsvík</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="Hafnafjörður" type="nkeþgs">Hafnafirðinum</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="báðir" type="fokfn">báðir</w>
+            <w lemma="leikur" type="nkfng">leikirnir</w>
+            <w lemma="hefja" type="sfm3fn">hefjast</w>
+            <w lemma="klukka" type="nveng">klukkan</w>
+            <w lemma="19:15" type="ta">19:15</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="klukka" type="nveng">Klukkan</w>
+            <w lemma="20" type="ta">20</w>
+            <w lemma="mæta" type="sfm3fn">mætast</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="Stjarnan" type="nvengs">Stjarnan</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="Breiðablik" type="nhen-s">Breiðablik</w>
+            <w lemma="en" type="c">en</w>
+            <w lemma="báðir" type="fohfn">bæði</w>
+            <w lemma="lið" type="nhfn">lið</w>
+            <w lemma="hafa" type="sfg3fn">hafa</w>
+            <w lemma="fara" type="sþghen">farið</w>
+            <w lemma="vel" type="aa">vel</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="staður" type="nkeþ">stað</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="upphaf" type="nheþ">upphafi</w>
+            <w lemma="mót" type="nhee">móts</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="ég" type="fp1fn">Við</w>
+            <w lemma="verða" type="sfg1fn">verðum</w>
+            <w lemma="að" type="af">að</w>
+            <w lemma="sjálfsagður" type="lheþsf">sjálfsögðu</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="völlur" type="nkeþg">vellinum</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="hér" type="aa">hér</w>
+            <w lemma="fyrir" type="aa">fyrir</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="beinn" type="lveosf">beina</w>
+            <w lemma="textalýsing" type="nveo">textalýsingu</w>
+            <w lemma="úr" type="af">úr</w>
+            <w lemma="allur" type="fokfþ">öllum</w>
+            <w lemma="leikur" type="nkfþ">leikjum</w>
+            <w lemma="dagur" type="nkeeg">dagsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="5">
+          <s n="1">
+            <w lemma="19:15" type="ta">19:15</w>
+            <w lemma="Fylkir" type="nken-s">Fylkir</w>
+            <w lemma="–" type="ks">–</w>
+            <w lemma="Fjölnir" type="nken-s">Fjölnir</w>
+          </s>
+          <s n="2">
+            <w lemma="19:15" type="ta">19:15</w>
+            <w lemma="FH" type="n----s">FH</w>
+            <w lemma="–" type="ta">–</w>
+            <w lemma="Víkingur" type="nken-s">Víkingur</w>
+            <w lemma="Ó." type="ks">Ó.</w>
+          </s>
+          <s n="3">
+            <w lemma="20:00" type="ta">20:00</w>
+            <w lemma="stjarna" type="nveng">Stjarnan</w>
+            <w lemma="–" type="ks">–</w>
+            <w lemma="Breiðablik" type="nhen-s">Breiðablik</w>
+          </s>
+        </p>
+        <p n="6">
+          <s n="1">
+            <w lemma="Tweets" type="n----s">Tweets</w>
+            <w lemma="by" type="e">by</w>
+            <w lemma="@433" type="ta">@433</w>
+            <w lemma="beint" type="aa">Beint</w>
+          </s>
+          <s n="2">
+            <c type="pl">!</c>
+          </s>
+          <s n="3">
+            <w lemma="function" type="e">function</w>
+            <c type="pa">(</c>
+            <w lemma="d" type="x">d</w>
+            <c type="pk">,</c>
+            <w lemma="s" type="x">s</w>
+            <c type="pk">,</c>
+            <w lemma="id" type="x">id</w>
+            <c type="pa">)</c>
+            <c type="pa">{</c>
+            <w lemma="vera" type="sfg3eþ">var</w>
+            <w lemma="js" type="x">js</w>
+            <c type="pk">,</c>
+            <w lemma="fjs" type="x">fjs</w>
+            <w lemma="=" type="m">=</w>
+            <w lemma="d.getelementsbytagname" type="nhen">d.getElementsByTagName</w>
+            <c type="pa">(</c>
+            <w lemma="s" type="x">s</w>
+            <c type="pa">)</c>
+            <c type="pa">[</c>
+            <w lemma="0" type="ta">0</w>
+            <c type="pa">]</c>
+            <c type="pk">,</c>
+            <w lemma="p" type="x">p</w>
+            <w lemma="=" type="m">=</w>
+            <c type="pa">/</c>
+            <w lemma="^" type="x">^</w>
+            <w lemma="http" type="x">http</w>
+            <c type="pa">:</c>
+            <c type="pa">/</c>
+            <c type="pl">.</c>
+          </s>
+          <s n="4">
+            <w lemma="test" type="nhen">test</w>
+            <c type="pa">(</c>
+            <w lemma="d.location" type="v">d.location</w>
+            <c type="pa">)</c>
+            <c type="pl">?</c>
+          </s>
+          <s n="5">
+            <c type="pg">'</c>
+            <w lemma="http'" type="e">http'</w>
+            <c type="pa">:</c>
+            <c type="pg">'</c>
+            <w lemma="https'" type="e">https'</w>
+            <c type="pk">;</c>
+            <w lemma="if" type="e">if</w>
+            <c type="pa">(</c>
+            <c type="pl">!</c>
+          </s>
+          <s n="6">
+            <w lemma="d.getelementbyid" type="nhen">d.getElementById</w>
+            <c type="pa">(</c>
+            <w lemma="id" type="x">id</w>
+            <c type="pa">)</c>
+            <c type="pa">)</c>
+            <c type="pa">{</c>
+            <w lemma="js" type="x">js</w>
+            <w lemma="=" type="m">=</w>
+            <w lemma="d.createElement" type="e">d.createElement</w>
+            <c type="pa">(</c>
+            <w lemma="s" type="x">s</w>
+            <c type="pa">)</c>
+            <c type="pk">;</c>
+            <w lemma="js.id" type="v">js.id</w>
+            <w lemma="=" type="m">=</w>
+            <w lemma="id" type="x">id</w>
+            <c type="pk">;</c>
+            <w lemma="js.src" type="v">js.src</w>
+            <w lemma="=" type="m">=</w>
+            <w lemma="p" type="x">p</w>
+            <w lemma="+" type="m">+</w>
+            <c type="pg">&quot;</c>
+            <c type="pa">:</c>
+            <c type="pa">/</c>
+            <c type="pa">/</c>
+            <w lemma="platform.twitter.com" type="v">platform.twitter.com</w>
+            <c type="pa">/</c>
+            <w lemma="widgets.js" type="v">widgets.js</w>
+            <c type="pg">&quot;</c>
+            <c type="pk">;</c>
+            <w lemma="fjs.parentnode.insertbefore" type="v">fjs.parentNode.insertBefore</w>
+            <c type="pa">(</c>
+            <w lemma="js" type="x">js</w>
+            <c type="pk">,</c>
+            <w lemma="fjs" type="e">fjs</w>
+            <c type="pa">)</c>
+            <c type="pk">;</c>
+            <c type="pa">}</c>
+            <c type="pa">}</c>
+            <c type="pa">(</c>
+            <w lemma="document" type="e">document</w>
+            <c type="pk">,</c>
+            <c type="pg">&quot;</c>
+            <w lemma="script" type="x">script</w>
+            <c type="pg">&quot;</c>
+            <c type="pk">,</c>
+            <c type="pg">&quot;</c>
+            <w lemma="twitter-wjs" type="v">twitter-wjs</w>
+            <c type="pg">&quot;</c>
+            <c type="pa">)</c>
+            <c type="pk">;</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

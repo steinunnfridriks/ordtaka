@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Sara Björk samdi við Nike</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5725016</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Sara Björk samdi við Nike</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2014-05-19T12:05:00">19.05 2014 kl. 12:05:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/sara-bjork-samdi-vid-nike/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="w" occurs="62"/>
+          <tagUsage gi="c" occurs="4"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="í" type="af">Í</w>
+            <w lemma="síðari" type="lveþve">síðustu</w>
+            <w lemma="vika" type="nveþ">viku</w>
+            <w lemma="skrifa" type="sfg3eþ">skrifaði</w>
+            <w lemma="Nike" type="n----s">Nike</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Ísland" type="nheþ-s">Íslandi</w>
+            <w lemma="undir" type="af">undir</w>
+            <w lemma="samningur" type="nkeo">samning</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="Sara" type="nveo-s">Söru</w>
+            <w lemma="Björk" type="nveo-s">Björk</w>
+            <w lemma="Gunnarsdóttir" type="nveo-s">Gunnarsdóttir</w>
+            <w lemma="leikmaður" type="nkeo">leikmann</w>
+            <w lemma="Malmö" type="n----s">Malmö</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="íslenskur" type="lheevf">íslenska</w>
+            <w lemma="kvennalandslið" type="nheeg">kvennalandsliðsins</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="Sara" type="nven-s">Sara</w>
+            <w lemma="munu" type="sfg3en">mun</w>
+            <w lemma="vera" type="sng">vera</w>
+            <w lemma="andlit" type="nhen">andlit</w>
+            <w lemma="Nike" type="n----s">Nike</w>
+            <w lemma="innan" type="aa">innan</w>
+            <w lemma="sem" type="c">sem</w>
+            <w lemma="utan" type="af">utan</w>
+            <w lemma="völlur" type="nkee">vallar</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="komandi" type="lheþof">komandi</w>
+            <w lemma="keppnistímabil" type="nheþ">keppnistímabili</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="hún" type="fpven">Hún</w>
+            <w lemma="mu" type="x">mu</w>
+            <w lemma="svo" type="aa">svo</w>
+            <w lemma="klæða" type="sfm3fn">klæðast</w>
+            <w lemma="Nike" type="n----s">Nike</w>
+            <w lemma="fatnaður" type="nkeþ">fatnaði</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="skór" type="nkfþ">skóm</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="margur" type="lheose">flest</w>
+            <w lemma="tilefni" type="nhfo">tilefni</w>
+            <w lemma="sem" type="ct">sem</w>
+            <w lemma="snúa" type="sfg3fn">snúa</w>
+            <w lemma="að" type="af">að</w>
+            <w lemma="bolti" type="nkeþg">boltanum</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="vera" type="sng">vera</w>
+            <w lemma="flottur" type="lvensf">flott</w>
+            <w lemma="fyrirmynd" type="nven">fyrirmynd</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="ungur" type="lveovf">ungu</w>
+            <w lemma="kynslóð" type="nveog">kynslóðina</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="hér" type="aa">Hér</w>
+            <w lemma="að" type="c">að</w>
+            <w lemma="neðan" type="aa">neðan</w>
+            <w lemma="mega" type="sfg3en">má</w>
+            <w lemma="sjá" type="sng">sjá</w>
+            <w lemma="mynd" type="nveo">mynd</w>
+            <w lemma="af" type="af">af</w>
+            <w lemma="Sara" type="nveþ-s">Söru</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="undirskrift" type="nveog">undirskriftina</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>

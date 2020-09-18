@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <title type="main">Aðalfundur Knattspyrnuþjálfarafélags Íslands</title>
+        </title>
+        <respStmt>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta</resp>
+          <resp xml:lang="en">Collection and processing of text</resp>
+          <name xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</name>
+          <name xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p xml:lang="is">Íslensk risamálheild (2019)</p>
+        <p xml:lang="en">Tagged Icelandic Gigaword Corpus (2019)</p>
+      </editionStmt>
+      <publicationStmt>
+        <distributor xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <address>
+          <addrLine xml:lang="is">Árnagarður við Suðurgötu, 107 Reykjavík, Íslandi</addrLine>
+          <addrLine xml:lang="en">Árnagarður Suðurgata, 107 Reykjavik, Iceland</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+        </address>
+        <idno type="risam">G-39-5741775</idno>
+        <availability>
+          <p xml:lang="is">Þessi texti er til notkunar í málrannsóknum og máltækniverkefnum um allan heim með sérstöku leyfi, sjá rmh1Hdr.xml</p>
+          <p xml:lang="en">This text is available for use in language research and language technology projects world wide with a special license, see rmh1Hdr.xml</p>
+        </availability>
+        <date>2020-05-27</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <title>
+              <title type="main">Aðalfundur Knattspyrnuþjálfarafélags Íslands</title>
+            </title>
+            <author><persName>Hörður Snævar Jónsson</persName></author>
+            <date when="2013-11-21T12:11:00">21.11 2013 kl. 12:11:00</date>
+          </analytic>
+          <monogr>
+            <title>433.pressan.is</title>
+            <imprint>
+              <publisher>Frjáls fjölmiðlun ehf.</publisher>
+              <pubPlace>Reykjavík</pubPlace>
+            </imprint>
+            <biblScope>
+              <ref>http://433.pressan.is/pepsi-deild/adalfundur-knattspyrnuthjalfarafelags-islands/</ref>
+            </biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="is">Sjá lýsingu á verkefninu í rmh1Hdr.xml.</p>
+        <p xml:lang="en">See description of project in rmh1Hdr.xml.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div1" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="s" occurs="10"/>
+          <tagUsage gi="w" occurs="71"/>
+          <tagUsage gi="c" occurs="3"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+     <textClass>
+      <keywords scheme="#RMH">
+       <list>
+        <item>Fótbolti</item>
+       </list>
+      </keywords>
+     </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <p n="1">
+          <s n="1">
+            <w lemma="aðalfundur" type="nken">Aðalfundur</w>
+            <w lemma="Knattspyrnuþjálfarafélag" type="nhee-s">Knattspyrnuþjálfarafélags</w>
+            <w lemma="Ísland" type="nhee-s">Íslands</w>
+            <w lemma="verða" type="sfg3en">verður</w>
+            <w lemma="halda" type="sþgken">haldinn</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="fræðslusetur" type="nheþ">fræðslusetri</w>
+            <w lemma="KSÍ" type="n----s">KSÍ</w>
+            <w lemma="á" type="af">á</w>
+            <w lemma="Laugardalsvöllur" type="nkeþ-s">Laugardalsvelli</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="kvöld" type="nheo">kvöld</w>
+            <w lemma="klukka" type="nveng">klukkan</w>
+            <w lemma="20:00" type="ta">20:00</w>
+            <c type="pl">.</c>
+          </s>
+        </p>
+        <p n="2">
+          <s n="1">
+            <w lemma="dagskrá" type="nven">Dagskrá</w>
+            <c type="pa">:</c>
+          </s>
+          <s n="2">
+            <w lemma="fundarsetning" type="nven">Fundarsetning</w>
+          </s>
+          <s n="3">
+            <w lemma="kosning" type="nven">Kosning</w>
+            <w lemma="fundarstjóri" type="nkee">fundarstjóra</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="fundarritari" type="nkee">fundarritara</w>
+          </s>
+          <s n="4">
+            <w lemma="skýrsla" type="nven">Skýrsla</w>
+            <w lemma="stjórn" type="nvee">stjórnar</w>
+          </s>
+          <s n="5">
+            <w lemma="reikningur" type="nkfn">Reikningar</w>
+            <w lemma="félag" type="nheeg">félagsins</w>
+          </s>
+          <s n="6">
+            <w lemma="lagabreyting" type="nvfn">Lagabreytingar</w>
+          </s>
+          <s n="7">
+            <w lemma="kosning" type="nven">Kosning</w>
+            <w lemma="formaður" type="nkee">formanns</w>
+            <c type="pk">,</c>
+            <w lemma="meðstjórnandi" type="nkfe">meðstjórnenda</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="varamaður" type="nkfe">varamanna</w>
+            <w lemma="skv." type="ks">skv.</w>
+            <w lemma="ákvæði" type="nheþ">ákvæði</w>
+            <w lemma="7." type="ta">7.</w>
+            <w lemma="gr." type="ks">gr.</w>
+            <w lemma="lög" type="nhfe">laga</w>
+            <w lemma="kosning" type="nven">Kosning</w>
+            <w lemma="tveir" type="tfkfe">tveggja</w>
+            <w lemma="skoðunarmaður" type="nkfe">skoðunarmanna</w>
+            <w lemma="reikningur" type="nkfe">reikninga</w>
+            <w lemma="Ákvörðun" type="nvfe-s">Ákvörðun</w>
+            <w lemma="um" type="af">um</w>
+            <w lemma="árgjald" type="nheo">árgjald</w>
+            <w lemma="skv." type="ks">skv.</w>
+            <w lemma="6." type="ta">6.</w>
+            <w lemma="gr." type="ks">gr.</w>
+            <w lemma="lög" type="nhfe">laga</w>
+            <w lemma="annar" type="fohfn">Önnur</w>
+            <w lemma="mál" type="nhfn">mál</w>
+          </s>
+        </p>
+        <p n="3">
+          <s n="1">
+            <w lemma="veittur" type="nkfn">Veittar</w>
+            <w lemma="viðurkenning" type="nvee">viðurkenningar</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="þjálfari" type="nkeo">þjálfara</w>
+            <w lemma="ár" type="nheeg">ársins</w>
+            <w lemma="í" type="af">í</w>
+            <w lemma="efri" type="lveþve">efstu</w>
+            <w lemma="deild" type="nveþ">deild</w>
+            <w lemma="karl" type="nkfe">karla</w>
+            <w lemma="og" type="c">og</w>
+            <w lemma="kona" type="nvfe">kvenna</w>
+            <w lemma="Veitt" type="nvee-s">Veittar</w>
+            <w lemma="viðurkenning" type="nvee">viðurkenningar</w>
+            <w lemma="fyrir" type="af">fyrir</w>
+            <w lemma="vel" type="aa">vel</w>
+            <w lemma="unninn" type="lhfosf">unnin</w>
+            <w lemma="starf" type="nhfo">störf</w>
+            <w lemma="við" type="af">við</w>
+            <w lemma="þjálfun" type="nveo">þjálfun</w>
+            <w lemma="ungur" type="lkfevm">yngri</w>
+            <w lemma="flokkur" type="nkfe">flokka</w>
+          </s>
+        </p>
+        <p n="4">
+          <s n="1">
+            <w lemma="léttur" type="lvfnsf">Léttar</w>
+            <w lemma="veiting" type="nvfn">veitingar</w>
+          </s>
+        </p>
+      </div1>
+    </body>
+  </text>
+</TEI>
