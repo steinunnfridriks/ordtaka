@@ -1,8 +1,9 @@
 # Ignore SQLite databases
 *.db
 
-# Ignore pycache
+# Ignore various Python generated files
 __pycache__
+*.py[cod]
 
 # Ignore various frequency files
 *.freq
@@ -11,5 +12,3 @@ __pycache__
 islex_fletta_ofl.csv
 ordmyndir.txt
 SHsnid.csv
-
-*.py[cod]
