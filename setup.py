@@ -74,19 +74,22 @@ else:
     sh_snid = 'SHsnid.csv'
     bin = 'ordmyndir.txt'
     filters = 'all_filters.txt'
-    if Path(filters).is_file():
-        print('Undirbý filtera')
-        prepare_data(filters)
-        print('Bý til gagnagrunn fyrir filtera')
-        # Creates SQL database filters_ordmyndir.db with header FILTER_WORD_FORMS
-        filter_db = CorpusToSQL(corpus=filters, db_name='databases/filters')
-        filter_db.create_db('FILTER_WORD_FORMS', 'filter')
+    if not Path('databases/filters.db').is_file():
+        if Path(filters).is_file():
+            print('Undirbý filtera')
+            prepare_data(filters)
+            print('Bý til gagnagrunn fyrir filtera')
+            # Creates SQL database filters_ordmyndir.db with header FILTER_WORD_FORMS
+            filter_db = CorpusToSQL(corpus=filters, db_name='databases/filters')
+            filter_db.create_db('FILTER_WORD_FORMS', 'filter')
+        else:
+            # Exit if all_filters.txt doesn't exist
+            print(f'Skráin <{filters}> er ekki til. Stöðva uppsetningu.')
+            sys.exit(1)
     else:
-        # Exit if all_filters.txt doesn't exist
-        print(f'Skráin <{filters}> er ekki til. Stöðva uppsetningu.')
-        sys.exit(1)
+        pass
     if islex in to_setup:
-        if not Path('islex_lemmas.db').is_file():
+        if not Path('databases/islex_lemmas.db').is_file():
             if Path(islex).is_file():
                 print('Undirbý ISLEX')
                 prepare_data(islex)
@@ -99,7 +102,7 @@ else:
         else:
             print(f'Gagnagrunnur fyrir ISLEX er nú þegar til.')
     if bin in to_setup:
-        if not Path('bin_ordmyndir.db').is_file():
+        if not Path('databases/bin_ordmyndir.db').is_file():
             if not Path(bin).is_file():
                 print(f'<{sh_snid}> er ekki til. Sæki skrána.')
                 request_file('https://bin.arnastofnun.is/django/api/nidurhal/?file=ordmyndir.txt.zip',
@@ -118,7 +121,7 @@ else:
         else:
             print(f'Gagnagrunnur fyrir orðmyndir BÍN er nú þegar til.')
     if sh_snid in to_setup:
-        if not Path('bin_lemmas_word_forms.db').is_file():
+        if not Path('databases/bin_lemmas_word_forms.db').is_file():
             if not Path(sh_snid).is_file():
                 print(f'<{bin}> er ekki til. Sæki skrána.')
                 request_file('https://bin.arnastofnun.is/django/api/nidurhal/?file=SHsnid.csv.zip',
