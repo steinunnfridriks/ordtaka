@@ -5,9 +5,9 @@ from ordtaka.sql.sql_lookup import SQLDatabase, SQLiteQuery
 from ordtaka.rmh_extractor import RmhWord, RmhExtractor
 
 def lemmabase_wordforms(rmh_folder):
-    bin = SQLDatabase(db_name='dbs/bin_ordmyndir.db')
-    islex = SQLDatabase(db_name='dbs/islex_lemmas.db')
-    filters = SQLDatabase(db_name='dbs/filters.db')
+    bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
+    islex = SQLDatabase(db_name='databases/islex_lemmas.db')
+    filters = SQLDatabase(db_name='databases/filters.db')
     pos_to_ignore = ['e', 'c', 'v', 'as', 'to', 'tp', 'ta', 'au']
     RMH = RmhExtractor(folder=str(rmh_folder))
     freqdic = {}
@@ -52,14 +52,30 @@ def lemmabase_wordforms(rmh_folder):
             continue  
 
     print("Skrifar úttaksskjal")
-    if rmh_folder == "RMH/**/**":
-        with open("RMH_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
+    if not rmh_folder.startswith("corpora/RMH/"):
+        namefolder = rmh_folder.partition("/")[2].partition("/")[0]
+        with open('uttaksskjol/bin/'+str(namefolder)+"_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
             bin_candidates = {k: v for k, v in sorted(freqdic.items(),key=lambda item: item[1]['freq'], reverse=True)}
             for key, value in bin_candidates.items():
                 out.write(key + ': ' + str(value) + '\n')
-    else:
+    if rmh_folder == "corpora/RMH/**/**/":
+        with open("uttaksskjol/bin/RMH_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
+            bin_candidates = {k: v for k, v in sorted(freqdic.items(),key=lambda item: item[1]['freq'], reverse=True)}
+            for key, value in bin_candidates.items():
+                out.write(key + ': ' + str(value) + '\n')
+    elif rmh_folder == "corpora/RMH/CC_BY/**/":
+        with open("uttaksskjol/bin/CC_BY_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
+            bin_candidates = {k: v for k, v in sorted(freqdic.items(),key=lambda item: item[1]['freq'], reverse=True)}
+            for key, value in bin_candidates.items():
+                out.write(key + ': ' + str(value) + '\n')
+    elif rmh_folder == "corpora/RMH/MIM/**/":
+        with open("uttaksskjol/bin/MIM_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
+            bin_candidates = {k: v for k, v in sorted(freqdic.items(),key=lambda item: item[1]['freq'], reverse=True)}
+            for key, value in bin_candidates.items():
+                out.write(key + ': ' + str(value) + '\n')
+    elif rmh_folder.startswith("corpora/RMH/"):
         namefolder = rmh_folder.rpartition("/")[2]
-        with open(str(namefolder)+"_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
+        with open('uttaksskjol/bin/'+str(namefolder)+"_lemmabase_bin.freq", mode='w+', encoding='utf8') as out:
             bin_candidates = {k: v for k, v in sorted(freqdic.items(),key=lambda item: item[1]['freq'], reverse=True)}
             for key, value in bin_candidates.items():
                 out.write(key + ': ' + str(value) + '\n')

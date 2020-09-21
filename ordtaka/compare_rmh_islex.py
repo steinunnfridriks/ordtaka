@@ -10,14 +10,14 @@ class CompareRmhIslex:
     whether they exist in ISLEX
     """
     def __init__(self, rmh_folder=None, proper_nouns=True):
-        self.rmh_folder = rmh_folder.split('/')[-1]
+        self.rmh_folder = rmh_folder
         self.proper_nouns = proper_nouns
         self.islex_candidates = {}
         # Database connection established when class instance is initalized
-        self.connection = SQLDatabase(db_name='../databases/islex_lemmas.db')
+        self.connection = SQLDatabase(db_name='databases/islex_lemmas.db')
         # RmhExtractor initalized for yielding TEI content
         self.rmh = RmhExtractor(folder=rmh_folder)
-        self.filters_connection = SQLDatabase(db_name='../databases/filters.db')
+        self.filters_connection = SQLDatabase(db_name='databases/filters.db')
 
 
     def _compare(self):
@@ -91,14 +91,41 @@ class CompareRmhIslex:
         to islex_candidates, sorts them by frequency and
         writes them to a file
         """
-        with open(f'../uttaksskjol/islex/{self.rmh_folder}_not_in_islex.freq',
-                  'w', encoding='utf-8') as out:
-            islex_candidates = self._compare()
-            islex_candidates = {k: v for k, v in sorted(islex_candidates.items(),
-                                key=lambda item: item[1]['freq'], reverse=True)}
-            for key, value in islex_candidates.items():
-                out.write(key + ': ' + str(value) + '\n')
+        if self.rmh_folder == "corpora/RMH/**/**/":
+            with open(f'uttaksskjol/islex/RMH_wordform_ISLEX.freq',
+                      'w', encoding='utf-8') as out:
+                islex_candidates = self._compare()
+                islex_candidates = {k: v for k, v in sorted(islex_candidates.items(),
+                                    key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in islex_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
 
+        elif self.rmh_folder == "corpora/RMH/CC_BY/**/":
+            with open(f'uttaksskjol/islex/CC_BY_wordform_ISLEX.freq',
+                      'w', encoding='utf-8') as out:
+                islex_candidates = self._compare()
+                islex_candidates = {k: v for k, v in sorted(islex_candidates.items(),
+                                    key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in islex_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')            
+
+        elif self.rmh_folder == "corpora/RMH/MIM/**/":
+            with open(f'uttaksskjol/islex/MIM_wordform_ISLEX.freq',
+                      'w', encoding='utf-8') as out:
+                islex_candidates = self._compare()
+                islex_candidates = {k: v for k, v in sorted(islex_candidates.items(),
+                                    key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in islex_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
+        else:
+            self.rmh_folder = self.rmh_folder.split('/')[-1]
+            with open(f'uttaksskjol/islex/{self.rmh_folder}_wordform_ISLEX.freq',
+                      'w', encoding='utf-8') as out:
+                islex_candidates = self._compare()
+                islex_candidates = {k: v for k, v in sorted(islex_candidates.items(),
+                                    key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in islex_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
 
 if __name__ == '__main__':
     c = CompareRmhIslex(rmh_folder='../../CC_BY/viljinn', proper_nouns=True)
