@@ -6,6 +6,7 @@ from ordtaka.base_output import lemma_output, wordform_output
 from ordtaka.lemmabase_wordforms import lemmabase_wordforms
 import os.path
 from os import path
+import glob
 
 def choose_corpus():
     print("""
@@ -31,7 +32,13 @@ def choose_corpus():
         print("Málheild á txt-sniði valin")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur") 
-        choose_corpus()
+        corpus = choose_corpus()
+        if corpus == "3":
+            txt_corpus()
+        elif corpus == "2":
+            tei_corpus()
+        elif corpus == "1":
+            RMH_corpus()
     return corpus 
 
 def choose_data():
@@ -55,7 +62,7 @@ def choose_data():
         print("Nútímamálsorðabók valin.")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur") 
-        choose_data()
+        data = choose_data()
     return data
 
 def choose_form():
@@ -78,16 +85,21 @@ def choose_form():
         print("Orðmyndir valdar")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
-        choose_form()
+        base = choose_form()
     return base
 
 def islex_choices():
     print("""
         ============================================================
-        Veldu eitt af eftirfarandi: Tíðnilisti (lemmur og tíðni 
-        þeirra) eða textagerðir (lemmur með tíðni flokkaðar eftir 
-        textagerð). Athugið að textagerðir nýtast best með stökum 
-        möppum úr RMH. 
+        Veldu eitt af eftirfarandi: 
+        
+        Tíðnilisti (lemmur og tíðni þeirra) á CSV sniði.
+        - Dæmi: Vera, 100. Gera, 90. Tala, 40. 
+
+        Textagerðir (lemmur með tíðni flokkaðar eftir textagerð). 
+        - Dæmi: Vera, heildartíðni 100, fréttir 50, stærðfræði 50. 
+        
+        Athugið að textagerðir nýtast best með stökum möppum úr RMH. 
         ============================================================
         Stimplaðu inn þá tölu sem vísar til valmöguleikans og ýttu 
         á ENTER.
@@ -104,15 +116,23 @@ def islex_choices():
         print("Textagerðir valdar")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
-        islex_choices()
+        options = islex_choices()
     return options
 
 def bin_lemma_choices():
     print("""
         ============================================================
-        Veldu eitt af eftirfarandi: Tíðnilisti (lemmur og tíðni þeirra),
-        lemmur með öllum mögulegum orðmyndum sínum eða textagerðir 
-        (lemmur með tíðni flokkaðar eftir textagerð). 
+        Veldu eitt af eftirfarandi: 
+        
+        Tíðnilisti (lemmur og tíðni þeirra)
+        - Dæmi: Vera, 100. Gera, 90. Tala, 40.
+
+        Lemmur með öllum mögulegum orðmyndum sínum
+        - Dæmi: Vera, 100 [orðmyndir: er, var, ert, eruð] 
+        
+        Textagerðir (lemmur með tíðni flokkaðar eftir textagerð)
+        - Dæmi: Vera, heildartíðni 100, fréttir 50, stærðfræði 50. 
+
         Athugið að textagerðir nýtast best með stökum möppum úr RMH. 
         ============================================================
         Stimplaðu inn þá tölu sem vísar til valmöguleikans og ýttu 
@@ -133,14 +153,20 @@ def bin_lemma_choices():
         print("Textagerðir valdar")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
-        bin_lemma_choices()
+        options = bin_lemma_choices()
     return options
 
 def bin_wordform_choices():
     print("""
         ============================================================
-        Veldu eitt af eftirfarandi: Tíðnilisti (orðmyndir og tíðni 
-        þeirra) eða orðmyndir með öllum mögulegum lemmum sínum. 
+        Veldu eitt af eftirfarandi: 
+        
+        Tíðnilisti (orðmyndir og tíðni þeirra) 
+        - Dæmi: Er, 100. Geri, 60. Talaði, 40.  
+
+        Orðmyndir með öllum mögulegum lemmum sínum
+        - Dæmi: Banka, 70 [lemmur: banka, banki]
+
         ============================================================
         Stimplaðu inn þá tölu sem vísar til valmöguleikans og ýttu 
         á ENTER.
@@ -157,7 +183,7 @@ def bin_wordform_choices():
         print("Orðmyndir með lemmum valdar")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
-        bin_wordform_choices()
+        options = bin_wordform_choices()
     return options           
 
 def choose_rmhpart():
@@ -190,7 +216,7 @@ def choose_rmhpart():
         print("Stök mappa innan Risamálheildarinnar valin")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
-        choose_rmhpart()
+        rmhpart = choose_rmhpart()
     return rmhpart           
 
 def choose_rmhdir():
@@ -208,7 +234,7 @@ def choose_rmhdir():
         print(rmhmappa + " valin")
     else:
         print("Þessi slóð er ekki til. Reyndu aftur.")
-        choose_rmhdir()
+        rmhmappa = choose_rmhdir()
     return rmhmappa
 
 def txt_corpus():
@@ -220,18 +246,21 @@ def txt_corpus():
     þarf að slá inn alla slóðina, þ.e. txtmalheild/undirmappa. 
     ============================================================
     """)
-
     if path.exists("corpora/"+str(txtcorpus)):
-        print(txtcorpus + " valin")
+        f = glob.glob("corpora/"+str(txtcorpus)+'/**', recursive=True)
+        files = [file for file in f if file.endswith(".txt")]
+        if len(files) >= 1:
+            if len(files) == sum(1 for i in f if i.endswith('.txt')):
+                print(txtcorpus + " valin")
+        else:
+            print("Þessi málheild er ekki öll á txt-sniði. Reyndu aftur.")
+            txtcorpus = txt_corpus()
     else:
         print("Þessi slóð er ekki til. Reyndu aftur.")
-        txt_corpus()
+        txtcorpus = txt_corpus()
 
     data = choose_data()
-    if data == "1":
-        txt_corpus_freq(txtcorpus, "BÍN")
-    elif data == "2": 
-        txt_corpus_freq(txtcorpus, "ISLEX")  
+    txt_corpus_freq(str(txtcorpus), data)  
 
 def tei_corpus():
 
@@ -243,7 +272,18 @@ def tei_corpus():
     slóð hennar, þ.e. teimalheild/undirmappa.
     ============================================================
     """)
-    print(teicorpus + " valin")
+    if path.exists("corpora/"+str(teicorpus)):
+        f = glob.glob("corpora/"+str(teicorpus)+'/**', recursive=True)
+        files = [file for file in f if file.endswith(".xml")]
+        if len(files) >= 1:
+            if len(files) == sum(1 for i in f if i.endswith('.xml')):
+                print(teicorpus + " valin")
+        else:
+            print("Þessi málheild er ekki öll á tei-sniði. Reyndu aftur.")
+            teicorpus = tei_corpus()
+    else:
+        print("Þessi slóð er ekki til. Reyndu aftur.")
+        teicorpus = tei_corpus()
      
     data = choose_data()
     if data == "1":
@@ -251,24 +291,25 @@ def tei_corpus():
         if base == "1":
             options = bin_lemma_choices()
             if options == "1":
-                lemma_output("corpora/"+str(teicorpus)+"/**", "BÍN")
+                lemma_output("corpora/"+str(teicorpus)+"/**")
             elif options == "2":
                 lemmabase_wordforms("corpora/"+str(teicorpus))
             elif options == "3":
-                texttype_freqs(data, str(teicorpus)+"/**")
+                texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**")
         elif base == "2":
             options = bin_wordform_choices()
             if options == "1":
                 wordform_output("corpora/"+str(teicorpus)+"/**")
             elif options == "2":
-                c = CompareRmhBIN(rmh_folder='corpora'+str(teicorpus))
+                c = CompareRmhBIN(rmh_folder='corpora/'+str(teicorpus)+'/**')
                 c.write_to_file()     
     elif data == "2": 
         options = islex_choices()
         if options == "1":
-            lemma_output("corpora/"+str(teicorpus)+"/**", "ISLEX")
+            c = CompareRmhIslex(rmh_folder='corpora/'+str(teicorpus), proper_nouns=True)
+            c.write_to_file()
         elif options == "2":
-            texttype_freqs(data, str(teicorpus)+"/**") 
+            texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**") 
 
 def RMH_corpus():
     rmhpart = choose_rmhpart()
@@ -280,11 +321,11 @@ def RMH_corpus():
             if base == "1":
                 options = bin_lemma_choices()
                 if options == "1":
-                    lemma_output("corpora/RMH/**/**/", "BÍN")
+                    lemma_output("corpora/RMH/**/**/")
                 elif options == "2":
                     lemmabase_wordforms("corpora/RMH/**/**/")
                 elif options == "3":
-                    texttype_freqs(data, "RMH/**/**/")
+                    texttype_freqs(data, "corpora/RMH/**/**/")
             
             elif base == "2":
                 options = bin_wordform_choices()
@@ -297,9 +338,10 @@ def RMH_corpus():
         elif data == "2": 
             options = islex_choices()
             if options == "1":
-                lemma_output("corpora/RMH/**/**/", "ISLEX")
+                c = CompareRmhIslex(rmh_folder='corpora/RMH/**/**/', proper_nouns=True)
+                c.write_to_file()
             elif options == "2":
-                texttype_freqs(data, "RMH/**/**/") 
+                texttype_freqs(data, "corpora/RMH/**/**/") 
 
     elif rmhpart == "2":
         data = choose_data()
@@ -308,11 +350,11 @@ def RMH_corpus():
             if base == "1":
                 options = bin_lemma_choices()
                 if options == "1":
-                    lemma_output("corpora/RMH/CC_BY/**/", "BÍN")
+                    lemma_output("corpora/RMH/CC_BY/**/")
                 elif options == "2":
                     lemmabase_wordforms("corpora/RMH/CC_BY/**/")
                 elif options == "3":
-                    texttype_freqs(data, "RMH/CC_BY/**/")
+                    texttype_freqs(data, "corpora/RMH/CC_BY/**/")
             
             elif base == "2":
                 options = bin_wordform_choices()
@@ -325,9 +367,10 @@ def RMH_corpus():
         elif data == "2": 
             options = islex_choices()
             if options == "1":
-                lemma_output("corpora/RMH/CC_BY/**/", "ISLEX") 
+                c = CompareRmhIslex(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=True)
+                c.write_to_file()
             elif options == "2":
-                texttype_freqs(data, "RMH/CC_BY/**/")
+                texttype_freqs(data, "corpora/RMH/CC_BY/**/")
     
     elif rmhpart == "3":
         data = choose_data()
@@ -336,11 +379,11 @@ def RMH_corpus():
             if base == "1":
                 options = bin_lemma_choices()
                 if options == "1":
-                    lemma_output("corpora/RMH/MIM/**/", "BÍN")
+                    lemma_output("corpora/RMH/MIM/**/")
                 elif options == "2":
                     lemmabase_wordforms("corpora/RMH/MIM/**/")
                 elif options == "3":
-                    texttype_freqs(data, "RMH/MIM/**/") 
+                    texttype_freqs(data, "corpora/RMH/MIM/**/") 
 
             elif base == "2":
                 options = bin_wordform_choices()
@@ -352,9 +395,10 @@ def RMH_corpus():
         elif data == "2": 
             options = islex_choices()
             if options == "1":
-                lemma_output("corpora/RMH/MIM/**/", "ISLEX")
+                c = CompareRmhIslex(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=True)
+                c.write_to_file()
             elif options == "2":
-                texttype_freqs(data, "RMH/MIM/**/") 
+                texttype_freqs(data, "corpora/RMH/MIM/**/") 
     
     elif rmhpart == "4":
         rmhmappa = choose_rmhdir()
@@ -365,11 +409,11 @@ def RMH_corpus():
             if base == "1":
                 options = bin_lemma_choices()
                 if options == "1":
-                    lemma_output("corpora/"+str(rmhmappa), "BÍN") 
+                    lemma_output("corpora/"+str(rmhmappa)) 
                 elif options == "2":
                     lemmabase_wordforms("corpora/"+str(rmhmappa))
                 elif options == "3":
-                    texttype_freqs(data, rmhmappa)
+                    texttype_freqs(data, 'corpora/'+str(rmhmappa))
             
             elif base == "2":
                 options = bin_wordform_choices()
@@ -382,9 +426,10 @@ def RMH_corpus():
         elif data == "2": 
             options = islex_choices()
             if options == "1":
-                lemma_output("corpora/"+str(rmhmappa), "ISLEX")
+                c = CompareRmhIslex(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=True)
+                c.write_to_file()
             elif options == "2":
-                texttype_freqs(data, rmhmappa) 
+                texttype_freqs(data, 'corpora/'+str(rmhmappa)) 
 
 
 corpus = choose_corpus()
