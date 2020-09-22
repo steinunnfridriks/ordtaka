@@ -5,10 +5,10 @@ from ordtaka.sql.sql_lookup import SQLDatabase, SQLiteQuery
 from ordtaka.rmh_extractor import RmhWord, RmhExtractor
 import csv
 
-def lemma_output(rmh_folder, data):
-    bin = SQLDatabase(db_name='dbs/bin_ordmyndir.db')
-    islex = SQLDatabase(db_name='dbs/islex_lemmas.db')
-    filters = SQLDatabase(db_name='dbs/filters.db')
+def lemma_output(rmh_folder):
+    bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
+    islex = SQLDatabase(db_name='databases/islex_lemmas.db')
+    filters = SQLDatabase(db_name='databases/filters.db')
     pos_to_ignore = ['e', 'c', 'v', 'as', 'to', 'tp', 'ta', 'au']
     RMH = RmhExtractor(folder=str(rmh_folder))
     freqdic = {}
@@ -36,39 +36,59 @@ def lemma_output(rmh_folder, data):
             if filter_query.exists:
                 continue
             else:
-                if data == "ISLEX":
-                    query = SQLiteQuery(word.lemma,'fletta','ISLEX_LEMMAS', cursor = islex.cursor)
-                    query_lower = SQLiteQuery(word.lemma.lower(),'fletta','ISLEX_LEMMAS', cursor = islex.cursor)
-                    if not query.exists and not query_lower.exists:
-                        if word.lemma not in freqdic:
-                            freqdic[word.lemma] = 1
-                        else:
-                            freqdic[word.lemma] += 1
-                elif data == "BÍN":
-                    query = SQLiteQuery(word.lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)                  
-                    query_lower = SQLiteQuery(word.lemma.lower(),'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
-                    if not query.exists and not query_lower.exists:
-                        if word.lemma not in freqdic:
-                            freqdic[word.lemma] = 1
-                        else:
-                            freqdic[word.lemma] += 1
+                query = SQLiteQuery(word.lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)                  
+                query_lower = SQLiteQuery(word.lemma.lower(),'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
+                if not query.exists and not query_lower.exists:
+                    if word.lemma not in freqdic:
+                        freqdic[word.lemma] = 1
+                    else:
+                        freqdic[word.lemma] += 1
         except IndexError:
             continue
         except ET.ParseError:
             continue  
     print("Skrifar úttaksskjal")
     header = ['Orð', 'Tíðni']
-    namefolder = rmh_folder.rpartition("/")[2]
-    with open(namefolder+"_"+data+".csv", mode='w+') as outputfile:
-        csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csvwriter.writerow(header)
-        for i in freqdic.items():
-            csvwriter.writerow(i)        
+    if not rmh_folder.startswith("corpora/RMH/"):
+        namefolder = rmh_folder.partition("/")[2].partition("/")[0]
+        with open('uttaksskjol/bin/'+namefolder+"_lemma_BIN.csv", mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+
+    if rmh_folder == "corpora/RMH/**/**/":
+        with open('uttaksskjol/bin/RMH_lemma_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+    
+    elif rmh_folder == "corpora/RMH/CC_BY/**/":
+        with open('uttaksskjol/bin/CC_BY_lemma_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+
+    elif rmh_folder == "corpora/RMH/MIM/**/":
+        with open('uttaksskjol/bin/MIM_lemma_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+    elif rmh_folder.startswith("corpora/RMH/"):
+        namefolder = rmh_folder.rpartition("/")[2]
+        with open('uttaksskjol/bin/'+namefolder+"_lemma_BIN.csv", mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
     print("Úttaksskjal tilbúið")
 
 def wordform_output(rmh_folder):
-    bin = SQLDatabase(db_name='dbs/bin_ordmyndir.db')
-    filters = SQLDatabase(db_name='dbs/filters.db')
+    bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
+    filters = SQLDatabase(db_name='databases/filters.db')
     pos_to_ignore = ['e', 'c', 'v', 'as', 'to', 'tp', 'ta', 'au']
     RMH = RmhExtractor(folder=str(rmh_folder))
     freqdic = {}
@@ -109,10 +129,39 @@ def wordform_output(rmh_folder):
             continue  
     print("Skrifar úttaksskjal")
     header = ['Orð', 'Tíðni']
-    namefolder = rmh_folder.rpartition("/")[2]
-    with open(namefolder+"_BIN.csv", mode='w+') as outputfile:
-        csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csvwriter.writerow(header)
-        for i in freqdic.items():
-            csvwriter.writerow(i)        
+    if not rmh_folder.startswith("corpora/RMH/"):
+        namefolder = rmh_folder.partition("/")[2].partition("/")[0]
+        with open('uttaksskjol/bin/'+namefolder+'_wf_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+
+    if rmh_folder == "corpora/RMH/**/**/":
+        with open('uttaksskjol/bin/RMH_wf_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+    
+    elif rmh_folder == "corpora/RMH/CC_BY/**/":
+        with open('uttaksskjol/bin/CC_BY_wf_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+
+    elif rmh_folder == "corpora/RMH/MIM/**/":
+        with open('uttaksskjol/bin/MIM_wf_BIN.csv', mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)
+    elif rmh_folder.startswith("corpora/RMH/"):
+        namefolder = rmh_folder.rpartition("/")[2]
+        with open('uttaksskjol/bin/'+namefolder+"_wf_BIN.csv", mode='w+') as outputfile:
+            csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in freqdic.items():
+                csvwriter.writerow(i)        
     print("Úttaksskjal tilbúið")

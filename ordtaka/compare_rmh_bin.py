@@ -12,12 +12,12 @@ class CompareRmhBIN:
     """
     def __init__(self, rmh_folder=None, proper_nouns=True):
         # Shortens full dir path
-        self.rmh_folder = rmh_folder.split('/')[-1]
+        self.rmh_folder = rmh_folder
         self.proper_nouns = proper_nouns
         self.bin_candidates = {}
         # Database connections established when class instance is initalized
-        self.connection = SQLDatabase(db_name='../databases/bin_ordmyndir.db')
-        self.filters_connection = SQLDatabase(db_name='../databases/filters.db')
+        self.connection = SQLDatabase(db_name='databases/bin_ordmyndir.db')
+        self.filters_connection = SQLDatabase(db_name='databases/filters.db')
         # RmhExtractor initalized for yielding TEI content
         print('Les inntaksskjöl')
         self.rmh = RmhExtractor(folder=rmh_folder)
@@ -83,13 +83,51 @@ class CompareRmhBIN:
         to bin_candidates, sorts them by frequency and
         writes them to a file
         """
-        with open(f'../uttaksskjol/bin/{self.rmh_folder}_not_in_bin.freq',
-                  'w', encoding='utf-8') as out:
-            bin_candidates = self._compare()
-            bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
-                              key=lambda item: item[1]['freq'], reverse=True)}
-            for key, value in bin_candidates.items():
-                out.write(key + ': ' + str(value) + '\n')
+        if not self.rmh_folder.startswith("corpora/RMH/"):
+            namefolder = self.rmh_folder.partition("/")[2].partition("/")[0]
+            with open(f'uttaksskjol/bin/'+namefolder+'_wordform_BIN.freq',
+                      'w', encoding='utf-8') as out:
+                bin_candidates = self._compare()
+                bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
+                                  key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in bin_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
+        if self.rmh_folder == "corpora/RMH/**/**/":
+            with open(f'uttaksskjol/bin/RMH_wordform_BIN.freq',
+                      'w', encoding='utf-8') as out:
+                bin_candidates = self._compare()
+                bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
+                                  key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in bin_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
+
+        elif self.rmh_folder == "corpora/RMH/CC_BY/**/":
+            with open(f'uttaksskjol/bin/CC_BY_wordfrom_BIN.freq',
+                      'w', encoding='utf-8') as out:
+                bin_candidates = self._compare()
+                bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
+                                  key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in bin_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
+
+        elif self.rmh_folder == "corpora/RMH/MIM/**/":
+            with open(f'uttaksskjol/bin/MIM_wordform_BIN.freq',
+                      'w', encoding='utf-8') as out:
+                bin_candidates = self._compare()
+                bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
+                                  key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in bin_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')            
+
+        elif rmh_folder.startswith("corpora/RMH/"):
+            self.rmh_folder = self.rmh_folder.split('/')[-1]
+            with open(f'uttaksskjol/bin/{self.rmh_folder}_wordform_BIN.freq',
+                      'w', encoding='utf-8') as out:
+                bin_candidates = self._compare()
+                bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
+                                  key=lambda item: item[1]['freq'], reverse=True)}
+                for key, value in bin_candidates.items():
+                    out.write(key + ': ' + str(value) + '\n')
         print('Úttaksskjal tilbúið')
 
 if __name__ == '__main__':

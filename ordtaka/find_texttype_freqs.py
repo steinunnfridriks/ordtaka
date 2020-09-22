@@ -8,12 +8,12 @@ import sys
 
 
 def texttype_freqs(corpus, folder):
-    bin = SQLDatabase(db_name='dbs/bin_ordmyndir.db')
-    islex = SQLDatabase(db_name='dbs/islex_lemmas.db')
-    filters = SQLDatabase(db_name='dbs/filters.db')
+    bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
+    islex = SQLDatabase(db_name='databases/islex_lemmas.db')
+    filters = SQLDatabase(db_name='databases/filters.db')
     
     print("Les skjöl")
-    xml_files = glob.glob(f'../../corpora/'+folder+'/**/*.xml', recursive=True)
+    xml_files = glob.glob(folder+'/**/*.xml', recursive=True)
 
     alltexttypes = []
     freqdic1 = {}
@@ -48,7 +48,7 @@ def texttype_freqs(corpus, folder):
                             if filter_query.exists:
                                 continue
                             else:
-                                if corpus == "ISLEX":
+                                if corpus == "2":
                                     query = SQLiteQuery(lemma,'fletta','ISLEX_LEMMAS', cursor = islex.cursor)
                                     query_lower = SQLiteQuery(lemma.lower(),'fletta','ISLEX_LEMMAS', cursor = islex.cursor)
                                     if not query.exists and not query_lower.exists:
@@ -60,7 +60,7 @@ def texttype_freqs(corpus, folder):
                                             freqdic2[(lemma,texttype)] = 1      
                                         else:
                                             freqdic2[(lemma,texttype)] += 1
-                                elif corpus == "BÍN":
+                                elif corpus == "1":
                                     query = SQLiteQuery(lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)                  
                                     query_lower = SQLiteQuery(lemma.lower(),'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
                                     if not query.exists and not query_lower.exists:
@@ -122,29 +122,71 @@ def texttype_freqs(corpus, folder):
     bar2.finish()
 
     header = ['Orð', 'Heildartíðni'] + sorted(alltexttypes)
-    if folder == "RMH/**/**":
+    if not folder.startswith("corpora/RMH/"):
+        namefolder = folder.partition("/")[2].partition("/")[0]
         if corpus == "1":
-            with open("RMH_BIN.csv", mode='w+') as outputfile:
+            with open("uttaksskjol/bin/"+namefolder+"_texttypes_BIN.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
         elif corpus == "2":
-            with open("RMH_ISLEX.csv", mode='w+') as outputfile:
+            with open("uttaksskjol/islex/"+namefolder+"_texttypes_ISLEX.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
-    else:
+    
+    elif folder == "RMH/**/**/":
+        if corpus == "1":
+            with open("uttaksskjol/bin/RMH_texttypes_BIN.csv", mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+        elif corpus == "2":
+            with open("uttaksskjol/islex/RMH_texttypes_ISLEX.csv", mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+
+    elif folder == "RMH/CC_BY/**/":
+        if corpus == "1":
+            with open('uttaksskjol/bin/CC_BY_texttypes_BIN.csv', mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+        elif corpus == "2":
+            with open('uttaksskjol/islex/CC_BY_texttypes_ISLEX.csv', mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+    elif folder == "RMH/MIM/**/":
+        if corpus == "1":
+            with open('uttaksskjol/bin/MIM_texttypes_BIN.csv', mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+        elif corpus == "2":
+            with open('uttaksskjol/islex/MIM_texttypes_ISLEX.csv', mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+    elif folder.startswith("corpora/RMH/"):
         namefolder = folder.rpartition("/")[2]
         if corpus == "1":
-            with open(namefolder+"_BIN.csv", mode='w+') as outputfile:
+            with open('uttaksskjol/bin/'+namefolder+"_texttypes_BIN.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
         elif corpus == "2":
-            with open(namefolder+"_ISLEX.csv", mode='w+') as outputfile:
+            with open('uttaksskjol/islex'+namefolder+"_texttypes_ISLEX.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow(header)
                 for i in final:
