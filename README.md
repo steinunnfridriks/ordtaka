@@ -36,3 +36,6 @@ python run.py
 ```
 
 Notandi er beðinn um inntak, sem ræður því hvers eðlis úttakið verður, t.d. hvort óskað sé eftir orðmyndum sem finnast ekki í BÍN eða lemmum sem finnast hvorki í BÍN né ISLEX.
+
+
+__Athugið að allt sem er inni í all_filters.txt er hunsað. Þar inni eru innsláttar- og stafsetningarvillur, erlend heiti, skammstafanir o.fl. Eðli málsins samkvæmt er sumt af því huglægu mati háð.__
