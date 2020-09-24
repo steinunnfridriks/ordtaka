@@ -61,7 +61,7 @@ class BINWordJSON:
 
 if __name__ == '__main__':
     # Raises WordNotFound
-    b = BINWordJSON('vera')
+    b = BINWordJSON('maður')
     print(b.all_ids)
     print([w for w in b.get_all_forms()])
     """
