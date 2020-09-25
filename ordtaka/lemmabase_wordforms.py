@@ -4,7 +4,7 @@ import glob
 from ordtaka.sql.sql_lookup import SQLDatabase, SQLiteQuery
 from ordtaka.rmh_extractor import RmhWord, RmhExtractor
 
-def lemmabase_wordforms(rmh_folder):
+def lemmabase_wordforms(rmh_folder, prop_names):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     islex = SQLDatabase(db_name='databases/islex_lemmas.db')
     filters = SQLDatabase(db_name='databases/filters.db')
@@ -14,11 +14,12 @@ def lemmabase_wordforms(rmh_folder):
     print("Les inntaksskjöl")
     for word in RMH.extract(forms=True, lemmas=True, pos=True):
         try:
+            # Ignore proper nouns
+            if prop_names==False:
+                if word.pos.startswith('n') and word.pos.endswith('s'):
+                    continue
             if word.pos in pos_to_ignore:
                     continue
-            # Ignore proper nouns
-            if word.pos.startswith('n') and word.pos.endswith('s'):
-                continue
             # Ignore if not only letters or letters and hyphen
             if (not all(i.isalpha() or i == '-' for i in word.lemma)):
                 continue

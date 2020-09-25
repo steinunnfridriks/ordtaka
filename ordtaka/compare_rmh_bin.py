@@ -119,7 +119,7 @@ class CompareRmhBIN:
                 for key, value in bin_candidates.items():
                     out.write(key + ': ' + str(value) + '\n')            
 
-        elif rmh_folder.startswith("corpora/RMH/"):
+        elif self.rmh_folder.startswith("corpora/RMH/"):
             self.rmh_folder = self.rmh_folder.split('/')[-1]
             with open(f'uttaksskjol/bin/{self.rmh_folder}_wordform_BIN.freq',
                       'w', encoding='utf-8') as out:

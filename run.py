@@ -65,6 +65,34 @@ def choose_data():
         data = choose_data()
     return data
 
+def choose_propnames():
+    print("""
+        ============================================================
+        Viltu hunsa sérnöfn í niðurstöðunum? 
+        ============================================================
+        Stimplaðu inn þá tölu sem vísar til valmöguleikans og ýttu 
+        á ENTER.
+        Þetta getur verið gagnlegt vegna þess magns af sérnöfnum sem
+        annars kemur fram í niðurstöðunum. 
+        Athugið að þessi valmöguleiki gildir aðeins fyrir Risa-
+        málheildina eða aðrar málheildir sem eru markaðar á sama hátt. 
+        ============================================================
+        """)
+        
+    prop_names = input("""
+        (1) Já ég vil hunsa sérnöfn
+        (2) Nei ég vil ekki hunsa sérnöfn
+        """)
+
+    if prop_names == "1":
+        print("Sérnöfn hunsuð.")
+    elif prop_names == "2": 
+        print("Sérnöfnum haldið.")
+    else:
+        print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur") 
+        prop_names = choose_propnames()
+    return prop_names
+
 def choose_form():
     print("""
         ============================================================
@@ -285,151 +313,298 @@ def tei_corpus():
         print("Þessi slóð er ekki til. Reyndu aftur.")
         teicorpus = tei_corpus()
      
+    prop_names = choose_propnames()
     data = choose_data()
-    if data == "1":
-        base = choose_form()        
-        if base == "1":
-            options = bin_lemma_choices()
+    if prop_names == "1":   #ignore prop names
+        if data == "1":
+            base = choose_form()        
+            if base == "1":
+                options = bin_lemma_choices()
+                if options == "1":
+                    lemma_output("corpora/"+str(teicorpus)+"/**", prop_names=False)
+                elif options == "2":
+                    lemmabase_wordforms("corpora/"+str(teicorpus), prop_names=False)
+                elif options == "3":
+                    texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=False)
+            elif base == "2":
+                options = bin_wordform_choices()
+                if options == "1":
+                    wordform_output("corpora/"+str(teicorpus)+"/**", prop_names=False)
+                elif options == "2":
+                    c = CompareRmhBIN(rmh_folder='corpora/'+str(teicorpus)+'/**', proper_nouns=False)
+                    c.write_to_file()     
+        elif data == "2": 
+            options = islex_choices()
             if options == "1":
-                lemma_output("corpora/"+str(teicorpus)+"/**")
+                c = CompareRmhIslex(rmh_folder='corpora/'+str(teicorpus), proper_nouns=False)
+                c.write_to_file()
             elif options == "2":
-                lemmabase_wordforms("corpora/"+str(teicorpus))
-            elif options == "3":
-                texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**")
-        elif base == "2":
-            options = bin_wordform_choices()
+                texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=False) 
+    
+    elif prop_names == "2":
+        if data == "1":
+            base = choose_form()        
+            if base == "1":
+                options = bin_lemma_choices()
+                if options == "1":
+                    lemma_output("corpora/"+str(teicorpus)+"/**", prop_names=True)
+                elif options == "2":
+                    lemmabase_wordforms("corpora/"+str(teicorpus), prop_names=True)
+                elif options == "3":
+                    texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=True)
+            elif base == "2":
+                options = bin_wordform_choices()
+                if options == "1":
+                    wordform_output("corpora/"+str(teicorpus)+"/**", prop_names=True)
+                elif options == "2":
+                    c = CompareRmhBIN(rmh_folder='corpora/'+str(teicorpus)+'/**', proper_nouns=True)
+                    c.write_to_file()     
+        elif data == "2": 
+            options = islex_choices()
             if options == "1":
-                wordform_output("corpora/"+str(teicorpus)+"/**")
+                c = CompareRmhIslex(rmh_folder='corpora/'+str(teicorpus), proper_nouns=True)
+                c.write_to_file()
             elif options == "2":
-                c = CompareRmhBIN(rmh_folder='corpora/'+str(teicorpus)+'/**')
-                c.write_to_file()     
-    elif data == "2": 
-        options = islex_choices()
-        if options == "1":
-            c = CompareRmhIslex(rmh_folder='corpora/'+str(teicorpus), proper_nouns=True)
-            c.write_to_file()
-        elif options == "2":
-            texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**") 
+                texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=True)
 
 def RMH_corpus():
     rmhpart = choose_rmhpart()
+    prop_names = choose_propnames()
 
     if rmhpart == "1":
-        data = choose_data()
-        if data == "1":
-            base = choose_form()
-            if base == "1":
-                options = bin_lemma_choices()
-                if options == "1":
-                    lemma_output("corpora/RMH/**/**/")
-                elif options == "2":
-                    lemmabase_wordforms("corpora/RMH/**/**/")
-                elif options == "3":
-                    texttype_freqs(data, "corpora/RMH/**/**/")
-            
-            elif base == "2":
-                options = bin_wordform_choices()
-                if options == "1":
-                    wordform_output("corpora/RMH/**/**/")
-                elif options == "2":
-                    c = CompareRmhBIN(rmh_folder='corpora/RMH/**/**/')
-                    c.write_to_file()  
+        if prop_names == "1": 
+            data = choose_data()
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/RMH/**/**/", prop_names=False)
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/RMH/**/**/", prop_names=False)
+                    elif options == "3":
+                        texttype_freqs(data, "corpora/RMH/**/**/", prop_names=False)
 
-        elif data == "2": 
-            options = islex_choices()
-            if options == "1":
-                c = CompareRmhIslex(rmh_folder='corpora/RMH/**/**/', proper_nouns=True)
-                c.write_to_file()
-            elif options == "2":
-                texttype_freqs(data, "corpora/RMH/**/**/") 
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/RMH/**/**/", prop_names=False)
+                    elif options == "2":
+                        c = CompareRmhBIN(rmh_folder='corpora/RMH/**/**/', proper_nouns=False)
+                        c.write_to_file()  
+
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/RMH/**/**/', proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/**/**/", prop_names=False) 
+        
+        elif prop_names== "2":
+            data = choose_data()
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/RMH/**/**/", prop_names=True)
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/RMH/**/**/", prop_names=True)
+                    elif options == "3":
+                        texttype_freqs(data, "corpora/RMH/**/**/", prop_names=True)
+
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/RMH/**/**/", prop_names=True)
+                    elif options == "2":
+                        c = CompareRmhBIN(rmh_folder='corpora/RMH/**/**/', proper_nouns=True)
+                        c.write_to_file()  
+
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/RMH/**/**/', proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/**/**/", prop_names=True) 
 
     elif rmhpart == "2":
-        data = choose_data()
-        if data == "1":
-            base = choose_form()
-            if base == "1":
-                options = bin_lemma_choices()
-                if options == "1":
-                    lemma_output("corpora/RMH/CC_BY/**/")
-                elif options == "2":
-                    lemmabase_wordforms("corpora/RMH/CC_BY/**/")
-                elif options == "3":
-                    texttype_freqs(data, "corpora/RMH/CC_BY/**/")
-            
-            elif base == "2":
-                options = bin_wordform_choices()
-                if options == "1":
-                    wordform_output("corpora/RMH/CC_BY/**/")
-                elif options == "2": 
-                    c = CompareRmhBIN(rmh_folder='corpora/RMH/CC_BY/**/')
-                    c.write_to_file()  
+        if prop_names == "1":
+            data = choose_data()
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/RMH/CC_BY/**/", prop_names=False)
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/RMH/CC_BY/**/", prop_names=False)
+                    elif options == "3":
+                        texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=False)
 
-        elif data == "2": 
-            options = islex_choices()
-            if options == "1":
-                c = CompareRmhIslex(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=True)
-                c.write_to_file()
-            elif options == "2":
-                texttype_freqs(data, "corpora/RMH/CC_BY/**/")
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/RMH/CC_BY/**/", prop_names=False)
+                    elif options == "2": 
+                        c = CompareRmhBIN(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=False)
+                        c.write_to_file()  
+
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=False)
+        
+        elif prop_names=="2":
+            data = choose_data()
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/RMH/CC_BY/**/", prop_names=True)
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/RMH/CC_BY/**/", prop_names=True)
+                    elif options == "3":
+                        texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=True)
+
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/RMH/CC_BY/**/", prop_names=True)
+                    elif options == "2": 
+                        c = CompareRmhBIN(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=True)
+                        c.write_to_file()  
+
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=True)
     
     elif rmhpart == "3":
-        data = choose_data()
-        if data == "1":
-            base = choose_form()
-            if base == "1":
-                options = bin_lemma_choices()
-                if options == "1":
-                    lemma_output("corpora/RMH/MIM/**/")
-                elif options == "2":
-                    lemmabase_wordforms("corpora/RMH/MIM/**/")
-                elif options == "3":
-                    texttype_freqs(data, "corpora/RMH/MIM/**/") 
+        if prop_names=="1":
+            data = choose_data()
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/RMH/MIM/**/", prop_names=False)
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/RMH/MIM/**/", prop_names=False)
+                    elif options == "3":
+                        texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=False) 
 
-            elif base == "2":
-                options = bin_wordform_choices()
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/RMH/MIM/**/", prop_names=False)
+                    elif options == "2":
+                        c = CompareRmhBIN(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=False)
+                        c.write_to_file()   
+            elif data == "2": 
+                options = islex_choices()
                 if options == "1":
-                    wordform_output("corpora/RMH/MIM/**/")
+                    c = CompareRmhIslex(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=False)
+                    c.write_to_file()
                 elif options == "2":
-                    c = CompareRmhBIN(rmh_folder='corpora/RMH/MIM/**/')
-                    c.write_to_file()   
-        elif data == "2": 
-            options = islex_choices()
-            if options == "1":
-                c = CompareRmhIslex(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=True)
-                c.write_to_file()
-            elif options == "2":
-                texttype_freqs(data, "corpora/RMH/MIM/**/") 
-    
+                    texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=False) 
+        
+        elif prop_names=="2":
+            data = choose_data()
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/RMH/MIM/**/", prop_names=True)
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/RMH/MIM/**/", prop_names=True)
+                    elif options == "3":
+                        texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=True) 
+
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/RMH/MIM/**/", prop_names=True)
+                    elif options == "2":
+                        c = CompareRmhBIN(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=True)
+                        c.write_to_file()   
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=True)
+
     elif rmhpart == "4":
+        prop_names = choose_propnames()
         rmhmappa = choose_rmhdir()
         data = choose_data()
+        if prop_names=="1":
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/"+str(rmhmappa), prop_names=False) 
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/"+str(rmhmappa), prop_names=False)
+                    elif options == "3":
+                        texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=False)
 
-        if data == "1":
-            base = choose_form()
-            if base == "1":
-                options = bin_lemma_choices()
-                if options == "1":
-                    lemma_output("corpora/"+str(rmhmappa)) 
-                elif options == "2":
-                    lemmabase_wordforms("corpora/"+str(rmhmappa))
-                elif options == "3":
-                    texttype_freqs(data, 'corpora/'+str(rmhmappa))
-            
-            elif base == "2":
-                options = bin_wordform_choices()
-                if options == "1":
-                    wordform_output("corpora/"+str(rmhmappa))
-                elif options == "2":
-                    c = CompareRmhBIN(rmh_folder='corpora/'+str(rmhmappa))
-                    c.write_to_file()  
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/"+str(rmhmappa), prop_names=False)
+                    elif options == "2":
+                        c = CompareRmhBIN(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=False)
+                        c.write_to_file()  
 
-        elif data == "2": 
-            options = islex_choices()
-            if options == "1":
-                c = CompareRmhIslex(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=True)
-                c.write_to_file()
-            elif options == "2":
-                texttype_freqs(data, 'corpora/'+str(rmhmappa)) 
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=False) 
+        
+        elif prop_names=="2":
+            if data == "1":
+                base = choose_form()
+                if base == "1":
+                    options = bin_lemma_choices()
+                    if options == "1":
+                        lemma_output("corpora/"+str(rmhmappa), prop_names=True) 
+                    elif options == "2":
+                        lemmabase_wordforms("corpora/"+str(rmhmappa), prop_names=True)
+                    elif options == "3":
+                        texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=True)
+
+                elif base == "2":
+                    options = bin_wordform_choices()
+                    if options == "1":
+                        wordform_output("corpora/"+str(rmhmappa), prop_names=True)
+                    elif options == "2":
+                        c = CompareRmhBIN(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=True)
+                        c.write_to_file()  
+
+            elif data == "2": 
+                options = islex_choices()
+                if options == "1":
+                    c = CompareRmhIslex(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=True)
 
 
 corpus = choose_corpus()

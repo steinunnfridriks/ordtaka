@@ -7,7 +7,7 @@ from progress.bar import IncrementalBar
 import sys
 
 
-def texttype_freqs(corpus, folder):
+def texttype_freqs(corpus, folder, prop_names):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     islex = SQLDatabase(db_name='databases/islex_lemmas.db')
     filters = SQLDatabase(db_name='databases/filters.db')
@@ -32,6 +32,9 @@ def texttype_freqs(corpus, folder):
                 for word in tree.iter():
                     pos = word.attrib.get('type')
                     if pos is not None:
+                        if prop_names==False:
+                            if pos.startswith('n') and pos.endswith('s'):
+                                continue
                         if pos in pos_to_ignore:
                             continue
                         if (not all(i.isalpha() or i == '-' for i in word.text)):
@@ -137,7 +140,7 @@ def texttype_freqs(corpus, folder):
                 for i in final:
                     csvwriter.writerow(i)
     
-    elif folder == "RMH/**/**/":
+    elif folder == "corpora/RMH/**/**/":
         if corpus == "1":
             with open("uttaksskjol/bin/RMH_texttypes_BIN.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -151,7 +154,7 @@ def texttype_freqs(corpus, folder):
                 for i in final:
                     csvwriter.writerow(i)
 
-    elif folder == "RMH/CC_BY/**/":
+    elif folder == "corpora/RMH/CC_BY/**/":
         if corpus == "1":
             with open('uttaksskjol/bin/CC_BY_texttypes_BIN.csv', mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -164,7 +167,7 @@ def texttype_freqs(corpus, folder):
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
-    elif folder == "RMH/MIM/**/":
+    elif folder == "corpora/RMH/MIM/**/":
         if corpus == "1":
             with open('uttaksskjol/bin/MIM_texttypes_BIN.csv', mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)

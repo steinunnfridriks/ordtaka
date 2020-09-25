@@ -5,7 +5,7 @@ from ordtaka.sql.sql_lookup import SQLDatabase, SQLiteQuery
 from ordtaka.rmh_extractor import RmhWord, RmhExtractor
 import csv
 
-def lemma_output(rmh_folder):
+def lemma_output(rmh_folder, prop_names):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     islex = SQLDatabase(db_name='databases/islex_lemmas.db')
     filters = SQLDatabase(db_name='databases/filters.db')
@@ -15,11 +15,11 @@ def lemma_output(rmh_folder):
     print("Les inntaksskjöl")
     for word in RMH.extract(forms=False, lemmas=True, pos=True):
         try:
+            if prop_names==False:
+                if word.pos.startswith('n') and word.pos.endswith('s'):
+                    continue
             if word.pos in pos_to_ignore:
                     continue
-            # Ignore proper nouns
-            if word.pos.startswith('n') and word.pos.endswith('s'):
-                continue
             # Ignore if not only letters or letters and hyphen
             if (not all(i.isalpha() or i == '-' for i in word.lemma)):
                 continue
@@ -86,7 +86,7 @@ def lemma_output(rmh_folder):
                 csvwriter.writerow(i)
     print("Úttaksskjal tilbúið")
 
-def wordform_output(rmh_folder):
+def wordform_output(rmh_folder, prop_names):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     filters = SQLDatabase(db_name='databases/filters.db')
     pos_to_ignore = ['e', 'c', 'v', 'as', 'to', 'tp', 'ta', 'au']
@@ -95,11 +95,11 @@ def wordform_output(rmh_folder):
     print("Les inntaksskjöl")
     for word in RMH.extract(forms=True, lemmas=False, pos=True):
         try:
+            if prop_names==False:
+                if word.pos.startswith('n') and word.pos.endswith('s'):
+                    continue            
             if word.pos in pos_to_ignore:
                     continue
-            # Ignore proper nouns
-            if word.pos.startswith('n') and word.pos.endswith('s'):
-                continue
             # Ignore if not only letters or letters and hyphen
             if (not all(i.isalpha() or i == '-' for i in word.word_form)):
                 continue
