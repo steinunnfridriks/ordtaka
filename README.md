@@ -48,6 +48,6 @@ FYRIR ISLEX:
 - Tíðnilistar á FREQ formi þar sem allar lemmur sem ekki er að finna í Nútímamálsorðabókinni eru taldar upp ásamt tíðni þeirra í inntaksmálheildinni. 
 - Tíðnilistar á CSV formi þar sem allar lemmur sem er ekki að finna í Nútímamálsorðabókinni eru taldar upp ásamt heildartíðni þeirra, en auk þess tíðni hverrar lemmu innan ákveðinnar gerðar texta (t.d. fréttir, stærðfræði eða fótbolti). 
 
-Ef um ómarkaða og ólemmaða inntaksmálheild á txt-formi er að ræða er aðeins í boði úttak þar sem allar orðmyndir sem ekki koma fyrir í viðeigandi gagnasami eru taldar upp ásamt tíðni þeirra. 
+Ef um ómarkaða og ólemmaða inntaksmálheild á txt-formi er að ræða er aðeins í boði úttak þar sem allar orðmyndir sem ekki koma fyrir í viðeigandi gagnasafni eru taldar upp ásamt tíðni þeirra. 
 
 __Athugið að allt sem er inni í all_filters.txt er hunsað. Þar inni eru innsláttar- og stafsetningarvillur, erlend heiti, skammstafanir o.fl. Eðli málsins samkvæmt er sumt af því huglægu mati háð.__
