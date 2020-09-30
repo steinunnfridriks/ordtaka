@@ -35,8 +35,8 @@ def lemmabase_wordforms(rmh_folder, prop_names):
                                        cursor=filters.cursor)
             if filter_query.exists:
                 continue
-            else:    
-                query = SQLiteQuery(word.lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)                  
+            else:
+                query = SQLiteQuery(word.lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
                 query_lower = SQLiteQuery(word.lemma.lower(),'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
                 if not query.exists and not query_lower.exists:
                     if word.lemma in freqdic:
@@ -46,11 +46,11 @@ def lemmabase_wordforms(rmh_folder, prop_names):
                     else:
                         freqdic[word.lemma] = {}
                         freqdic[word.lemma]['freq'] = 1
-                        freqdic[word.lemma]['wordforms'] = [word.word_form]                    
+                        freqdic[word.lemma]['wordforms'] = [word.word_form]
         except IndexError:
             continue
         except ET.ParseError:
-            continue  
+            continue
 
     print("Skrifar úttaksskjal")
     if not rmh_folder.startswith("corpora/RMH/"):
@@ -82,3 +82,6 @@ def lemmabase_wordforms(rmh_folder, prop_names):
                 out.write(key + ': ' + str(value) + '\n')
 
     print("Úttaksskjal tilbúið")
+
+if __name__ == '__main__':
+    pass

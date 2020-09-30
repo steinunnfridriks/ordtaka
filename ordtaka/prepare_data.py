@@ -1,7 +1,7 @@
 """
-This script creates necessary databases for lookups in BÍN, ISLEX and SH_snid
-Make sure ordmyndir.txt, islex.csv and SH_snid.csv are in the same directory as this script
-ordmyndir.txt and SH_snid.csv can be downloaded at: https://bin.arnastofnun.is/gogn/mimisbrunnur/
+This script prepares the files that populate the databases, such as adding headers
+to them and removing a couple of noun phrases that do not belong there.
+
 """
 
 

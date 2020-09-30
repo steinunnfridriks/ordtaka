@@ -1,3 +1,8 @@
+"""
+These two classes are responsible for iterating through the RMH corpus
+and representing every single token of it. 
+"""
+
 from xml.etree import ElementTree as ET
 from string import punctuation
 import glob

@@ -1,3 +1,8 @@
+"""
+This class does the main iterating work when comparing an input
+corpus to the BÍN database. 
+"""
+
 from xml.etree import ElementTree as ET
 from string import punctuation
 import glob
@@ -117,7 +122,7 @@ class CompareRmhBIN:
                 bin_candidates = {k: v for k, v in sorted(bin_candidates.items(),
                                   key=lambda item: item[1]['freq'], reverse=True)}
                 for key, value in bin_candidates.items():
-                    out.write(key + ': ' + str(value) + '\n')            
+                    out.write(key + ': ' + str(value) + '\n')
 
         elif self.rmh_folder.startswith("corpora/RMH/"):
             self.rmh_folder = self.rmh_folder.split('/')[-1]

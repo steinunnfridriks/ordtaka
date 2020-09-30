@@ -1,3 +1,9 @@
+"""
+This script can be used to retrieve the files that are necessary for
+populating two of the three databases that are used by the Lexicon
+Acquisition Tool. The third one is unavailable as of now.
+"""
+
 import urllib.request
 import zipfile
 from os import remove
@@ -19,5 +25,3 @@ def request_file(url, filename, zipped=True):
 
 if __name__ == '__main__':
     pass
-    request_file('https://bin.arnastofnun.is/django/api/nidurhal/?file=ordmyndir.txt.zip', 'ordmyndir.txt.zip')
-    request_file('https://bin.arnastofnun.is/django/api/nidurhal/?file=SHsnid.csv.zip', 'SHsnid.csv.zip')

@@ -1,3 +1,8 @@
+"""
+This class does the main iterating work when comparing an input
+corpus to the ISLEX database. 
+"""
+
 from xml.etree import ElementTree as ET
 from string import punctuation
 import glob
@@ -107,7 +112,7 @@ class CompareRmhIslex:
                 islex_candidates = {k: v for k, v in sorted(islex_candidates.items(),
                                     key=lambda item: item[1]['freq'], reverse=True)}
                 for key, value in islex_candidates.items():
-                    out.write(key + ': ' + str(value) + '\n')            
+                    out.write(key + ': ' + str(value) + '\n')
 
         elif self.rmh_folder == "corpora/RMH/MIM/**/":
             with open(f'uttaksskjol/islex/MIM_wordform_ISLEX.freq',

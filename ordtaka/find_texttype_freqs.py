@@ -1,3 +1,8 @@
+"""
+This script is used to collect tokens by the types of text
+they appear in the most and sort them by frequency.
+"""
+
 from string import punctuation
 import xml.etree.ElementTree as ET
 import glob
@@ -11,7 +16,7 @@ def texttype_freqs(corpus, folder, prop_names):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     islex = SQLDatabase(db_name='databases/islex_lemmas.db')
     filters = SQLDatabase(db_name='databases/filters.db')
-    
+
     print("Les skjöl")
     xml_files = glob.glob(folder+'/**/*.xml', recursive=True)
 
@@ -23,7 +28,7 @@ def texttype_freqs(corpus, folder, prop_names):
         with open(file, 'r', encoding='utf-8') as content:
             try:
                 tree = ET.parse(content)
-                root = tree.getroot() 
+                root = tree.getroot()
                 textClass = root[0][2][0][0][0][0]
                 texttype = textClass.text
                 if texttype not in alltexttypes:
@@ -60,11 +65,11 @@ def texttype_freqs(corpus, folder, prop_names):
                                         else:
                                             freqdic1[lemma] += 1
                                         if (lemma,texttype) not in freqdic2:
-                                            freqdic2[(lemma,texttype)] = 1      
+                                            freqdic2[(lemma,texttype)] = 1
                                         else:
                                             freqdic2[(lemma,texttype)] += 1
                                 elif corpus == "1":
-                                    query = SQLiteQuery(lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)                  
+                                    query = SQLiteQuery(lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
                                     query_lower = SQLiteQuery(lemma.lower(),'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
                                     if not query.exists and not query_lower.exists:
                                         if lemma not in freqdic1:
@@ -72,18 +77,18 @@ def texttype_freqs(corpus, folder, prop_names):
                                         else:
                                             freqdic1[lemma] += 1
                                         if (lemma,texttype) not in freqdic2:
-                                            freqdic2[(lemma,texttype)] = 1      
+                                            freqdic2[(lemma,texttype)] = 1
                                         else:
                                             freqdic2[(lemma,texttype)] += 1
             except IndexError:
                 continue
             except ET.ParseError:
-                continue  
+                continue
 
         filebar.next()
         sys.stdout.flush()
     filebar.finish()
-    
+
     print("Eftirfarandi eru allar mögulegar textagerðir:")
     print(sorted(alltexttypes))
 
@@ -103,7 +108,7 @@ def texttype_freqs(corpus, folder, prop_names):
         bar1.next()
         sys.stdout.flush()
     bar1.finish()
-    
+
     print("Leggur lokahönd á ferlið")
 
     final = []
@@ -113,7 +118,7 @@ def texttype_freqs(corpus, folder, prop_names):
         fitemp.append(i[0])
         fitemp.append(i[2])
         for tt in alltexttypes:
-            if tt in [item[0] for item in i[1]]:              
+            if tt in [item[0] for item in i[1]]:
                 continue
             else:
                 i[1].append((tt, 0))
@@ -139,7 +144,7 @@ def texttype_freqs(corpus, folder, prop_names):
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
-    
+
     elif folder == "corpora/RMH/**/**/":
         if corpus == "1":
             with open("uttaksskjol/bin/RMH_texttypes_BIN.csv", mode='w+') as outputfile:
