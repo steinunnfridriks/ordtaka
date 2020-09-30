@@ -201,3 +201,6 @@ def texttype_freqs(corpus, folder, prop_names):
                     csvwriter.writerow(i)
 
     print("Úttaksskjal tilbúið")
+
+if __name__ == '__main__':
+    pass

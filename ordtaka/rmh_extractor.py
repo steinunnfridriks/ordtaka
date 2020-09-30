@@ -1,6 +1,6 @@
 """
 These two classes are responsible for iterating through the RMH corpus
-and representing every single token of it. 
+and representing every single token of it.
 """
 
 from xml.etree import ElementTree as ET
@@ -59,5 +59,4 @@ class RmhExtractor:
         filebar.finish()
 
 if __name__ == '__main__':
-    RMH = RmhExtractor(folder='../../MIM/morgunbladid')
-    print([w for w in RMH.extract(forms=True, lemmas=True, pos=True)])
+    pass
