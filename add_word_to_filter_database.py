@@ -1,3 +1,11 @@
+"""
+This script allow a user to add more filters to the filters
+database, which consists of words that are ignored in the
+Lexicon Acquisition Tool's output. Using a command line interface,
+simply run this script and follow the instructions.
+
+"""
+
 from ordtaka.sql.word_to_db import WordToDB
 import re
 from string import punctuation

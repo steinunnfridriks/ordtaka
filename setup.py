@@ -1,3 +1,12 @@
+"""
+This script provides the user with a setup of the necessary
+databases for the Lexicon Acquisition Tool. Two files, 'SHsnid.csv' and
+'ordmyndir.txt', can be downloaded with this script but the third one,
+islex_fletta_ofl.csv, as of now, is not available with an open license.
+Using a command line interface, simply run this script and follow the
+instructions.
+"""
+
 import sys
 from pathlib import Path
 from ordtaka.prepare_data import prepare_data
