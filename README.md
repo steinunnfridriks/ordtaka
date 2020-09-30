@@ -35,7 +35,7 @@ Að uppsetningu gagnagrunna lokinni er hægt að nota orðtökutólið sjálft m
 python run.py
 ```
 
-Notandi er beðinn um inntak, sem ræður því hvers eðlis úttakið verður. Eftirfarandi úttök eru möguleg: 
+Notandi er beðinn um inntak, sem ræður því hvers eðlis úttakið verður. Athugið að til þess að forritið nefni úttaksskrárnar rétt er mikilvægt að inntaksmálheildir séu vistaðar á sama hátt og er gert í sýnismöppunum hér. Með öðrum orðum þarf að vista Risamálheildina innan aðalmöppunnar corpora og undirmöppunnar RMH, undir tveimur aðskildum möppum sem heita [CC_BY](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/33) og [MIM](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/41). Ef um aðrar málheildir er að ræða þarf að vista þær undir aðalmöppunni corpora. Eftirfarandi úttök eru möguleg: 
 
 FYRIR BÍN:
 - Tíðnilistar á CSV formi þar sem allar lemmur sem ekki er að finna í Beygingarlýsingunni eru taldar upp ásamt tíðni þeirra í inntaksmálheildinni. 
@@ -51,3 +51,5 @@ FYRIR ISLEX:
 Ef um ómarkaða og ólemmaða inntaksmálheild á txt-formi er að ræða er aðeins í boði úttak þar sem allar orðmyndir sem ekki koma fyrir í viðeigandi gagnasafni eru taldar upp ásamt tíðni þeirra. 
 
 __Athugið að allt sem er inni í all_filters.txt er hunsað. Þar inni eru innsláttar- og stafsetningarvillur, erlend heiti, skammstafanir o.fl. Eðli málsins samkvæmt er sumt af því huglægu mati háð.__
+
+__Ef upp koma villur eða vandamál við notkun Orðtökutólsins má hafa samband við Steinunni Rut Friðriksdóttur (srf2@hi.is) eða Atla Jasonarson (atlijas@simnet.is)__ 
