@@ -555,10 +555,9 @@ def RMH_corpus():
                     texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=True)
 
     elif rmhpart == "4":
-        prop_names = choose_propnames()
         rmhmappa = choose_rmhdir()
-        data = choose_data()
         if prop_names=="1":
+            data = choose_data()
             if data == "1":
                 base = choose_form()
                 if base == "1":
@@ -587,6 +586,7 @@ def RMH_corpus():
                     texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=False)
 
         elif prop_names=="2":
+            data = choose_data()
             if data == "1":
                 base = choose_form()
                 if base == "1":
