@@ -9,6 +9,7 @@ the run-time instructions.
 from ordtaka.find_texttype_freqs import texttype_freqs
 from ordtaka.compare_rmh_islex import CompareRmhIslex
 from ordtaka.compare_rmh_bin import CompareRmhBIN
+from ordtaka.compare_rmh_other import CompareRmhOther
 from ordtaka.txt_to_data import txt_corpus_freq
 from ordtaka.base_output import lemma_output, wordform_output
 from ordtaka.lemmabase_wordforms import lemmabase_wordforms
@@ -62,12 +63,15 @@ def choose_data():
     data = input("""
         (1) Beygingarlýsing íslensks nútímamáls (BÍN)
         (2) Nútímamálsorðabókin (ISLEX)
+        (3) Annað orðasafn á txt-sniði 
         """)
 
     if data == "1":
         print("Beygingarlýsing íslensks nútímamáls valin.")
     elif data == "2":
         print("Nútímamálsorðabók valin.")
+    elif data == "3":
+        print("Annað orðasafn valið")
     else:
         print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
         data = choose_data()
@@ -222,6 +226,37 @@ def bin_wordform_choices():
         options = bin_wordform_choices()
     return options
 
+def other_choices():
+    print("""
+        ============================================================
+        Veldu eitt af eftirfarandi:
+
+        Tíðnilisti (lemmur og tíðni þeirra) á CSV sniði.
+        - Dæmi: Vera, 100. Gera, 90. Tala, 40.
+
+        Textagerðir (lemmur með tíðni flokkaðar eftir textagerð).
+        - Dæmi: Vera, heildartíðni 100, fréttir 50, stærðfræði 50.
+
+        Athugið að textagerðir nýtast best með stökum möppum úr RMH.
+        ============================================================
+        Stimplaðu inn þá tölu sem vísar til valmöguleikans og ýttu
+        á ENTER.
+        ============================================================
+        """)
+    options = input("""
+        (1) Tíðnilisti
+        (2) Textagerðir
+        """)
+
+    if options == "1":
+        print("Tíðnilisti valinn")
+    elif options == "2":
+        print("Textagerðir valdar")
+    else:
+        print("Þetta er ekki gildur valmöguleiki, vinsamlegast reyndu aftur")
+        options = other_choices()
+    return options
+
 def choose_rmhpart():
     print("""
         ============================================================
@@ -277,6 +312,7 @@ def txt_corpus():
     txtcorpus = input("""
     ============================================================
     Sláðu inn nafn möppunnar sem inniheldur málheildina.
+    Þú þarft ekki að tilgreina corpora möppuna.
     ============================================================
     Athugaðu að ef vinna á með undirmöppu innan málheildarinnar
     þarf að slá inn alla slóðina, þ.e. txtmalheild/undirmappa.
@@ -302,7 +338,8 @@ def tei_corpus():
 
     teicorpus = input("""
     ============================================================
-    Sláðu inn nafn möppunnar sem inniheldur málheildina.
+    Sláðu inn nafn möppunnar sem inniheldur málheildina. 
+    Þú þarft ekki að tilgreina corpora möppuna. 
     ============================================================
     Athugaðu að ef um undirmöppu er að ræða þarf að slá inn fulla
     slóð hennar, þ.e. teimalheild/undirmappa.
@@ -348,6 +385,13 @@ def tei_corpus():
                 c.write_to_file()
             elif options == "2":
                 texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=False)
+        elif data == "3":
+            options = other_choices()
+            if options == "1":
+                c = CompareRmhOther(rmh_folder='corpora/'+str(teicorpus), proper_nouns=False)
+                c.write_to_file()
+            elif options == "2":
+                texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=False)
 
     elif prop_names == "2":
         if data == "1":
@@ -374,7 +418,13 @@ def tei_corpus():
                 c.write_to_file()
             elif options == "2":
                 texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=True)
-
+        elif data == "3":
+            options = other_choices()
+            if options == "1":
+                c = CompareRmhOther(rmh_folder='corpora/'+str(teicorpus), proper_nouns=True)
+                c.write_to_file()
+            elif options == "2":
+                texttype_freqs(data, 'corpora/'+str(teicorpus)+"/**", prop_names=True)
 def RMH_corpus():
     rmhpart = choose_rmhpart()
     prop_names = choose_propnames()
@@ -408,6 +458,13 @@ def RMH_corpus():
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, "corpora/RMH/**/**/", prop_names=False)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/RMH/**/**/', proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/**/**/", prop_names=False)
 
         elif prop_names== "2":
             data = choose_data()
@@ -434,6 +491,13 @@ def RMH_corpus():
                 options = islex_choices()
                 if options == "1":
                     c = CompareRmhIslex(rmh_folder='corpora/RMH/**/**/', proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/**/**/", prop_names=True)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/RMH/**/**/', proper_nouns=True)
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, "corpora/RMH/**/**/", prop_names=True)
@@ -467,6 +531,13 @@ def RMH_corpus():
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=False)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=False)
 
         elif prop_names=="2":
             data = choose_data()
@@ -493,6 +564,13 @@ def RMH_corpus():
                 options = islex_choices()
                 if options == "1":
                     c = CompareRmhIslex(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=True)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/RMH/CC_BY/**/', proper_nouns=True)
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, "corpora/RMH/CC_BY/**/", prop_names=True)
@@ -525,6 +603,13 @@ def RMH_corpus():
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=False)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=False)
 
         elif prop_names=="2":
             data = choose_data()
@@ -550,6 +635,13 @@ def RMH_corpus():
                 options = islex_choices()
                 if options == "1":
                     c = CompareRmhIslex(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=True)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/RMH/MIM/**/', proper_nouns=True)
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, "corpora/RMH/MIM/**/", prop_names=True)
@@ -584,6 +676,13 @@ def RMH_corpus():
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=False)
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=False)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=False)
 
         elif prop_names=="2":
             data = choose_data()
@@ -613,7 +712,13 @@ def RMH_corpus():
                     c.write_to_file()
                 elif options == "2":
                     texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=True)
-
+            elif data == "3":
+                options = other_choices()
+                if options == "1":
+                    c = CompareRmhOther(rmh_folder='corpora/'+str(rmhmappa), proper_nouns=True)
+                    c.write_to_file()
+                elif options == "2":
+                    texttype_freqs(data, 'corpora/'+str(rmhmappa), prop_names=True)
 
 corpus = choose_corpus()
 

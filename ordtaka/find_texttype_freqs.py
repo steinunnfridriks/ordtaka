@@ -15,6 +15,7 @@ import sys
 def texttype_freqs(corpus, folder, prop_names):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     islex = SQLDatabase(db_name='databases/islex_lemmas.db')
+    other = SQLDatabase(db_name='databases/ordasafn.db')
     filters = SQLDatabase(db_name='databases/filters.db')
 
     print("Les skjöl")
@@ -71,6 +72,18 @@ def texttype_freqs(corpus, folder, prop_names):
                                 elif corpus == "1":
                                     query = SQLiteQuery(lemma,'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
                                     query_lower = SQLiteQuery(lemma.lower(),'word_form','BIN_WORD_FORMS', cursor = bin.cursor)
+                                    if not query.exists and not query_lower.exists:
+                                        if lemma not in freqdic1:
+                                            freqdic1[lemma] = 1
+                                        else:
+                                            freqdic1[lemma] += 1
+                                        if (lemma,texttype) not in freqdic2:
+                                            freqdic2[(lemma,texttype)] = 1
+                                        else:
+                                            freqdic2[(lemma,texttype)] += 1
+                                elif corpus == "3":
+                                    query = SQLiteQuery(lemma,'word_form','ORDASAFN_WORD', cursor = other.cursor)
+                                    query_lower = SQLiteQuery(lemma.lower(),'word_form','ORDASAFN_WORD', cursor = other.cursor)
                                     if not query.exists and not query_lower.exists:
                                         if lemma not in freqdic1:
                                             freqdic1[lemma] = 1
@@ -144,6 +157,12 @@ def texttype_freqs(corpus, folder, prop_names):
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
+        elif corpus == "3":
+            with open("uttaksskjol/ordasafn/"+namefolder+"_texttypes_ordasafn.csv", mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
 
     elif folder == "corpora/RMH/**/**/":
         if corpus == "1":
@@ -154,6 +173,12 @@ def texttype_freqs(corpus, folder, prop_names):
                     csvwriter.writerow(i)
         elif corpus == "2":
             with open("uttaksskjol/islex/RMH_texttypes_ISLEX.csv", mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+        elif corpus == "3":
+            with open("uttaksskjol/ordasafn/RMH_texttypes_ordasafn.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow(header)
                 for i in final:
@@ -172,6 +197,13 @@ def texttype_freqs(corpus, folder, prop_names):
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
+        elif corpus == "3":
+            with open('uttaksskjol/ordasafn/CC_BY_texttypes_ordasafn.csv', mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+
     elif folder == "corpora/RMH/MIM/**/":
         if corpus == "1":
             with open('uttaksskjol/bin/MIM_texttypes_BIN.csv', mode='w+') as outputfile:
@@ -185,6 +217,13 @@ def texttype_freqs(corpus, folder, prop_names):
                 csvwriter.writerow(header)
                 for i in final:
                     csvwriter.writerow(i)
+        elif corpus == "3":
+            with open('uttaksskjol/ordasafn/MIM_texttypes_ordasafn.csv', mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+
     elif folder.startswith("corpora/RMH/"):
         namefolder = folder.rpartition("/")[2]
         if corpus == "1":
@@ -195,6 +234,12 @@ def texttype_freqs(corpus, folder, prop_names):
                     csvwriter.writerow(i)
         elif corpus == "2":
             with open('uttaksskjol/islex'+namefolder+"_texttypes_ISLEX.csv", mode='w+') as outputfile:
+                csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                csvwriter.writerow(header)
+                for i in final:
+                    csvwriter.writerow(i)
+        elif corpus == "3":
+            with open('uttaksskjol/ordasafn'+namefolder+"_texttypes_ordasafn.csv", mode='w+') as outputfile:
                 csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow(header)
                 for i in final:

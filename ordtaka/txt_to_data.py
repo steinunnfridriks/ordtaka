@@ -8,6 +8,7 @@ import sys
 def txt_corpus_freq(folder, corpus):
     bin = SQLDatabase(db_name='databases/bin_ordmyndir.db')
     islex = SQLDatabase(db_name='databases/islex_lemmas.db')
+    annad = SQLDatabase(db_name='databases/ordasafn.db')
     filters = SQLDatabase(db_name='databases/filters.db')
     txt_files = glob.glob(f'corpora/'+folder+'/**/*.txt', recursive=True)
     outdict = {}
@@ -46,6 +47,16 @@ def txt_corpus_freq(folder, corpus):
                                     outdict[w] += 1
                                 else:
                                     outdict[w] = 1
+                    elif corpus == "3":
+                        query = SQLiteQuery(w,'word_form','ORDASAFN_WORD', cursor = annad.cursor)                  
+                        query_lower = SQLiteQuery(w.lower(),'word_form','ORDASAFN_WORD', cursor = annad.cursor)
+                        if not query.exists and not query_lower.exists:
+                            if len(w) > 1:
+                                if w in outdict:
+                                    outdict[w] += 1
+                                else:
+                                    outdict[w] = 1
+
         filebar.next()
         sys.stdout.flush()
     filebar.finish()
@@ -60,6 +71,12 @@ def txt_corpus_freq(folder, corpus):
                 csvwriter.writerow(i)
     elif corpus == "2":
         with open("uttaksskjol/islex/txtcorpus_ISLEX.csv", 'w+', encoding='utf-8') as out:
+            csvwriter = csv.writer(out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csvwriter.writerow(header)
+            for i in sorted(outdict.items(), key=lambda x: x[1], reverse=True):
+                csvwriter.writerow(i)
+    elif corpus == "3":
+        with open("uttaksskjol/ordasafn/txtcorpus_ordasafn.csv", 'w+', encoding='utf-8') as out:
             csvwriter = csv.writer(out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csvwriter.writerow(header)
             for i in sorted(outdict.items(), key=lambda x: x[1], reverse=True):

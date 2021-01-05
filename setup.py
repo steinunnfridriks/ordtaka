@@ -34,6 +34,10 @@ print("""
     ============================================================
 
     Stimplaðu tölurnar inn með bili á milli og ýttu á ENTER.
+    Athugaðu að ef um annað gagnasafn er að ræða en BÍN/ISLEX
+    þarf að vera til skrá í þessari möppu sem heitir ordasafn.txt
+    og inniheldur orðalista viðkomandi gagnasafns, sambærilegan
+    við þann sem er að finna í ordmyndir.txt. 
 
     Til að setja upp SHsnid.csv og ordmyndir.txt stimplarðu inn:
     1 2
@@ -44,6 +48,7 @@ to_setup_input = input(f"""
     (1) SHsnid.csv
     (2) ordmyndir.txt
     (3) islex_fletta_ofl.csv
+    (4) ordasafn.txt
 
 """)
 
@@ -52,6 +57,7 @@ i_to_db = {
             '1': 'SHsnid.csv',
             '2': 'ordmyndir.txt',
             '3': 'islex_fletta_ofl.csv',
+            '4': 'ordasafn.txt'
 }
 
 # Files that are valid for this package
@@ -62,7 +68,7 @@ try:
     to_setup = [i_to_db[i] for i in to_setup_input.split()]
 except KeyError as e:
     sys.stderr.write(f"""
-    {e.args[0]} er ekki valmöguleiki. Valmgöguleikarnir eru: 1, 2, 3.
+    {e.args[0]} er ekki valmöguleiki. Valmgöguleikarnir eru: 1, 2, 3, 4.
 """)
     sys.exit(1)
 
@@ -82,6 +88,7 @@ else:
     islex = 'islex_fletta_ofl.csv'
     sh_snid = 'SHsnid.csv'
     bin = 'ordmyndir.txt'
+    annad = 'ordasafn.txt'
     filters = 'all_filters.txt'
     if not Path('databases/filters.db').is_file():
         if Path(filters).is_file():
@@ -146,3 +153,16 @@ else:
                 print(f'Skráin <{sh_snid}> er ekki til eða á röngum stað.')
         else:
             print(f'Gagnagrunnur fyrir SHsnið er nú þegar til.')
+    if annad in to_setup:
+        if not Path('databases/ordasafn.db').is_file():
+            if Path(annad).is_file():
+                print('Undirbý orðasafn')
+                prepare_data(annad)
+                print('Bý til gagnagrunn fyrir orðasafn')
+                # Creates SQL database islex_lemmas.db, with header ISLEX_LEMMAS
+                ordasafn = CorpusToSQL(corpus=annad, db_name='databases/ordasafn')
+                ordasafn.create_db('ORDASAFN_WORD', 'word_form')
+            else:
+                print(f'Skráin <{annad}> er ekki til eða á röngum stað.')
+        else:
+            print(f'Gagnagrunnur fyrir orðasafn er nú þegar til.')
